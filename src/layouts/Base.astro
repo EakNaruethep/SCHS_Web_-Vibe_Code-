@@ -7,7 +7,7 @@ import { desktopMenu, mobileMenu } from '../lib/menu.js';
 
 const path = decodeURI(Astro.url.pathname).replace(/\.html$/, '').replace(/\/index$/, '') || '/';
 // Titles/descriptions captured from the live site are the fallback when a page doesn't pass its own.
-const { title = seo[path]?.title || head.siteName, description = seo[path]?.description || '', keywords = '', ogImage = '', canonical, jsonld = [], noindex = false } = Astro.props;
+const { title = seo[path]?.title || head.siteName, description = seo[path]?.description || '', keywords = seo[path]?.keywords ?? head.keywords ?? '', ogType = 'website', ogImage = '', canonical, jsonld = [], noindex = false } = Astro.props;
 const canonicalUrl = canonical || head.siteUrl + (path === '/' ? '' : encodeURI(path));
 const og = ogImage ? (ogImage.startsWith('http') ? ogImage : head.siteUrl + encodeURI(ogImage)) : head.siteUrl + '/images/01_Home/OG.jpg';
 const top = partials['../partials/shell-top.html']
@@ -38,7 +38,7 @@ const ld = jsonld.map((j) => (typeof j === 'string' ? j : JSON.stringify(j)));
     {description && <meta name="description" content={description} />}
     {keywords && <meta name="Keywords" content={keywords} />}
     {noindex && <meta name="robots" content="noindex" />}
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
     <meta property="og:title" content={title} />
     {description && <meta property="og:description" content={description} />}
     <meta property="og:image" content={og} />
@@ -48,12 +48,15 @@ const ld = jsonld.map((j) => (typeof j === 'string' ? j : JSON.stringify(j)));
     <meta name="twitter:title" content={title} />
     {description && <meta name="twitter:description" content={description} />}
     <meta name="twitter:image" content={og} />
+    <meta name="twitter:domain" content={head.siteUrl} />
+    <meta name="twitter:site" content="schomesquare.co.th" />
     <meta name="google-site-verification" content={head.googleSiteVerification} />
     <link rel="canonical" href={canonicalUrl} />
     <link rel="alternate" href={canonicalUrl} hreflang="th-th" />
     <link rel="alternate" href={canonicalUrl} hreflang="x-default" />
     <link rel="icon" type="image/x-icon" href={head.favicon} />
     <link rel="apple-touch-icon" sizes="180x180" href={head.favicon} />
+    <link rel="shortcut icon" type="image/x-icon" href={head.favicon} />
     <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/fonts/sarabun/DtVjJx26TKEr37c9aAFJn3YO5gjupg.woff2" />
     <link rel="preload" as="font" type="font/woff" crossorigin="anonymous" href="/images/attach_file/font/Kanit_Regular.woff" />
     <link rel="preload" as="font" type="font/woff" crossorigin="anonymous" href="/images/attach_file/font/Kanit_SemiBold.woff" />

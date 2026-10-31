@@ -51,3 +51,5 @@ html.schs-phone #grdrqy5 #clludo4 { display: none !important; } /* featured-prod
 html.schs-phone .comp-section-page-content-item .post.desktop { padding: 0 15px; }
 html.schs-phone .comp-section-page-content-item .post.desktop .col-12.container-fluid.custom { max-width: 100% !important; }
 html.schs-phone .comp-section-page-content-item .post-relate { max-width: calc(100% - 30px); }
+/* Product page: Makewebeasy's phone markup spaced the description / tags / related products 16px apart (32px on desktop) */
+html.schs-phone .schs-detail-stack { gap: 16px !important; }

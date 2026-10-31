@@ -1,13 +1,13 @@
 ---
 // Product detail page. Every old URL of a product (/product/{id}-{sku}/{slug}, /product/{id}/{slug}…) gets a page.
 import Base from '../../layouts/Base.astro';
-import { products, productById, productUrl, productImages, priceInfo, baht, enc, head, stripComments, categoryById } from '../../lib/site.js';
+import { products, productById, productUrl, optionUrl, productImages, priceInfo, baht, enc, head, stripComments, categoryById } from '../../lib/site.js';
 import { relatedCard } from '../../lib/cards.js';
 import styles from '../../data/site/styles.json';
 
 export function getStaticPaths() {
   const seen = new Set();
-  return products.flatMap((p) => [productUrl(p), ...(p.urls || [])])
+  return products.flatMap((p) => [productUrl(p), ...(p.urls || []), ...(p.variants || []).map((v) => optionUrl(p, v))])
     .map((u) => u.replace(/^\/product\//, ''))
     .filter((u) => !seen.has(u) && seen.add(u))
     .map((path) => { const [, id, skuId] = path.match(/^(\d+)(?:-(\d+))?/); return { params: { path }, props: { id, skuId } }; });
@@ -27,7 +27,7 @@ const imgs = variant?.images?.length ? variant.images : productImages(p);
 const pr = priceInfo(p);
 const related = (p.related || []).map(productById).filter(Boolean).slice(0, 4);
 const lineUrl = 'https://line.me/ti/p/~@schs.thailand';
-const canonical = head.siteUrl + enc(productUrl(p));
+const canonical = head.siteUrl + enc(variant ? optionUrl(p, variant) : productUrl(p));
 const shareUrl = `https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(canonical)}`;
 // หน้าแรก > สินค้าทั้งหมด > deepest category's trail > product, as Makewebeasy showed it
 const cat = categoryById((p.categoryPath || []).join('-'));
@@ -55,7 +55,7 @@ const priceBlock = pr
 const phoneButtons = `<div id="bottom-sticky-wrapper" class="bottom-sticky-wrapper schs-phone-only"><div class="button-sticky-wrapper"><div class="container py-gd-2"><div class="row align-items-center justify-content-end gap-gd-1"><div class="col-12"><div><div class="d-flex justify-content-center gap-gd-1 flex-row-reverse"><div class="d-flex align-items-center flex-grow-1 gap-gd-1" style="max-width:100%;"><a class="btn custom-button primary-button" href="/contact" target="_self">ติดต่อเรา</a></div> <div class="d-flex gap-gd-1"><a class="btn-line-ms" href="${lineUrl}" target="_blank" rel="noopener" aria-label="LINE @schs.thailand">${lineButton}</a></div></div></div></div></div></div></div></div>`;
 const buttons = `<div><div class="d-flex justify-content-center gap-gd-1"><div class="d-flex align-items-center flex-grow-1 gap-gd-1" style="max-width:350px;"><a class="btn custom-button primary-button" href="/contact" target="_self">ติดต่อเรา</a></div><div class="d-flex gap-gd-1"><a class="btn-line-ms" href="${lineUrl}" target="_blank" rel="noopener" aria-label="LINE @schs.thailand">${lineButton}</a></div></div></div>`;
 ---
-<Base title={p.seo?.title || p.name} description={p.seo?.description || p.intro} ogImage={imgs[0].src} canonical={canonical} jsonld={jsonld}>
+<Base title={p.seo?.title || p.name} description={p.seo?.description || p.intro} keywords={p.seo?.keywords || ''} ogType="product" ogImage={imgs[0].src} canonical={canonical} jsonld={jsonld}>
 <div class="embed-body"><div class="flex-grow-1" id="section-contents-item"><div><div style="position:relative;">
 <div class="comp-section-page-product-item" id="SECTION_PAGE" style={styles['product.section']}>
   <div class="py-40">
@@ -192,7 +192,7 @@ const buttons = `<div><div class="d-flex justify-content-center gap-gd-1"><div c
         </div>
       </div>
     </div>
-    <div class="mt-40"><div class="container"><div class="d-flex flex-column gap-gd-4">
+    <div class="mt-40"><div class="container"><div class="d-flex flex-column gap-gd-4 schs-detail-stack">
       {p.tabs?.length > 0 && (
         <div class="product-detail-description">
           <div class="comp-product-description-tab" style={styles['product.tabs']} data-tabs>
@@ -206,7 +206,7 @@ const buttons = `<div><div class="d-flex justify-content-center gap-gd-1"><div c
         </div>
       )}
       {p.tags?.length > 0 && (
-        <div class="product-detail-tags"><div class="d-flex flex-wrap gap-gd-1">
+        <div class="product-detail-tag"><div class="tag-wrapper">
           {p.tags.map((t) => <a class="tag-item" href={enc(`/tag/${t}`)}>{t}</a>)}
         </div></div>
       )}

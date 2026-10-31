@@ -10,7 +10,7 @@ const { a } = Astro.props;
 const pageUrl = head.siteUrl + enc(a.url);
 const images = [...(a.images || [])].sort((x, y) => (x.order ?? 0) - (y.order ?? 0));
 ---
-<Base title={a.title} description={a.intro} ogImage={images[0]?.src} canonical={pageUrl}>
+<Base title={a.title} description={a.intro} keywords={a.title} ogType="gallery" ogImage={images[0]?.src} canonical={pageUrl}>
 <div class="embed-body"><div class="flex-grow-1" id="section-content"><div><div style="position:relative;">
   <div class="comp-section_page_album_item py-30" id="SECTION_PAGE">
     <div class="b-overlay-wrap position-relative"><div class="container mx-auto my-0">

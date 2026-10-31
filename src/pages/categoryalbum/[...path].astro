@@ -6,17 +6,17 @@ import styles from '../../data/site/styles.json';
 export function getStaticPaths() {
   const cats = new Map(albums.map((a) => [String(a.category.id), a.category]));
   return [
-    { params: { path: undefined }, props: { items: albums, title: 'อัลบั้มภาพ' } },
+    { params: { path: undefined }, props: { items: albums, title: 'อัลบั้มภาพ', keywords: 'อัลบั้มภาพ' } },
     ...[...cats.values()].flatMap((c) => {
       const items = albums.filter((a) => String(a.category.id) === String(c.id));
-      return [String(c.id), `${c.id}/${c.name}`].map((p) => ({ params: { path: p }, props: { items, title: 'ผลงาน' } }));
+      return [String(c.id), `${c.id}/${c.name}`].map((p) => ({ params: { path: p }, props: { items, title: 'ผลงาน', keywords: c.name } }));
     }),
   ];
 }
 // Headings as the live site shows them (its page names): the all-albums page vs. a category page
-const { items, title } = Astro.props;
+const { items, title, keywords } = Astro.props;
 ---
-<Base>
+<Base keywords={keywords} ogImage="/images/05_Portfolio/cover_5.png">
 <div class="embed-body"><div class="flex-grow-1" id="section-content"><div><div style="position:relative;">
   <div class="position-relative w-100 h-100" id="comp-section_page_album" style={styles['albumlist.section']}>
     <div class="b-overlay-wrap position-relative"><div class="py-30" data-listing>
