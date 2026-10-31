@@ -18,6 +18,11 @@ const p = productById(Astro.props.id);
 const variant = (p.variants || []).find((v) => v.skuId === Astro.props.skuId);
 const variantUrl = (v) => (p.urls || []).find((u) => u.includes(`/${p.id}-${v.skuId}/`));
 const optionLink = (value) => { const v = (p.variants || []).find((x) => x.values.includes(value)); return v && variantUrl(v); };
+// Two option groups (38280: ขนาด + เกรด): buttons pick one value per group; site.js opens the variant's page once both are
+// picked. A value with no variant next to the current pick is greyed out, like Makewebeasy.
+const multi = p.options?.length > 1 && p.variants?.length > 0;
+const findVariant = (values) => p.variants.find((x) => x.values.every((val, i) => val === values[i]));
+const optionData = multi && JSON.stringify({ base: enc(productUrl(p)), variants: p.variants.map((v) => ({ values: v.values, url: enc(variantUrl(v)) })) });
 const imgs = variant?.images?.length ? variant.images : productImages(p);
 const pr = priceInfo(p);
 const related = (p.related || []).map(productById).filter(Boolean).slice(0, 4);
@@ -85,7 +90,7 @@ const buttons = `<div><div class="d-flex justify-content-center gap-gd-1"><div c
                 </div></div>
                 <div class="pdi-badge-right">{pr?.discount ? <div class="pdi-badge-discount" id="discount">-{pr.discount}%</div> : null}</div>
               </div>
-              {imgs.length > 1 && (
+              {(imgs.length > 1 || variant) && (
                 <div class="wrapper-more-image-slick-carousel schs-desktop-only">
                   <div class="slick-track-custom slick-slider slick-initialized"><div class="slick-list"><div class="slick-track">
                     {imgs.map((im, i) => (
@@ -110,7 +115,7 @@ const buttons = `<div><div class="d-flex justify-content-center gap-gd-1"><div c
                   <div class="d-flex justify-content-between">
                     <div class="basic-info d-flex align-items-center flex-wrap gap-gd-1">
                       {(variant?.sku || p.sku) && <div class="basic-info-item"><p class="product-sku mb-0">SKU : {variant?.sku || p.sku}</p></div>}
-                      {variant && <div class="basic-info-item"><p class="product-option mb-0">{variant.values.join(', ')}</p></div>}
+                      {(variant || multi) && <div class="basic-info-item" hidden={!variant} data-option-text><p class="product-option mb-0">{variant?.values.join(', ')}</p></div>}
                     </div>
                     <div class="icon-event-wrapper d-flex gap-gd-1 schs-desktop-only"><div class="social-share social-share--dropdown"><div class="dropdown b-dropdown social-share-dropdown position-static btn-group" data-share-dropdown>
                       <button aria-haspopup="true" aria-expanded="false" type="button" class="btn dropdown-toggle btn-link dropdown-toggle-no-caret"><div class="social-share-trigger social-share-trigger--button"><i aria-hidden="true" class="far fa-share-alt social-share-icon"></i> <span class="sr-only">แชร์</span></div></button>
@@ -124,11 +129,17 @@ const buttons = `<div><div class="d-flex justify-content-center gap-gd-1"><div c
               {pr && <div class="product-detail-price" set:html={priceBlock} />}
               {p.options?.length > 0 && (
                 <div class="product-detail-variation"><div class="select-product-attribute-comp">
-                  {p.options.map((o) => (
+                  {multi && <script type="application/json" data-option-variants set:html={optionData} />}
+                  {p.options.map((o, gi) => (
                     <div class="select-product-attribute-item"><div>
                       <div class="title-select attribute-title-text mb-gd-2">{o.name}</div>
                       <div class="d-flex flex-wrap attribute-title-text" style="gap: 8px;">
                         {o.values.map((v) => {
+                          if (multi) {
+                            const on = variant?.values[gi] === v;
+                            const off = variant && !findVariant(variant.values.map((x, i) => (i === gi ? v : x)));
+                            return <div class={`text-select-button-2${on ? ' active' : ''}${off ? ' disabled' : ''}`} data-option={gi} data-value={v}><span class={on ? 'active' : off ? 'disabled' : ''}>{v}</span>{on && <i class="fas fa-check"></i>}</div>;
+                          }
                           const on = variant?.values.includes(v);
                           const href = optionLink(v);
                           return href

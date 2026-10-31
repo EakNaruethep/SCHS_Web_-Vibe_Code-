@@ -60,7 +60,8 @@ Each is `data/pages/<key>.json` + ordered section files in `src/sections/<key>/N
   `categoryPath`, `intro`/`introHtml`, `images`, `tabs`, `tags`, `related`, `seo`, `order`, set `urls` to `[]`.
   Add its id to the category's `products` list in `categories.json` where it should appear.
   Products with options can list `variants` (`skuId`, `sku`, `values`, `images`); each variant URL in `urls`
-  (`/product/<id>-<skuId>/<slug>`) then shows that option's SKU code and pictures.
+  (`/product/<id>-<skuId>/<slug>`) then shows that option's SKU code and pictures. With two option groups (38280),
+  `values` lists one value per group in order and a missing combination is greyed out.
   Put pictures in `public/images/03_Products/`. URL becomes `/product/<id>-<skuId>/<slug>` (single) or
   `/product/<id>/<slug>` (with options). Add it to the home carousel only if asked.
 - **Add a blog post**: new `data/blog/<id>.json` with `id`, `title`, `url` (`/blog/<id>/<slug>`), `intro`,
@@ -123,7 +124,6 @@ npm run build        # writes dist/ (≈190 pages + sitemap.xml)
 
 - Font Awesome Pro (Makewebeasy's light/regular icons) is a paid licence, so Font Awesome 5 Free icons stand in.
   A few thin icons (arrows, chevrons) look slightly bolder than on the old site.
-- Product 38280 has two option groups and no per-option URLs, so it shows options without switching pictures.
 - "Related articles" under a blog post are fixed lists (`related`); Makewebeasy picked them at random.
 - Tag pages list each product once (Makewebeasy repeated a product once per option) and have no
   "หน้าเพจ" tab, because page tags weren't in the downloaded data.

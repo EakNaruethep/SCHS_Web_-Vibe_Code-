@@ -332,17 +332,53 @@ document.querySelectorAll('[data-gallery]').forEach((root) => {
   place(false);
 });
 
-// Product options without their own page (product 38280): tap one per group to mark it chosen, tap again to clear.
-document.querySelectorAll('[data-option]').forEach((btn) => btn.addEventListener('click', () => {
-  const on = !btn.classList.contains('active');
-  btn.parentElement.querySelectorAll('[data-option]').forEach((b) => {
-    b.classList.remove('active'); b.querySelector('span').classList.remove('active'); b.querySelector('.fa-check')?.remove();
-  });
-  if (on) {
-    btn.classList.add('active'); btn.querySelector('span').classList.add('active');
-    btn.insertAdjacentHTML('beforeend', '<i class="fas fa-check"></i>');
+// Product options in two groups (product 38280: ขนาด + เกรด), like Makewebeasy: tap marks one value per group (tap again
+// to clear) and shows it next to the SKU; once every group has a value, that option's own page opens (its SKU code and
+// picture). Values that have no option next to the current pick are greyed out. Clearing a value on an option's page
+// goes back to the product's page with the other value still picked.
+const optionData = document.querySelector('[data-option-variants]');
+if (optionData) {
+  const { base, variants } = JSON.parse(optionData.textContent);
+  const buttons = [...document.querySelectorAll('[data-option][data-value]')];
+  const picked = [];
+  buttons.forEach((b) => { picked[+b.dataset.option] ??= b.classList.contains('active') ? b.dataset.value : null; });
+  const onVariantPage = picked.every(Boolean);
+  const match = (vals) => variants.find((v) => v.values.every((x, i) => vals[i] == null || x === vals[i]));
+  const show = () => {
+    buttons.forEach((b) => {
+      const g = +b.dataset.option, on = picked[g] === b.dataset.value;
+      const off = !on && !match(picked.map((x, i) => (i === g ? b.dataset.value : x)));
+      const span = b.querySelector('span');
+      b.classList.toggle('active', on); span.classList.toggle('active', on);
+      b.classList.toggle('disabled', off); span.classList.toggle('disabled', off);
+      b.querySelector('.fa-check')?.remove();
+      if (on) b.insertAdjacentHTML('beforeend', '<i class="fas fa-check"></i>');
+    });
+    const text = document.querySelector('[data-option-text]');
+    if (text) { text.hidden = !picked.some(Boolean); text.querySelector('.product-option').textContent = picked.filter(Boolean).join(', '); }
+  };
+  if (!onVariantPage) {
+    try {
+      const kept = JSON.parse(sessionStorage.getItem('schs-options') || 'null');
+      sessionStorage.removeItem('schs-options');
+      if (Array.isArray(kept) && kept.length === picked.length) { picked.splice(0, picked.length, ...kept); show(); }
+    } catch {}
   }
-}));
+  buttons.forEach((b) => b.addEventListener('click', () => {
+    const g = +b.dataset.option, next = picked.slice();
+    next[g] = next[g] === b.dataset.value ? null : b.dataset.value;
+    // A greyed-out value clears the pick it doesn't go with
+    if (next[g] && !match(next)) next.forEach((x, i) => { if (i !== g) next[i] = null; });
+    if (next.every(Boolean)) { location.href = match(next).url; return; }
+    if (onVariantPage) {
+      try { sessionStorage.setItem('schs-options', JSON.stringify(next)); } catch {}
+      location.href = base;
+      return;
+    }
+    picked.splice(0, picked.length, ...next);
+    show();
+  }));
+}
 
 // Product page: thumbnails swap the main image, tabs switch panels
 // Product image "Hover to zoom" (Makewebeasy used vue-hover-zoom): 2x zoom that follows the mouse.

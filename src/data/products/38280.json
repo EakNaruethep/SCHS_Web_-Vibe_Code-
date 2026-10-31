@@ -3,7 +3,20 @@
   "order": 0,
   "urls": [
     "/product/38280/สตัดพุกเคมี-ชุบกัลวาไนซ์-เกรด-5-8-8-8-m8-m30-kingfisher",
-    "/product/38280/แท่งสตัดเหล็ก ชุบกัลวาไนซ์ คิงฟิชเชอร์ (Kingfisher) เกรด 5.8 และ 8.8 ขนาด M8 - 30"
+    "/product/38280/แท่งสตัดเหล็ก ชุบกัลวาไนซ์ คิงฟิชเชอร์ (Kingfisher) เกรด 5.8 และ 8.8 ขนาด M8 - 30",
+    "/product/38280-47726/แท่งสตัดเหล็ก-ชุบกัลวาไนซ์-คิงฟิชเชอร์-kingfisher-เกรด-58-และ-88-ขนาด-m8-30",
+    "/product/38280-47728/แท่งสตัดเหล็ก-ชุบกัลวาไนซ์-คิงฟิชเชอร์-kingfisher-เกรด-58-และ-88-ขนาด-m8-30",
+    "/product/38280-47729/แท่งสตัดเหล็ก-ชุบกัลวาไนซ์-คิงฟิชเชอร์-kingfisher-เกรด-58-และ-88-ขนาด-m8-30",
+    "/product/38280-47730/แท่งสตัดเหล็ก-ชุบกัลวาไนซ์-คิงฟิชเชอร์-kingfisher-เกรด-58-และ-88-ขนาด-m8-30",
+    "/product/38280-47731/แท่งสตัดเหล็ก-ชุบกัลวาไนซ์-คิงฟิชเชอร์-kingfisher-เกรด-58-และ-88-ขนาด-m8-30",
+    "/product/38280-47732/แท่งสตัดเหล็ก-ชุบกัลวาไนซ์-คิงฟิชเชอร์-kingfisher-เกรด-58-และ-88-ขนาด-m8-30",
+    "/product/38280-47733/แท่งสตัดเหล็ก-ชุบกัลวาไนซ์-คิงฟิชเชอร์-kingfisher-เกรด-58-และ-88-ขนาด-m8-30",
+    "/product/38280-47734/แท่งสตัดเหล็ก-ชุบกัลวาไนซ์-คิงฟิชเชอร์-kingfisher-เกรด-58-และ-88-ขนาด-m8-30",
+    "/product/38280-47735/แท่งสตัดเหล็ก-ชุบกัลวาไนซ์-คิงฟิชเชอร์-kingfisher-เกรด-58-และ-88-ขนาด-m8-30",
+    "/product/38280-47736/แท่งสตัดเหล็ก-ชุบกัลวาไนซ์-คิงฟิชเชอร์-kingfisher-เกรด-58-และ-88-ขนาด-m8-30",
+    "/product/38280-47737/แท่งสตัดเหล็ก-ชุบกัลวาไนซ์-คิงฟิชเชอร์-kingfisher-เกรด-58-และ-88-ขนาด-m8-30",
+    "/product/38280-47738/แท่งสตัดเหล็ก-ชุบกัลวาไนซ์-คิงฟิชเชอร์-kingfisher-เกรด-58-และ-88-ขนาด-m8-30",
+    "/product/38280-47739/แท่งสตัดเหล็ก-ชุบกัลวาไนซ์-คิงฟิชเชอร์-kingfisher-เกรด-58-และ-88-ขนาด-m8-30"
   ],
   "enabled": true,
   "type": "variants",
@@ -169,5 +182,202 @@
     "canonical": null
   },
   "dateCreated": "2026-10-27 14:54:13",
-  "dateUpdated": "2026-10-27 14:54:13"
+  "dateUpdated": "2026-10-27 14:54:13",
+  "variants": [
+    {
+      "skuId": "47726",
+      "sku": "KGSTUD58-M8",
+      "values": [
+        "M8",
+        "5.8"
+      ],
+      "images": [
+        {
+          "src": "/images/03_Products/kingfisher_chemical_anchor_stud_m8_grade_5_8.webp",
+          "alt": "สตัดพุกเคมี Kingfisher M8 เกรด 5.8 ชุบกัลวาไนซ์ พร้อมแหวนและน็อต",
+          "title": "สตัดพุกเคมี Kingfisher M8 เกรด 5.8 ชุบกัลวาไนซ์ พร้อมแหวนและน็อต"
+        }
+      ]
+    },
+    {
+      "skuId": "47728",
+      "sku": "KGSTUD58-M10",
+      "values": [
+        "M10",
+        "5.8"
+      ],
+      "images": [
+        {
+          "src": "/images/03_Products/kingfisher_chemical_anchor_stud_m10_grade_5_8.webp",
+          "alt": "สตัดพุกเคมี Kingfisher M10 เกรด 5.8 ชุบกัลวาไนซ์ พร้อมแหวนและน็อต",
+          "title": "สตัดพุกเคมี Kingfisher M10 เกรด 5.8 ชุบกัลวาไนซ์ พร้อมแหวนและน็อต"
+        }
+      ]
+    },
+    {
+      "skuId": "47729",
+      "sku": "KGSTUD88-M10",
+      "values": [
+        "M10",
+        "8.8"
+      ],
+      "images": [
+        {
+          "src": "/images/03_Products/kingfisher_chemical_anchor_stud_m10_grade_8_8.webp",
+          "alt": "สตัดพุกเคมี Kingfisher M10 เกรด 8.8 ชุบกัลวาไนซ์ พร้อมแหวนและน็อต",
+          "title": "สตัดพุกเคมี Kingfisher M10 เกรด 8.8 ชุบกัลวาไนซ์ พร้อมแหวนและน็อต"
+        }
+      ]
+    },
+    {
+      "skuId": "47730",
+      "sku": "KGSTUD58-M12",
+      "values": [
+        "M12",
+        "5.8"
+      ],
+      "images": [
+        {
+          "src": "/images/03_Products/kingfisher_chemical_anchor_stud_m12_grade_5_8.webp",
+          "alt": "สตัดพุกเคมี Kingfisher M12 เกรด 5.8 ชุบกัลวาไนซ์ พร้อมแหวนและน็อต",
+          "title": "สตัดพุกเคมี Kingfisher M12 เกรด 5.8 ชุบกัลวาไนซ์ พร้อมแหวนและน็อต"
+        }
+      ]
+    },
+    {
+      "skuId": "47731",
+      "sku": "KGSTUD88-M12",
+      "values": [
+        "M12",
+        "8.8"
+      ],
+      "images": [
+        {
+          "src": "/images/03_Products/kingfisher_chemical_anchor_stud_m12_grade_8_8.webp",
+          "alt": "สตัดพุกเคมี Kingfisher M12 เกรด 8.8 ชุบกัลวาไนซ์ พร้อมแหวนและน็อต",
+          "title": "สตัดพุกเคมี Kingfisher M12 เกรด 8.8 ชุบกัลวาไนซ์ พร้อมแหวนและน็อต"
+        }
+      ]
+    },
+    {
+      "skuId": "47732",
+      "sku": "KGSTUD58-M16",
+      "values": [
+        "M16",
+        "5.8"
+      ],
+      "images": [
+        {
+          "src": "/images/03_Products/kingfisher_chemical_anchor_stud_m16_grade_5_8.webp",
+          "alt": "สตัดพุกเคมี Kingfisher M16 เกรด 5.8 ชุบกัลวาไนซ์ พร้อมแหวนและน็อต",
+          "title": "สตัดพุกเคมี Kingfisher M16 เกรด 5.8 ชุบกัลวาไนซ์ พร้อมแหวนและน็อต"
+        }
+      ]
+    },
+    {
+      "skuId": "47733",
+      "sku": "KGSTUD88-M16",
+      "values": [
+        "M16",
+        "8.8"
+      ],
+      "images": [
+        {
+          "src": "/images/03_Products/kingfisher_chemical_anchor_stud_m16_grade_8_8.webp",
+          "alt": "สตัดพุกเคมี Kingfisher M16 เกรด 8.8 ชุบกัลวาไนซ์ พร้อมแหวนและน็อต",
+          "title": "สตัดพุกเคมี Kingfisher M16 เกรด 8.8 ชุบกัลวาไนซ์ พร้อมแหวนและน็อต"
+        }
+      ]
+    },
+    {
+      "skuId": "47734",
+      "sku": "KGSTUD58-M20",
+      "values": [
+        "M20",
+        "5.8"
+      ],
+      "images": [
+        {
+          "src": "/images/03_Products/kingfisher_chemical_anchor_stud_m20_grade_5_8.webp",
+          "alt": "สตัดพุกเคมี Kingfisher M20 เกรด 5.8 ชุบกัลวาไนซ์ พร้อมแหวนและน็อต",
+          "title": "สตัดพุกเคมี Kingfisher M20 เกรด 5.8 ชุบกัลวาไนซ์ พร้อมแหวนและน็อต"
+        }
+      ]
+    },
+    {
+      "skuId": "47735",
+      "sku": "KGSTUD88-M20",
+      "values": [
+        "M20",
+        "8.8"
+      ],
+      "images": [
+        {
+          "src": "/images/03_Products/kingfisher_chemical_anchor_stud_m20_grade_8_8.webp",
+          "alt": "สตัดพุกเคมี Kingfisher M20 เกรด 8.8 ชุบกัลวาไนซ์ พร้อมแหวนและน็อต",
+          "title": "สตัดพุกเคมี Kingfisher M20 เกรด 8.8 ชุบกัลวาไนซ์ พร้อมแหวนและน็อต"
+        }
+      ]
+    },
+    {
+      "skuId": "47736",
+      "sku": "KGSTUD58-M24",
+      "values": [
+        "M24",
+        "5.8"
+      ],
+      "images": [
+        {
+          "src": "/images/03_Products/kingfisher_chemical_anchor_stud_m24_grade_5_8.webp",
+          "alt": "สตัดพุกเคมี Kingfisher M24 เกรด 5.8 ชุบกัลวาไนซ์ พร้อมแหวนและน็อต",
+          "title": "สตัดพุกเคมี Kingfisher M24 เกรด 5.8 ชุบกัลวาไนซ์ พร้อมแหวนและน็อต"
+        }
+      ]
+    },
+    {
+      "skuId": "47737",
+      "sku": "KGSTUD88-M24",
+      "values": [
+        "M24",
+        "8.8"
+      ],
+      "images": [
+        {
+          "src": "/images/03_Products/kingfisher_chemical_anchor_stud_m24_grade_8_8.webp",
+          "alt": "สตัดพุกเคมี Kingfisher M24 เกรด 8.8 ชุบกัลวาไนซ์ พร้อมแหวนและน็อต",
+          "title": "สตัดพุกเคมี Kingfisher M24 เกรด 8.8 ชุบกัลวาไนซ์ พร้อมแหวนและน็อต"
+        }
+      ]
+    },
+    {
+      "skuId": "47738",
+      "sku": "KGSTUD58-M30",
+      "values": [
+        "M30",
+        "5.8"
+      ],
+      "images": [
+        {
+          "src": "/images/03_Products/kingfisher_chemical_anchor_stud_m30_grade_8_8.webp",
+          "alt": "สตัดพุกเคมี Kingfisher M30 เกรด 8.8 ชุบกัลวาไนซ์ พร้อมแหวนและน็อต",
+          "title": "สตัดพุกเคมี Kingfisher M30 เกรด 8.8 ชุบกัลวาไนซ์ พร้อมแหวนและน็อต"
+        }
+      ]
+    },
+    {
+      "skuId": "47739",
+      "sku": "KGSTUD88-M30",
+      "values": [
+        "M30",
+        "8.8"
+      ],
+      "images": [
+        {
+          "src": "/images/03_Products/kingfisher_chemical_anchor_stud_m30_grade_8_8.webp",
+          "alt": "สตัดพุกเคมี Kingfisher M30 เกรด 8.8 ชุบกัลวาไนซ์ พร้อมแหวนและน็อต",
+          "title": "สตัดพุกเคมี Kingfisher M30 เกรด 8.8 ชุบกัลวาไนซ์ พร้อมแหวนและน็อต"
+        }
+      ]
+    }
+  ]
 }
