@@ -332,6 +332,18 @@ document.querySelectorAll('[data-gallery]').forEach((root) => {
   place(false);
 });
 
+// Product options without their own page (product 38280): tap one per group to mark it chosen, tap again to clear.
+document.querySelectorAll('[data-option]').forEach((btn) => btn.addEventListener('click', () => {
+  const on = !btn.classList.contains('active');
+  btn.parentElement.querySelectorAll('[data-option]').forEach((b) => {
+    b.classList.remove('active'); b.querySelector('span').classList.remove('active'); b.querySelector('.fa-check')?.remove();
+  });
+  if (on) {
+    btn.classList.add('active'); btn.querySelector('span').classList.add('active');
+    btn.insertAdjacentHTML('beforeend', '<i class="fas fa-check"></i>');
+  }
+}));
+
 // Product page: thumbnails swap the main image, tabs switch panels
 // Product image "Hover to zoom" (Makewebeasy used vue-hover-zoom): 2x zoom that follows the mouse.
 document.querySelectorAll('[data-zoom]').forEach((box) => {
