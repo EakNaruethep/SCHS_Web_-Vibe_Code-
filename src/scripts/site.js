@@ -79,7 +79,8 @@ if (searchPage) {
   }
 }
 
-// Phone side menu (Makewebeasy "menu-sidenav-mobile-01"): tap a name to open the page, tap the arrow to go a level deeper.
+// Phone side menu (Makewebeasy "menu-sidenav-mobile-01"): like live, tapping a row that has a submenu (name or arrow)
+// opens that submenu; a row without one, or the title row at the top of a submenu, opens its page.
 const sidenav = document.querySelector('#menu-sidenav-mobile-01');
 if (sidenav) {
   const data = JSON.parse(document.querySelector('#sidenav-data')?.textContent || '[]');
@@ -113,7 +114,7 @@ if (sidenav) {
     if (e.target.closest('.back-btn')) return back(level);
     const li = e.target.closest('li');
     if (!li) return;
-    if (e.target.closest('.menu-arrow') && li.hasAttribute('data-has-sub')) {
+    if (li.hasAttribute('data-has-sub')) {
       const node = (level === 1 ? data : trail[level - 2].children)[Number(li.dataset.i)];
       if (node && level < 4) drill(level + 1, node);
       return;
