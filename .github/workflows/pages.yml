@@ -2,9 +2,8 @@ name: Pages preview
 
 # Puts main on GitHub Pages as a preview: https://eaknaruethep.github.io/SCHS_Web_-Vibe_Code-/
 # (the real site is still the dist/ upload to Hostatom). Needs Settings > Pages > Source: GitHub Actions.
+# Runs only when started by hand (Actions > Pages preview > Run workflow), when Eak asks for it.
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
