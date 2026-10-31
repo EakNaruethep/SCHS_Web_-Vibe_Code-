@@ -17,6 +17,9 @@ npm run dev
 
 Then open http://localhost:4321 in your browser. Press Ctrl+C in the terminal to stop.
 
+Shortcut on Windows: double-click `start-dev.bat` in the folder. It runs `git pull`, runs `npm install` when
+needed, starts the server and opens the browser. Close its window to stop.
+
 ## 2. Change content
 
 Ask Claude, for example:
