@@ -81,6 +81,10 @@ npm run build        # writes dist/ (≈190 pages + sitemap.xml)
 - `dist/` is what goes on Hostatom (Apache): upload everything inside it, including the hidden `.htaccess`,
   into `public_html`. `.htaccess` maps `/about-us` to `about-us.html` so URLs match the old site exactly.
 - CSS warnings like `Expected "]"` during build come from the copied Makewebeasy CSS and are harmless.
+- **GitHub Pages preview**: every push to `main` also deploys to https://eaknaruethep.github.io/SCHS_Web_-Vibe_Code-/
+  (`.github/workflows/pages.yml`). It builds with `PAGES_BASE=/SCHS_Web_-Vibe_Code-`, and the `schs-pages-preview`
+  step in astro.config.mjs puts that folder in front of every "/..." link, marks pages noindex, and sends
+  /search/... through 404.html. No PHP there, so the contact form only works on Hostatom. Keep writing links as "/...".
 - Never break existing URLs (Google ranks them). If a URL must change, add a 301 in `public/.htaccess`.
 
 ## Code map

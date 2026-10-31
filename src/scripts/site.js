@@ -31,7 +31,9 @@ if (navbar && more) {
 }
 
 // Search boxes (header, phone search bar, search page): go to /search/{keyword} like Makewebeasy.
-const searchUrl = (q) => '/search/' + encodeURIComponent(q);
+// BASE is '' on the real site and '/SCHS_Web_-Vibe_Code-' on the GitHub Pages preview (astro.config.mjs)
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, '');
+const searchUrl = (q) => BASE + '/search/' + encodeURIComponent(q);
 document.querySelectorAll('[data-site-search], #topSearchBar input').forEach((box) => {
   const go = () => { const q = box.value.trim(); if (q) location.href = searchUrl(q); };
   box.addEventListener('keydown', (e) => { if (e.key === 'Enter') go(); });
@@ -43,7 +45,10 @@ document.querySelectorAll('[data-site-search], #topSearchBar input').forEach((bo
 const searchPage = document.querySelector('[data-search-page]');
 if (searchPage) {
   const data = JSON.parse(document.getElementById('search-data').textContent);
-  const parts = location.pathname.split('/').filter(Boolean).slice(1).map(decodeURIComponent);
+  // GitHub Pages has no .htaccess: its 404 page sends /search/{keyword}/{tab} here as ?path=, put the address back
+  const sent = new URLSearchParams(location.search).get('path');
+  if (sent) history.replaceState(null, '', BASE + '/search/' + sent);
+  const parts = location.pathname.slice(BASE.length).split('/').filter(Boolean).slice(1).map(decodeURIComponent);
   const q = (parts[0] || new URLSearchParams(location.search).get('q') || '').trim();
   const words = q.toLowerCase().split(/\s+/).filter(Boolean);
   const found = Object.fromEntries(Object.entries(data).map(([k, list]) => [k, words.length ? list.filter((x) => words.every((w) => x.t.includes(w))) : []]));
@@ -146,7 +151,7 @@ document.getElementById('btnAcceptPd')?.addEventListener('click', () => {
   try { localStorage.setItem(CONSENT, '1'); } catch {}
   pdpa?.classList.remove('show');
 });
-document.getElementById('btn_setting_cookie')?.addEventListener('click', () => { window.location.href = '/cookies-policy'; });
+document.getElementById('btn_setting_cookie')?.addEventListener('click', () => { window.location.href = BASE + '/cookies-policy'; });
 
 // Back to top button
 const toTop = document.getElementById('toTop');
@@ -433,7 +438,7 @@ if (contact) {
 
   const newQuestion = () => {
     answer.value = '';
-    fetch('/contact-send.php', { cache: 'no-store' }).then((r) => r.json())
+    fetch(BASE + '/contact-send.php', { cache: 'no-store' }).then((r) => r.json())
       .then((d) => { q.textContent = d.q; token.value = d.token; })
       .catch(() => { q.textContent = '?'; });
   };
