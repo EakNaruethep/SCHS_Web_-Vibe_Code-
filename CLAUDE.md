@@ -4,6 +4,27 @@ Static Astro site that copies https://www.schomesquare.co.th/ (moved off Makeweb
 only by asking an AI, so every change should be a small edit to a content file, then `npm run build`.
 Keep the look identical to the old site: reuse the existing markup/classes, don't restyle.
 
+## Working with Eak (always follow)
+
+- Eak writes in Thai: reply in Thai.
+- **Every reply uses this format** (headings exactly as written, bullets under each; write "-" when a part is empty):
+
+  ```
+  What I have done:
+  * ...
+
+  Remaining Action:
+  * ...
+
+  Waiting Your Decision
+  * ...
+  ```
+- Branching: GitHub Flow as below. Content edits straight to `main`; layout/code on a branch + PR, squash-merge.
+- **Do not deploy to GitHub Pages unless Eak asks.** Otherwise commit, push and test locally.
+- Eak tests on their PC in `D:\Workspace\Claude\SCHS_Web_(Vibe_Code)\schs-web-git` with `git pull` + `npm run dev`
+  (for a PR: `git fetch` + `git checkout <branch>`).
+- When Eak sets a new standing rule, add it to this list.
+
 ## Git workflow (GitHub Flow)
 
 Repo: https://github.com/EakNaruethep/SCHS_Web_-Vibe_Code-. `main` is always deployable: whatever is on `main`
