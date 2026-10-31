@@ -1,0 +1,17 @@
+---
+// Every page built from sections (about-us, contact, catalog, portfolios, policies…), except the home page.
+import Base from '../layouts/Base.astro';
+import Sections from '../components/Sections.astro';
+import { pages } from '../lib/site.js';
+
+export function getStaticPaths() {
+  return Object.entries(pages)
+    .map(([file, page]) => ({ key: file.match(/pages\/(.+)\.json$/)[1], page }))
+    .filter(({ key }) => key !== 'index')
+    .map(({ key, page }) => ({ params: { page: key }, props: { key, page } }));
+}
+const { key, page } = Astro.props;
+---
+<Base title={page.title} description={page.description} keywords={page.keywords} ogImage={page.ogImage} jsonld={page.jsonld}>
+  <div class="embed-body"><Sections page={page} key={key} /></div>
+</Base>

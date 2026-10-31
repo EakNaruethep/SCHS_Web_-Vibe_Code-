@@ -1,0 +1,57 @@
+[
+  {
+    "id": "178",
+    "order": 1,
+    "question": "มีค่าบริการจัดส่งสินค้าไหม",
+    "answerHtml": "<span style=\"font-size: 16px;\" data-mce-style=\"font-size: 16px;\">ค่าจัดส่งจะขึ้นอยู่กับพื้นที่และน้ำหนักสินค้า ลูกค้าสามารถตรวจสอบค่าขนส่งได้เมื่อทำการสั่งซื้อ</span>",
+    "category": {
+      "id": "39",
+      "name": "คำถามที่พบบ่อย (FAQ"
+    },
+    "enabled": true
+  },
+  {
+    "id": "179",
+    "order": 2,
+    "question": "บริการของเรามีอะไรบ้าง",
+    "answerHtml": "<span style=\"font-size: 16px;\" data-mce-style=\"font-size: 16px;\">เราขายส่งฮาร์ดแวร์และเครื่องมือช่าง ราคาถูก พร้อมบริการเปิดร้านขายอุปกรณ์ก่อสร้าง</span>",
+    "category": {
+      "id": "39",
+      "name": "คำถามที่พบบ่อย (FAQ"
+    },
+    "enabled": true
+  },
+  {
+    "id": "180",
+    "order": 3,
+    "question": "สามารถทราบราคาสินค้าได้ที่ไหน?",
+    "answerHtml": "<span style=\"font-size: 16px;\" data-mce-style=\"font-size: 16px;\">ราคาสินค้าบางส่วนสามารถดูได้จากเว็บไซต์ หากไม่พบกรุณาติดต่อเจ้าหน้าที่เพื่อขอราคาโดยสามารถส่งภาพหรือลิสต์รายการให้ได้ค่ะ</span>",
+    "category": {
+      "id": "39",
+      "name": "คำถามที่พบบ่อย (FAQ"
+    },
+    "enabled": true
+  },
+  {
+    "id": "181",
+    "order": 4,
+    "question": "สามารถออกใบกำกับภาษีได้หรือไม่?",
+    "answerHtml": "<span style=\"font-size: 16px;\" data-mce-style=\"font-size: 16px;\">สามารถออกใบกำกับภาษีได้ค่ะ</span>",
+    "category": {
+      "id": "39",
+      "name": "คำถามที่พบบ่อย (FAQ"
+    },
+    "enabled": true
+  },
+  {
+    "id": "182",
+    "order": 5,
+    "question": "สินค้ามีปัญหาสามารถเคลมหรือขอคืนเงินได้หรือไม่?",
+    "answerHtml": "<span style=\"font-size: 16px;\" data-mce-style=\"font-size: 16px;\">หากสินค้ามีปัญหาหรือเสียหาย สามารถติดต่อเจ้าหน้าที่เพื่อแจ้งรายละเอียด เจ้าหน้าที่จะช่วยแนะนำวิธีการแก้ไขปัญหาและดำเนินการให้ค่ะ</span>",
+    "category": {
+      "id": "39",
+      "name": "คำถามที่พบบ่อย (FAQ"
+    },
+    "enabled": true
+  }
+]

@@ -1,0 +1,142 @@
+{
+  "id": "37524",
+  "order": 9,
+  "urls": [
+    "/product/37524-46830/พุกเคมี-m10-แบบปั่น-stahl-sva-ve-พร้อมสตัด",
+    "/product/37524/พุกเคมี ยี่ห้อ สตาห์ล (Stahl) แบบปั่น (เป็นชุด) ขนาด M10"
+  ],
+  "enabled": true,
+  "type": "single",
+  "name": "พุกเคมี ยี่ห้อ สตาห์ล (Stahl) แบบปั่น (เป็นชุด) ขนาด M10",
+  "slug": "พุกเคมี-m10-แบบปั่น-stahl-sva-ve-พร้อมสตัด",
+  "sku": "SVAVE10-M10",
+  "skuId": "46830",
+  "price": null,
+  "salePrice": null,
+  "showPrice": false,
+  "brand": {
+    "id": "203",
+    "name": "สตาลห์ (Stahl)"
+  },
+  "categoryPath": [
+    "1577",
+    "395",
+    "385"
+  ],
+  "categories": [
+    {
+      "id": "1577",
+      "name": "พุกเคมี",
+      "url": "/category/1577/พุกเคมี"
+    },
+    {
+      "id": "1577-395",
+      "name": "พุกเคมีครบชุด (น้ำยาเคมี สตัด แหวนรอง น็อต)",
+      "url": "/category/1577-395/พุกเคมีครบชุด-น้ำยาเคมี-สตัด-แหวนรอง-น็อต"
+    },
+    {
+      "id": "1577-395-385",
+      "name": "พุกเคมี แบบปั่น",
+      "url": "/category/1577-395-385/พุกเคมี-แบบปั่น"
+    }
+  ],
+  "intro": "พุกเคมีชนิดหลอดแก้วแบบปั่น Stahl รุ่น SVA-VE ขนาด M10 จำหน่ายเป็นชุด ประกอบด้วยหลอดน้ำยาเคมี สตัดเกลียวชุบกัลวาไนซ์ยาว 130 มม. น็อต และแหวนรอง ใช้เจาะรู 12 มม. ลึก 95 มม. ขันน็อตที่ 20 นิวตันเมตร ใช้ได้ทั้งคอนกรีตแห้ง คอนกรีตชื้น และรูเจาะที่มีน้ำขัง เจาะได้ใกล้ขอบคอนกรีตถึง 45 มม. เหมาะกับงานยึดโครงสร้างเหล็ก แท่นเครื่องจักร และงานต่อเติม",
+  "introHtml": "<p>พุกเคมีชนิดหลอดแก้วแบบปั่น Stahl รุ่น SVA-VE ขนาด M10 จำหน่ายเป็นชุด ประกอบด้วยหลอดน้ำยาเคมี สตัดเกลียวชุบกัลวาไนซ์ยาว 130 มม. น็อต และแหวนรอง ใช้เจาะรู 12 มม. ลึก 95 มม. ขันน็อตที่ 20 นิวตันเมตร ใช้ได้ทั้งคอนกรีตแห้ง คอนกรีตชื้น และรูเจาะที่มีน้ำขัง เจาะได้ใกล้ขอบคอนกรีตถึง 45 มม. เหมาะกับงานยึดโครงสร้างเหล็ก แท่นเครื่องจักร และงานต่อเติม</p>",
+  "options": [],
+  "wholesale": [],
+  "flags": {
+    "isNew": false,
+    "bestseller": false,
+    "preorder": false
+  },
+  "images": [
+    {
+      "src": "/images/03_Products/1_2_1.png",
+      "alt": "Stahl พุกเคมี M10 แบบปั่นพร้อมสตัด ",
+      "title": "Stahl พุกเคมี M10 แบบปั่นพร้อมสตัด ",
+      "width": 1000,
+      "height": 1000,
+      "default": true,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/2_11.png",
+      "alt": "Stahl พุกเคมี1ชุดมีอะไรบ้าง ",
+      "title": "Stahl พุกเคมี1ชุดมีอะไรบ้าง ",
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/3_2_1.png",
+      "alt": "Stahl สเปคพุกเคมี M10 แบบปั่น",
+      "title": "Stahl สเปคพุกเคมี M10 แบบปั่น",
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/4_10.png",
+      "alt": "Stahl คุณสมบัติพุกเคมีแบบปั่น",
+      "title": "Stahl คุณสมบัติพุกเคมีแบบปั่น",
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/5_10.png",
+      "alt": "Stahl การติดตั้งพุกเคมีแบบปั่น",
+      "title": "Stahl การติดตั้งพุกเคมีแบบปั่น",
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    }
+  ],
+  "tabs": [
+    {
+      "name": "รายละเอียดสินค้า",
+      "order": 1,
+      "html": "<!--\r\nวาง HTML นี้ในช่อง \"รายละเอียดสินค้า (TH)\" โดยกดปุ่ม Source Code (<>) ในแถบเครื่องมือก่อน แล้ววางทั้งก้อน\r\nห้ามใส่หัวข้อระดับ h1 เพราะระบบสร้างให้จากชื่อสินค้าอยู่แล้ว\r\n--><div style=\"font-family: Kanit_Regular, Tahoma, sans-serif; color: #3a3f47; font-size: 18px; line-height: 1.8; padding: 22px 24px 10px;\"><p style=\"margin: 0 0 28px 0;\"><span style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; font-weight: bold; color: #0000ff;\">พุกเคมี M10 แบบปั่น Stahl รุ่น SVA-VE</span> หรือเคมีคอลโบลท์ (Chemical Bolt) จำหน่ายเป็นชุด 1 ชุดได้หลอดน้ำยาเคมี สตัดเกลียวชุบกัลวาไนซ์ยาว 130 มม. น็อต และแหวนรอง ติดตั้งด้วยการเจาะรู 12 มม. ลึก 95 มม. แล้วขันน็อตที่ 20 นิวตันเมตร ใช้ได้ทั้งคอนกรีตแห้ง คอนกรีตชื้น และรูเจาะที่มีน้ำขัง ออกใบกำกับภาษีเต็มรูปแบบได้ จัดส่งทั่วประเทศ หรือรับเองที่หน้าร้านย่านอ่อนนุช เขตประเวศ กรุงเทพฯ</p><!-- ===== 1 ===== --><div style=\"display: flex; align-items: center; gap: 12px; margin: 0 0 14px 0;\"><span aria-hidden=\"true\" style=\"flex: 0 0 auto; width: 5px; height: 26px; background: #FFCD01; border-radius: 3px;\">&nbsp;</span><h2 style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #14304d; font-size: 22px; margin: 0; font-weight: normal;\">พุกเคมี Stahl M10 (แบบปั่น) หนึ่งชุดได้อะไรบ้าง</h2></div><div class=\"table-responsive\"><table style=\"width: 100%; border-collapse: collapse; font-size: 16px;\"  class=\"mce-item-table\"><tbody><tr><td style=\"background: #14304D; color: #ffffff; padding: 7px 12px; font-family: Kanit_SemiBold, Tahoma, sans-serif; font-size: 15px; border: 1px solid #14304D; width: 38%;\">รายการ</td><td style=\"background: #14304D; color: #ffffff; padding: 7px 12px; font-family: Kanit_SemiBold, Tahoma, sans-serif; font-size: 15px; border: 1px solid #14304D;\">รายละเอียด</td></tr><tr><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">หลอดน้ำยาเคมี</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">Stahl รุ่น SVA-VE-10 ขนาด 10 x 83 มม.</td></tr><tr style=\"background: #F6F8FA;\"><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">สตัดเกลียว</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">M10 ชุบกัลวาไนซ์ Class 5.8 ยาว 130 มม.</td></tr><tr><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">น็อตและแหวนรอง</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">อย่างละ 1 ตัว</td></tr></tbody></table></div><p style=\"font-size: 15px; color: #6b7280; font-style: italic; margin: 10px 0 0 0;\">หมายเหตุ: การติดตั้งต้องใช้ดอกสว่านโรตารี่ 12 มม. และเซ็ตติ้งทูลสำหรับ M10 เพิ่มด้วย ทั้งสองอย่างใช้ซ้ำได้ ซื้อครั้งเดียวใช้ได้ตลอด ร้านมีจำหน่าย</p><div style=\"height: 26px; font-size: 1px; line-height: 1px;\">&nbsp;</div><!-- ===== 2 ===== --><div style=\"display: flex; align-items: center; gap: 12px; margin: 0 0 14px 0;\"><span aria-hidden=\"true\" style=\"flex: 0 0 auto; width: 5px; height: 26px; background: #FFCD01; border-radius: 3px;\">&nbsp;</span><h2 style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #14304d; font-size: 22px; margin: 0; font-weight: normal;\">สเปกพุกเคมี Stahl M10 (แบบปั่น)</h2></div><div class=\"table-responsive\"><table style=\"width: 100%; border-collapse: collapse; font-size: 16px;\"  class=\"mce-item-table\"><tbody><tr><td style=\"background: #14304D; color: #ffffff; padding: 7px 12px; font-family: Kanit_SemiBold, Tahoma, sans-serif; font-size: 15px; border: 1px solid #14304D; width: 58%;\">รายการ</td><td style=\"background: #14304D; color: #ffffff; padding: 7px 12px; font-family: Kanit_SemiBold, Tahoma, sans-serif; font-size: 15px; border: 1px solid #14304D;\">ค่าสำหรับ Stahl M10</td></tr><tr><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">ขนาดดอกสว่านที่ใช้เจาะ</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">12 มม.</td></tr><tr style=\"background: #F6F8FA;\"><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">ความลึกรูเจาะต่ำสุด</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">95 มม.</td></tr><tr><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">ความลึกติดตั้งต่ำสุด</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">90 มม.</td></tr><tr style=\"background: #F6F8FA;\"><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">ความยาวสตัด</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">130 มม.</td></tr><tr><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">แรงบิดในการขันน็อต</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">20 นิวตันเมตร</td></tr><tr style=\"background: #F6F8FA;\"><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">ระยะขอบและระยะห่างต่ำสุด</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">อย่างละ 45 มม.</td></tr><tr><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">ความหนาคอนกรีตต่ำสุด</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">130 มม.</td></tr></tbody></table></div><div style=\"height: 26px; font-size: 1px; line-height: 1px;\">&nbsp;</div><!-- ===== 3 ===== --><div style=\"display: flex; align-items: center; gap: 12px; margin: 0 0 14px 0;\"><span aria-hidden=\"true\" style=\"flex: 0 0 auto; width: 5px; height: 26px; background: #FFCD01; border-radius: 3px;\">&nbsp;</span><h2 style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #14304d; font-size: 22px; margin: 0; font-weight: normal;\">วิธีติดตั้งพุกเคมี Stahl M10 (แบบปั่น)</h2></div><ol style=\"margin: 0 0 16px 0; padding-left: 22px; line-height: 1.85;\"><li>เจาะรูด้วยดอกสว่าน 12 มม. ให้ลึกอย่างน้อย 95 มม.</li><li>เป่าฝุ่นออก แปรงขัดผนังรูให้สะอาด แล้วเป่าฝุ่นออกอีกครั้ง</li><li>ใส่หลอด SVA-VE-10 โดยให้ด้านมนลงก้นรู หนึ่งหลอดต่อหนึ่งรู</li><li>ปั่นสตัดลงไปให้ถึงระยะติดตั้ง 90 มม. ด้วยสว่านโรตารี่</li><li>รอตามอุณหภูมิและสภาพคอนกรีต แล้วขันน็อตที่ 20 นิวตันเมตร</li></ol><div class=\"table-responsive\"><table style=\"width: 100%; border-collapse: collapse; font-size: 16px;\"  class=\"mce-item-table\"><tbody><tr><td style=\"background: #14304D; color: #ffffff; padding: 7px 12px; font-family: Kanit_SemiBold, Tahoma, sans-serif; font-size: 15px; border: 1px solid #14304D; width: 40%;\">อุณหภูมิคอนกรีต</td><td style=\"background: #14304D; color: #ffffff; padding: 7px 12px; font-family: Kanit_SemiBold, Tahoma, sans-serif; font-size: 15px; border: 1px solid #14304D;\">คอนกรีตแห้ง</td><td style=\"background: #14304D; color: #ffffff; padding: 7px 12px; font-family: Kanit_SemiBold, Tahoma, sans-serif; font-size: 15px; border: 1px solid #14304D;\">คอนกรีตชื้น</td></tr><tr style=\"background: #FFF9E1;\"><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; font-weight: bold; color: #14304d;\">30 องศาเซลเซียส (หน้างานปกติในไทย)</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; font-weight: bold; color: #14304d;\">20 นาที</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; font-weight: bold; color: #14304d;\">40 นาที</td></tr><tr><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">20 องศาเซลเซียส</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">45 นาที</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">90 นาที</td></tr><tr style=\"background: #F6F8FA;\"><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">15 องศาเซลเซียส</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">90 นาที</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">180 นาที</td></tr><tr><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">10 องศาเซลเซียส</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">120 นาที</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">240 นาที</td></tr></tbody></table></div><div style=\"height: 26px; font-size: 1px; line-height: 1px;\">&nbsp;</div><!-- ===== FAQ ===== --><div style=\"display: flex; align-items: center; gap: 12px; margin: 0 0 14px 0;\"><span aria-hidden=\"true\" style=\"flex: 0 0 auto; width: 5px; height: 26px; background: #FFCD01; border-radius: 3px;\">&nbsp;</span><h2 style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #14304d; font-size: 22px; margin: 0; font-weight: normal;\">คำถามที่พบบ่อย</h2></div><h3 style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #14304d; font-size: 17px; margin: 0 0 4px 0; font-weight: bold;\">พุกเคมี แตกต่างจากพุกเหล็กทั่วไปอย่างไร และงานแบบไหนที่ควรเลือกใช้พุกเคมี?</h3><p style=\"margin: 0 0 14px 0; font-size: 16px; color: #5a6270;\">พุกเหล็กทั่วไปอาศัยแรงเบ่งในการยึดติด ซึ่งอาจทำให้คอนกรีตแตกร้าวได้หากเจาะใกล้ขอบชิ้นงาน แต่พุกเคมีใช้ปฏิกิริยาของน้ำยาเคมีในการผสานสตัดเกลียวเข้ากับคอนกรีตเป็นเนื้อเดียวกัน ทำให้ไม่มีแรงเบ่งสะสมในโครงสร้าง จึงรับแรงดึงและแรงเฉือนได้สูงกว่ามาก เหมาะอย่างยิ่งสำหรับงานต่อเติมโครงสร้างหลัก เช่น คาน เสา โครงหลังคา งานติดตั้งที่ต้องรับน้ำหนักสูง หรือการเจาะยึดที่อยู่ใกล้ขอบคอนกรีตซึ่งพุกทั่วไปไม่สามารถทำได้</p><h3 style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #14304d; font-size: 17px; margin: 0 0 4px 0; font-weight: bold;\">พุกเคมีแต่ละขนาด เช่น M10 M12 M10 รับน้ำหนักได้เท่าไหร่ และควรเลือกใช้อย่างไร?</h3><p style=\"margin: 0 0 6px 0; font-size: 16px; color: #5a6270;\">การรับน้ำหนักขึ้นอยู่กับขนาดของสตัดพุกเคมี ความลึกของรูเจาะ และสภาพของคอนกรีต</p><ul style=\"margin: 0 0 6px 0; padding-left: 22px; font-size: 16px; color: #5a6270; line-height: 1.8;\"><li>ขนาด M10 เหมาะสำหรับงานต่อเติมขนาดกลาง เช่น การติดตั้งกันสาด หรือราวกันตก</li><li>ขนาด M12 ถึง M10 เป็นขนาดมาตรฐานยอดนิยมสำหรับงานโครงสร้างหลักที่ต้องรับแรงดึงและแรงเฉือนสูง</li></ul><p style=\"margin: 0 0 14px 0; font-size: 16px; color: #5a6270;\">ทั้งนี้เพื่อให้เกิดความปลอดภัยสูงสุด แนะนำให้พิจารณาเลือกขนาดสตัดและน้ำยาเคมีตามเอกสารสเปกของแต่ละรุ่น หรืออ้างอิงตามรายการคำนวณของวิศวกรผู้ควบคุมงานเป็นหลัก อ่านวิธีเลือกขนาดโดยละเอียดได้ที่บทความ <a href=\"https://www.schomesquare.co.th/blog/5124/%E0%B8%A3%E0%B8%AB%E0%B8%B1%E0%B8%AA-m-%E0%B8%9E%E0%B8%B8%E0%B8%81%E0%B9%80%E0%B8%84%E0%B8%A1%E0%B8%B5%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3-%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%96%E0%B8%B9%E0%B8%81%E0%B8%87%E0%B8%B2%E0%B8%99\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #14304d; font-family: Kanit_SemiBold, Tahoma, sans-serif;\" data-mce-href=\"https://www.schomesquare.co.th/blog/5124/%E0%B8%A3%E0%B8%AB%E0%B8%B1%E0%B8%AA-m-%E0%B8%9E%E0%B8%B8%E0%B8%81%E0%B9%80%E0%B8%84%E0%B8%A1%E0%B8%B5%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3-%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%96%E0%B8%B9%E0%B8%81%E0%B8%87%E0%B8%B2%E0%B8%99\">รหัส M พุกเคมีคืออะไร เลือกขนาดให้ถูกงาน</a></p><h3 style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #14304d; font-size: 17px; margin: 0 0 4px 0; font-weight: bold;\">สั่งสตัดเกรด 8.8 ได้ไหม?</h3><p style=\"margin: 0 0 14px 0; font-size: 16px; color: #5a6270;\">ได้ สตัดที่มีในสต็อกเป็นเกรด 5.8 ชุบกัลวาไนซ์ หากงานระบุเกรดสูงกว่านี้ เช่น เกรด 8.8 ร้านรับสั่งทำให้ได้ แจ้งความต้องการมาก่อนสั่งซื้อ</p><h3 style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #14304d; font-size: 17px; margin: 0 0 4px 0; font-weight: bold;\">ถ้าชิ้นงานหนากว่าปกติ สั่งสตัดยาวพิเศษได้ไหม?</h3><p style=\"margin: 0 0 24px 0; font-size: 16px; color: #5a6270;\">ได้ สตัดมาตรฐาน 130 มม. เผื่อส่วนที่โผล่พ้นผิวคอนกรีตไว้ราว 40 มม. สำหรับเพลท แหวน และน็อต ถ้าชิ้นงานหนากว่านั้นให้สั่งสตัดยาวพิเศษ ห้ามลดความลึกที่ฝังลงเพื่อชดเชย</p><!-- ===== หมายเหตุ ===== --><div style=\"border-left: 4px solid #FFCD01; background: #FFF9E1; padding: 14px 18px; border-radius: 0 8px 8px 0; margin: 0 0 8px 0; font-size: 16px; color: #5a6270;\"><p style=\"margin: 0;\"><span style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; font-weight: bold; color: #3a3f47;\">หมายเหตุ:</span> ค่าที่ใช้ออกแบบจริงขึ้นกับกำลังคอนกรีต รอยร้าว ระยะขอบ และความลึกที่ฝังได้จริงหน้างาน งานโครงสร้างต้องให้วิศวกรเป็นผู้คำนวณและกำหนดค่าใช้งาน หากต้องการเอกสารสเปกฉบับล่าสุดของล็อตที่จะใช้ สอบถามกับทางร้านได้ก่อนสั่งซื้อ</p></div></div>"
+    }
+  ],
+  "tags": [
+    "พุกเคมี",
+    "พุกเคมี M10",
+    "พุกเคมีแบบปั่น",
+    "Stahl",
+    "สตาห์ล",
+    "SVA-VE",
+    "สตัดเคมี",
+    "เคมีคอลโบลท์",
+    "chemical bolt"
+  ],
+  "related": [
+    "38280",
+    "37957",
+    "37941",
+    "37655"
+  ],
+  "relatedMode": "auto",
+  "button": {
+    "type": "2",
+    "action": "1",
+    "url": null
+  },
+  "package": {
+    "weight": 0,
+    "w": 2,
+    "l": 14,
+    "h": 2
+  },
+  "seo": {
+    "title": "พุกเคมี M10 แบบปั่น Stahl SVA-VE พร้อมสตัด ราคาต่อชุด - ส.เจริญโฮมสแควร์",
+    "description": "พุกเคมี M10 แบบปั่น Stahl SVA-VE เป็นชุด พร้อมสตัดยาว 130 มม. น็อตและแหวน เจาะรู 12 มม. ลึก 95 มม. ขันที่ 20 Nm ใช้กับคอนกรีตชื้นได้ มีของพร้อมส่งทั่วไทย",
+    "canonical": null
+  },
+  "dateCreated": "2026-10-03 03:19:59",
+  "dateUpdated": "2026-10-13 08:28:38"
+}

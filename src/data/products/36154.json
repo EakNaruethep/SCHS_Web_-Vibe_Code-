@@ -1,0 +1,141 @@
+{
+  "id": "36154",
+  "order": 20,
+  "urls": [
+    "/product/36154-45381/พุกเคมี-m20-แบบปั่น-kingfisher-พร้อมสตัด",
+    "/product/36154/พุกเคมี ยี่ห้อ คิงฟิชเชอร์ (Kingfisher) แบบปั่น (เป็นชุด) ขนาด M20"
+  ],
+  "enabled": true,
+  "type": "single",
+  "name": "พุกเคมี ยี่ห้อ คิงฟิชเชอร์ (Kingfisher) แบบปั่น (เป็นชุด) ขนาด M20",
+  "slug": "พุกเคมี-m20-แบบปั่น-kingfisher-พร้อมสตัด",
+  "sku": "KR20170-KGM20",
+  "skuId": "45381",
+  "price": 249,
+  "salePrice": 219,
+  "showPrice": true,
+  "brand": {
+    "id": "202",
+    "name": "คิงฟิชเชอร์ (Kingfisher)"
+  },
+  "categoryPath": [
+    "1577",
+    "395",
+    "385"
+  ],
+  "categories": [
+    {
+      "id": "1577",
+      "name": "พุกเคมี",
+      "url": "/category/1577/พุกเคมี"
+    },
+    {
+      "id": "1577-395",
+      "name": "พุกเคมีครบชุด (น้ำยาเคมี สตัด แหวนรอง น็อต)",
+      "url": "/category/1577-395/พุกเคมีครบชุด-น้ำยาเคมี-สตัด-แหวนรอง-น็อต"
+    },
+    {
+      "id": "1577-395-385",
+      "name": "พุกเคมี แบบปั่น",
+      "url": "/category/1577-395-385/พุกเคมี-แบบปั่น"
+    }
+  ],
+  "intro": "พุกเคมีชนิดหลอดแก้วแบบปั่น King Fisher รุ่น KR Resin ขนาด M20 จำหน่ายเป็นชุด ประกอบด้วยหลอดน้ำยาเคมี สตัดเกลียวชุบกัลวาไนซ์ยาว 240 มม. น็อต และแหวนรอง ใช้เจาะรู 25 มม. ลึก 170 มม. รอเซ็ตตัวประมาณ 20 นาทีที่อุณหภูมิหน้างานปกติในไทย แล้วขันน็อตที่ 120 นิวตันเมตร เหมาะกับงานยึดโครงสร้างเหล็ก แท่นเครื่องจักร และงานต่อเติมที่ต้องเจาะใกล้ขอบคอนกรีต",
+  "introHtml": "<p>พุกเคมีชนิดหลอดแก้วแบบปั่น King Fisher รุ่น KR Resin ขนาด M20 จำหน่ายเป็นชุด ประกอบด้วยหลอดน้ำยาเคมี สตัดเกลียวชุบกัลวาไนซ์ยาว 240 มม. น็อต และแหวนรอง ใช้เจาะรู 25 มม. ลึก 170 มม. รอเซ็ตตัวประมาณ 20 นาทีที่อุณหภูมิหน้างานปกติในไทย แล้วขันน็อตที่ 120 นิวตันเมตร เหมาะกับงานยึดโครงสร้างเหล็ก แท่นเครื่องจักร และงานต่อเติมที่ต้องเจาะใกล้ขอบคอนกรีต</p>",
+  "options": [],
+  "wholesale": [],
+  "flags": {
+    "isNew": false,
+    "bestseller": false,
+    "preorder": false
+  },
+  "images": [
+    {
+      "src": "/images/03_Products/1_3.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": true,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/2_16.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/3_15.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/4_15.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/5_15.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    }
+  ],
+  "tabs": [
+    {
+      "name": "รายละเอียดสินค้า",
+      "order": 1,
+      "html": "<!--\r\nวาง HTML นี้ในช่อง \"รายละเอียดสินค้า (TH)\" โดยกดปุ่ม Source Code (<>) ในแถบเครื่องมือก่อน แล้ววางทั้งก้อน\r\nห้ามใส่หัวข้อระดับ h1 เพราะระบบสร้างให้จากชื่อสินค้าอยู่แล้ว\r\n--><div style=\"font-family: Kanit_Regular, Tahoma, sans-serif; color: #3a3f47; font-size: 18px; line-height: 1.8; padding: 22px 24px 10px;\"><p style=\"margin: 0 0 28px 0;\"><span style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; font-weight: bold; color: #0000ff;\">พุกเคมี M20 แบบปั่น King Fisher รุ่น KR Resin</span> หรือเคมีคอลโบลท์ (Chemical Bolt) จำหน่ายเป็นชุด 1 ชุดได้หลอดน้ำยาเคมี สตัดเกลียวชุบกัลวาไนซ์ยาว 240 มม. น็อต และแหวนรอง ติดตั้งด้วยการเจาะรู 25 มม. ลึก 170 มม. รอเซ็ตตัว 20 นาที แล้วขันน็อตที่ 120 นิวตันเมตร ออกใบกำกับภาษีเต็มรูปแบบได้ จัดส่งทั่วประเทศ หรือรับเองที่หน้าร้านย่านอ่อนนุช เขตประเวศ กรุงเทพฯ</p><!-- ===== 1 ===== --><div style=\"display: flex; align-items: center; gap: 12px; margin: 0 0 14px 0;\"><span aria-hidden=\"true\" style=\"flex: 0 0 auto; width: 5px; height: 26px; background: #FFCD01; border-radius: 3px;\">&nbsp;</span><h2 style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #14304d; font-size: 22px; margin: 0; font-weight: normal;\">พุกเคมี M20 (แบบปั่น) หนึ่งชุดได้อะไรบ้าง</h2></div><div class=\"table-responsive\"><table style=\"width: 100%; border-collapse: collapse; font-size: 16px;\"  class=\"mce-item-table\"><tbody><tr><td style=\"background: #14304D; color: #ffffff; padding: 7px 12px; font-family: Kanit_SemiBold, Tahoma, sans-serif; font-size: 15px; border: 1px solid #14304D; width: 38%;\">รายการ</td><td style=\"background: #14304D; color: #ffffff; padding: 7px 12px; font-family: Kanit_SemiBold, Tahoma, sans-serif; font-size: 15px; border: 1px solid #14304D;\">รายละเอียด</td></tr><tr><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">หลอดน้ำยาเคมี</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">King Fisher รุ่น KR 20170 ขนาด 23 x 160 มม.</td></tr><tr style=\"background: #F6F8FA;\"><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">สตัดเกลียว</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">KG M20 ชุบกัลวาไนซ์ Class 5.8 ยาว 240 มม.</td></tr><tr><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">น็อตและแหวนรอง</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">อย่างละ 1 ตัว</td></tr></tbody></table></div><p style=\"font-size: 15px; color: #6b7280; font-style: italic; margin: 10px 0 0 0;\">หมายเหตุ: การติดตั้งต้องใช้ดอกสว่านโรตารี่ 25 มม. และเซ็ตติ้งทูลสำหรับ M20 เพิ่มด้วย ทั้งสองอย่างใช้ซ้ำได้ ซื้อครั้งเดียวใช้ได้ตลอด ร้านมีจำหน่าย</p><div style=\"height: 26px; font-size: 1px; line-height: 1px;\">&nbsp;</div><!-- ===== 2 ===== --><div style=\"display: flex; align-items: center; gap: 12px; margin: 0 0 14px 0;\"><span aria-hidden=\"true\" style=\"flex: 0 0 auto; width: 5px; height: 26px; background: #FFCD01; border-radius: 3px;\">&nbsp;</span><h2 style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #14304d; font-size: 22px; margin: 0; font-weight: normal;\">สเปกพุกเคมี M20 (แบบปั่น)</h2></div><div class=\"table-responsive\"><table style=\"width: 100%; border-collapse: collapse; font-size: 16px;\"  class=\"mce-item-table\"><tbody><tr><td style=\"background: #14304D; color: #ffffff; padding: 7px 12px; font-family: Kanit_SemiBold, Tahoma, sans-serif; font-size: 15px; border: 1px solid #14304D; width: 58%;\">รายการ</td><td style=\"background: #14304D; color: #ffffff; padding: 7px 12px; font-family: Kanit_SemiBold, Tahoma, sans-serif; font-size: 15px; border: 1px solid #14304D;\">ค่าสำหรับพุกเคมี M20</td></tr><tr><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">ขนาดดอกสว่านที่ใช้เจาะ</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">25 มม.</td></tr><tr style=\"background: #F6F8FA;\"><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">ความลึกรูเจาะ</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">170 มม.</td></tr><tr><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">ความยาวสตัด</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">240 มม.</td></tr><tr style=\"background: #F6F8FA;\"><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">แรงบิดในการขันน็อต</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">120 นิวตันเมตร</td></tr><tr><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">ระยะขอบและระยะห่างต่ำสุด</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">อย่างละ 130 มม.</td></tr><tr style=\"background: #F6F8FA;\"><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">ความหนาคอนกรีตต่ำสุด</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">220 มม.</td></tr><tr><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">ช่วงอุณหภูมิใช้งานหลังแข็งตัว</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">-40 ถึง 80 องศาเซลเซียส</td></tr></tbody></table></div><div style=\"height: 26px; font-size: 1px; line-height: 1px;\">&nbsp;</div><!-- ===== 3 ===== --><div style=\"display: flex; align-items: center; gap: 12px; margin: 0 0 14px 0;\"><span aria-hidden=\"true\" style=\"flex: 0 0 auto; width: 5px; height: 26px; background: #FFCD01; border-radius: 3px;\">&nbsp;</span><h2 style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #14304d; font-size: 22px; margin: 0; font-weight: normal;\">วิธีติดตั้งพุกเคมี M20 (แบบปั่น)</h2></div><ol style=\"margin: 0 0 16px 0; padding-left: 22px; line-height: 1.85;\"><li>เจาะรูด้วยดอกสว่าน 25 มม. ให้ลึก 170 มม. พอดี</li><li>เป่าลมและแปรงรูอย่างน้อย 2 รอบจนไม่มีฝุ่นตกค้าง</li><li>ใส่หลอด KR 20170 หนึ่งหลอดต่อหนึ่งรู</li><li>ปั่นสตัดลงไปให้ถึงระยะภายใน 10 วินาทีหลังหลอดแตก</li><li>รอตามอุณหภูมิหน้างาน แล้วขันน็อตที่ 120 นิวตันเมตร</li></ol><div class=\"table-responsive\"><table style=\"width: 100%; border-collapse: collapse; font-size: 16px;\"  class=\"mce-item-table\"><tbody><tr><td style=\"background: #14304D; color: #ffffff; padding: 7px 12px; font-family: Kanit_SemiBold, Tahoma, sans-serif; font-size: 15px; border: 1px solid #14304D; width: 58%;\">อุณหภูมิหน้างาน</td><td style=\"background: #14304D; color: #ffffff; padding: 7px 12px; font-family: Kanit_SemiBold, Tahoma, sans-serif; font-size: 15px; border: 1px solid #14304D;\">เวลารอก่อนขันน็อต</td></tr><tr style=\"background: #FFF9E1;\"><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; font-weight: bold; color: #14304d;\">สูงกว่า 20 องศาเซลเซียส (หน้างานปกติในไทย)</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; font-weight: bold; color: #14304d;\">20 นาที</td></tr><tr><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">10 ถึง 20 องศาเซลเซียส</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">40 นาที</td></tr><tr style=\"background: #F6F8FA;\"><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">5 ถึง 10 องศาเซลเซียส</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">90 นาที</td></tr></tbody></table></div><div style=\"height: 26px; font-size: 1px; line-height: 1px;\">&nbsp;</div><p style=\"font-size: 15px; color: #6b7280; font-style: italic; margin: 0 0 24px 0;\">ค่าสเปกทั้งหมดอ้างอิงจาก<a href=\"https://www.schomesquare.co.th/catalog\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #14304d; font-family: Kanit_SemiBold, Tahoma, sans-serif;\" data-mce-href=\"https://www.schomesquare.co.th/catalog\">เอกสารทางเทคนิคของ King Fisher รุ่น KR Resin</a> ขั้นตอนติดตั้งโดยละเอียดพร้อมภาพประกอบอ่านได้ที่บทความ <a href=\"https://www.schomesquare.co.th/blog/5040/%E0%B8%9E%E0%B8%B8%E0%B8%81%E0%B9%80%E0%B8%84%E0%B8%A1%E0%B8%B5%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3-%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%A0%E0%B8%97%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B9%83%E0%B8%8A%E0%B9%89-chemical-anchor\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #14304d; font-family: Kanit_SemiBold, Tahoma, sans-serif;\" data-mce-href=\"https://www.schomesquare.co.th/blog/5040/%E0%B8%9E%E0%B8%B8%E0%B8%81%E0%B9%80%E0%B8%84%E0%B8%A1%E0%B8%B5%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3-%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%A0%E0%B8%97%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B9%83%E0%B8%8A%E0%B9%89-chemical-anchor\">พุกเคมีคืออะไร</a> และวิธีเลือกขนาดอ่านได้ที่ <a href=\"https://www.schomesquare.co.th/blog/5124/%E0%B8%A3%E0%B8%AB%E0%B8%B1%E0%B8%AA-m-%E0%B8%9E%E0%B8%B8%E0%B8%81%E0%B9%80%E0%B8%84%E0%B8%A1%E0%B8%B5%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3-%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%96%E0%B8%B9%E0%B8%81%E0%B8%87%E0%B8%B2%E0%B8%99\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #14304d; font-family: Kanit_SemiBold, Tahoma, sans-serif;\" data-mce-href=\"https://www.schomesquare.co.th/blog/5124/%E0%B8%A3%E0%B8%AB%E0%B8%B1%E0%B8%AA-m-%E0%B8%9E%E0%B8%B8%E0%B8%81%E0%B9%80%E0%B8%84%E0%B8%A1%E0%B8%B5%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3-%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%96%E0%B8%B9%E0%B8%81%E0%B8%87%E0%B8%B2%E0%B8%99\">รหัส M พุกเคมีคืออะไร</a></p><!-- ===== FAQ ===== --><div style=\"display: flex; align-items: center; gap: 12px; margin: 0 0 14px 0;\"><span aria-hidden=\"true\" style=\"flex: 0 0 auto; width: 5px; height: 26px; background: #FFCD01; border-radius: 3px;\">&nbsp;</span><h2 style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #14304d; font-size: 22px; margin: 0; font-weight: normal;\">คำถามที่พบบ่อย</h2></div><h3 style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #14304d; font-size: 17px; margin: 0 0 4px 0; font-weight: bold;\">พุกเคมี M20 ควรเลือกแบบปั่นหรือแบบตอก?</h3><p style=\"margin: 0 0 14px 0; font-size: 16px; color: #5a6270;\">แบบปั่นต้องใช้สว่านกระแทกปั่นสตัดลงไป ให้แรงยึดสม่ำเสมอกว่าและนิยมในงานโครงสร้าง ส่วนแบบตอกใช้ค้อนตอกได้เลย สะดวกกว่าเมื่อหน้างานไม่มีไฟฟ้า รายละเอียดอ่านได้ที่บทความ <a href=\"https://www.schomesquare.co.th/blog/5043/%E0%B8%9E%E0%B8%B8%E0%B8%81%E0%B9%80%E0%B8%84%E0%B8%A1%E0%B8%B5%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%9B%E0%B8%B1%E0%B9%88%E0%B8%99-vs-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%95%E0%B8%AD%E0%B8%81-spin-in-hammer-in\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #14304d; font-family: Kanit_SemiBold, Tahoma, sans-serif;\" data-mce-href=\"https://www.schomesquare.co.th/blog/5043/%E0%B8%9E%E0%B8%B8%E0%B8%81%E0%B9%80%E0%B8%84%E0%B8%A1%E0%B8%B5%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%9B%E0%B8%B1%E0%B9%88%E0%B8%99-vs-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%95%E0%B8%AD%E0%B8%81-spin-in-hammer-in\">พุกเคมีแบบปั่น vs แบบตอก</a></p><h3 style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #14304d; font-size: 17px; margin: 0 0 4px 0; font-weight: bold;\">สั่งสตัดเกรด 8.8 ได้ไหม?</h3><p style=\"margin: 0 0 14px 0; font-size: 16px; color: #5a6270;\">ได้ สตัดที่มีในสต็อกเป็นเกรด 5.8 ชุบกัลวาไนซ์ หากงานระบุเกรดสูงกว่านี้ เช่น เกรด 8.8 ร้านรับสั่งทำให้ได้ แจ้งความต้องการมาก่อนสั่งซื้อ</p><h3 style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #14304d; font-size: 17px; margin: 0 0 4px 0; font-weight: bold;\">ถ้าชิ้นงานหนากว่าปกติ สั่งสตัดยาวพิเศษได้ไหม?</h3><p style=\"margin: 0 0 24px 0; font-size: 16px; color: #5a6270;\">ได้ สตัดมาตรฐาน 240 มม. เผื่อส่วนที่โผล่พ้นผิวคอนกรีตไว้ราว 70 มม. สำหรับเพลท แหวน และน็อต ถ้าชิ้นงานหนากว่านั้นให้สั่งสตัดยาวพิเศษ ห้ามลดความลึกที่ฝังลงเพื่อชดเชย</p><!-- ===== หมายเหตุ ===== --><div style=\"border-left: 4px solid #FFCD01; background: #FFF9E1; padding: 14px 18px; border-radius: 0 8px 8px 0; margin: 0 0 8px 0; font-size: 16px; color: #5a6270;\"><p style=\"margin: 0;\"><span style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; font-weight: bold; color: #3a3f47;\">หมายเหตุ:</span> ค่าที่ใช้ออกแบบจริงขึ้นกับกำลังคอนกรีต รอยร้าว ระยะขอบ และความลึกที่ฝังได้จริงหน้างาน งานโครงสร้างต้องให้วิศวกรเป็นผู้คำนวณและกำหนดค่าใช้งาน หากต้องการเอกสารสเปกฉบับล่าสุดของล็อตที่จะใช้ สอบถามกับทางร้านได้ก่อนสั่งซื้อ</p></div></div>"
+    }
+  ],
+  "tags": [
+    "พุกเคมี",
+    "พุกเคมี M20",
+    "พุกเคมีแบบปั่น",
+    "King Fisher",
+    "คิงฟิชเชอร์",
+    "สตัดเคมี",
+    "เคมีคอลโบลท์",
+    "chemical bolt"
+  ],
+  "related": [
+    "38280",
+    "37957",
+    "37941",
+    "37655"
+  ],
+  "relatedMode": "auto",
+  "button": {
+    "type": "2",
+    "action": "1",
+    "url": null
+  },
+  "package": {
+    "weight": 0,
+    "w": 3,
+    "l": 25,
+    "h": 3
+  },
+  "seo": {
+    "title": "พุกเคมี M20 แบบปั่น King Fisher พร้อมสตัด ราคาต่อชุด - ส.เจริญโฮมสแควร์",
+    "description": "พุกเคมี M20 แบบปั่น King Fisher KR Resin เป็นชุด พร้อมสตัดยาว 240 มม. น็อตและแหวน เจาะรู 25 มม. ลึก 170 มม. ขันที่ 120 Nm มีของพร้อมส่งทั่วไทย",
+    "canonical": null
+  },
+  "dateCreated": "2026-09-11 15:15:17",
+  "dateUpdated": "2026-10-13 08:28:38"
+}

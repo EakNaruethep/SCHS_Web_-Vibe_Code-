@@ -1,0 +1,80 @@
+[
+  {
+    "name": "หน้าแรก",
+    "url": "/",
+    "children": []
+  },
+  {
+    "name": "หมวดหมู่สินค้า",
+    "url": "/product-categories",
+    "children": [
+      {
+        "name": "พุกเคมี",
+        "url": "/category/1577",
+        "children": [
+          {
+            "name": "พุกเคมีครบชุด",
+            "url": "/category/1577-395",
+            "children": [
+              {
+                "name": "พุกเคมี แบบปั่น",
+                "url": "/category/1577-395-385",
+                "children": []
+              },
+              {
+                "name": "พุกเคมี แบบตอก",
+                "url": "/category/1577-395-384",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "สตัด",
+            "url": "/category/1577-1079",
+            "children": []
+          },
+          {
+            "name": "น้ำยาเคมีเสียบเหล็ก",
+            "url": "/category/1577-394",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "หมวดหมู่สินค้าแนะนำ",
+    "url": "/featured-product-categories",
+    "children": []
+  },
+  {
+    "name": "ผลงาน",
+    "url": "/portfolios",
+    "children": []
+  },
+  {
+    "name": "บทความ",
+    "url": "/categoryblog/1066",
+    "children": []
+  },
+  {
+    "name": "เกี่ยวกับเรา",
+    "url": "/about-us",
+    "children": []
+  },
+  {
+    "name": "คำถามที่พบบ่อย",
+    "url": "/faq",
+    "children": []
+  },
+  {
+    "name": "แคตตาล็อก",
+    "url": "/catalog",
+    "children": []
+  },
+  {
+    "name": "ติดต่อเรา",
+    "url": "/contact",
+    "children": []
+  }
+]

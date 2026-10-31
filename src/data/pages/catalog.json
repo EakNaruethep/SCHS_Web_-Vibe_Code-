@@ -1,0 +1,23 @@
+{
+  "url": "/catalog",
+  "title": "แคตตาล็อก พุกเคมี และเครื่องมือช่าง - ส.เจริญโฮมสแควร์",
+  "description": "ส.เจริญโฮมสแควร์ ศูนย์รวมพุกเคมี น้ำยาเสียบเหล็ก เครื่องมือช่าง และอุปกรณ์ฮาร์ดแวร์คุณภาพ (อ่อนนุช) สินค้าครบจบในที่เดียว ส่งด่วนส่งทั่วประเทศ",
+  "keywords": "พุกเคมี,น้ำยาเสียบเหล็ก,ขายพุกเคมี,พุกเคมีหลอดแก้ว,ร้านเครื่องมือช่าง,อุปกรณ์ฮาร์ดแวร์,ร้านฮาร์ดแวร์,อ่อนนุช,พุกเคมีแบบปั่น,พุกเคมีแบบตอก,kingfisher",
+  "ogImage": "/images/01_Home/OG.jpg",
+  "canonical": "https://www.schomesquare.co.th/catalog",
+  "wrapperId": "section-content",
+  "wrapperClass": "flex-grow-1",
+  "jsonld": [
+    "[{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"@id\":\"https://www.schomesquare.co.th/catalog#webpage\",\"name\":\"แคตตาล็อก พุกเคมี และเครื่องมือช่าง - ส.เจริญโฮมสแควร์\",\"url\":\"https://www.schomesquare.co.th/catalog\",\"description\":\"ส.เจริญโฮมสแควร์ ศูนย์รวมพุกเคมี น้ำยาเสียบเหล็ก เครื่องมือช่าง และอุปกรณ์ฮาร์ดแวร์คุณภาพ (อ่อนนุช) สินค้าครบจบในที่เดียว ส่งด่วนส่งทั่วประเทศ\",\"inLanguage\":\"th-TH\",\"primaryImageOfPage\":{\"@type\":\"ImageObject\",\"url\":\"/images/01_Home/OG.jpg\"},\"isPartOf\":{\"@id\":\"https://www.schomesquare.co.th/#website\"},\"publisher\":{\"@id\":\"https://www.schomesquare.co.th/#organization\"},\"datePublished\":\"2026-04-22T04:48:34.005000Z\",\"dateModified\":\"2026-04-24T12:10:21.742000Z\",\"about\":{\"@id\":\"https://www.schomesquare.co.th/#organization\"},\"speakable\":{\"@type\":\"SpeakableSpecification\",\"xPath\":[\"/html/head/title\"]}}]"
+  ],
+  "sections": [
+    {
+      "file": "01-seco1rq.html",
+      "title": "แคตตาล็อก"
+    },
+    {
+      "file": "02-secwlds.html",
+      "title": "วัสดุก่อสร้างเครื่องมือช่างพุกเคมี ﻿ ﻿"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+---
+import Base from '../layouts/Base.astro';
+import Sections from '../components/Sections.astro';
+import { pages } from '../lib/site.js';
+const page = pages['../data/pages/index.json'];
+---
+<Base title={page.title} description={page.description} keywords={page.keywords} ogImage={page.ogImage} jsonld={page.jsonld}>
+  <div class="embed-body"><Sections page={page} key="index" /></div>
+</Base>

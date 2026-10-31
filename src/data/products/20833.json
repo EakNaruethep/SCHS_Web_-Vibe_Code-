@@ -1,0 +1,90 @@
+{
+  "id": "20833",
+  "order": 15,
+  "urls": [
+    "/product/20833-26964/น้ำยาเคมีเจาะเสียบเหล็กยี่ห้อ-ฮิลติ-hilti-รุ่น-hit-re500-v3",
+    "/product/20833/น้ำยาเคมีเจาะเสียบเหล็กยี่ห้อ ฮิลติ (Hilti) รุ่น HIT-RE500 V3"
+  ],
+  "enabled": true,
+  "type": "single",
+  "name": "น้ำยาเคมีเจาะเสียบเหล็กยี่ห้อ ฮิลติ (Hilti) รุ่น HIT-RE500 V3",
+  "slug": "",
+  "sku": "น้ำยาเคมีเจาะเสียบเหล็กยี่ห้อ ฮิลติ (Hilti) รุ่น HIT-RE500 V3",
+  "skuId": "26964",
+  "price": null,
+  "salePrice": null,
+  "showPrice": false,
+  "brand": {
+    "id": "337",
+    "name": "ฮิลติ (Hilti)"
+  },
+  "categoryPath": [
+    "1577",
+    "394"
+  ],
+  "categories": [
+    {
+      "id": "1577",
+      "name": "พุกเคมี",
+      "url": "/category/1577/พุกเคมี"
+    },
+    {
+      "id": "1577-394",
+      "name": "น้ำยาเคมีเสียบเหล็ก",
+      "url": "/category/1577-394/น้ำยาเคมีเสียบเหล็ก"
+    }
+  ],
+  "intro": "น้ำยาเคมีเจาะเสียบเหล็กยี่ห้อ ฮิลติ (Hilti) รุ่น HIT-RE500 V3",
+  "introHtml": "<p>น้ำยาเคมีเจาะเสียบเหล็กยี่ห้อ ฮิลติ (Hilti) รุ่น HIT-RE500 V3</p>",
+  "options": [],
+  "wholesale": [],
+  "flags": {
+    "isNew": false,
+    "bestseller": false,
+    "preorder": false
+  },
+  "images": [
+    {
+      "src": "/images/03_Products/No_Product.webp",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": true,
+      "youtubeId": null
+    }
+  ],
+  "tabs": [
+    {
+      "name": "รายละเอียดสินค้า",
+      "order": 1,
+      "html": "<p>น้ำยาเคมีเจาะเสียบเหล็กยี่ห้อ ฮิลติ (Hilti) รุ่น HIT-RE500 V3</p>"
+    }
+  ],
+  "tags": [],
+  "related": [
+    "38280",
+    "37957",
+    "37941",
+    "37655"
+  ],
+  "relatedMode": "auto",
+  "button": {
+    "type": "2",
+    "action": "1",
+    "url": null
+  },
+  "package": {
+    "weight": 0,
+    "w": 0,
+    "l": 0,
+    "h": 0
+  },
+  "seo": {
+    "title": "",
+    "description": "",
+    "canonical": null
+  },
+  "dateCreated": "2026-04-09 04:31:14",
+  "dateUpdated": "2026-10-13 08:28:38"
+}

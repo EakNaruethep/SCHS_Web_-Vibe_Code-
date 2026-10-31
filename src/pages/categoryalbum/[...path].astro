@@ -1,0 +1,36 @@
+---
+// Album list: /categoryalbum (all) and /categoryalbum/{id}[/name]. Albums come from src/data/albums/*.json (sorted by "order").
+import Base from '../../layouts/Base.astro';
+import { albums, enc } from '../../lib/site.js';
+import styles from '../../data/site/styles.json';
+export function getStaticPaths() {
+  const cats = new Map(albums.map((a) => [String(a.category.id), a.category]));
+  return [
+    { params: { path: undefined }, props: { items: albums, title: 'อัลบั้มภาพ' } },
+    ...[...cats.values()].flatMap((c) => {
+      const items = albums.filter((a) => String(a.category.id) === String(c.id));
+      return [String(c.id), `${c.id}/${c.name}`].map((p) => ({ params: { path: p }, props: { items, title: 'ผลงาน' } }));
+    }),
+  ];
+}
+// Headings as the live site shows them (its page names): the all-albums page vs. a category page
+const { items, title } = Astro.props;
+---
+<Base>
+<div class="embed-body"><div class="flex-grow-1" id="section-content"><div><div style="position:relative;">
+  <div class="position-relative w-100 h-100" id="comp-section_page_album" style={styles['albumlist.section']}>
+    <div class="b-overlay-wrap position-relative"><div class="py-30" data-listing>
+      <h1 class="text-center info-wrapper pb-30">{title}</h1>
+      <div class="layout-1 container wrapper-gallery page" style={styles['albumlist.gallery']} data-grid>
+        {items.map((a, i) => (
+          <a class="cursor-pointer" href={enc(a.url)} data-i={i}>
+            <div class="layout-1 wrapper-image"><img alt={a.title} src={enc(a.images?.[0]?.src || '/images/03_Products/No_Product.webp')} loading="lazy" style="object-fit:cover;" title={a.title} /></div>
+            <h3 class="text-break mt-8 info-wrapper mb-16">{a.title}</h3>
+          </a>
+        ))}
+      </div>
+      <div class="d-flex justify-content-center mt-20"><div class="system-pagination"><div class="list-pagination"><ul aria-label="Pagination" class="pagination b-pagination" role="menubar" data-pager></ul></div></div></div>
+    </div></div>
+  </div>
+</div></div></div></div>
+</Base>

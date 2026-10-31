@@ -1,0 +1,53 @@
+/* Phone sizes. Makewebeasy sent phones different inline CSS variables (smaller text, 2 columns…) for each component;
+   these are the values the live site uses on phones. Base.astro marks phones (by user agent, like Makewebeasy) with
+   html.schs-phone, and a desktop window 576px wide or less with html.schs-mobile (see Base.astro). The sizes below
+   follow html.schs-mobile; the layout changes further down are for phones only. */
+html.schs-mobile .MWE-breadcrumb { --separators-size: 10px !important; --font-size: 12px !important; }
+/* product page */
+html.schs-mobile #SECTION_PAGE.comp-section-page-product-item { --button-size: 16px !important; --button-messenger-width-height: 37px !important; --relate-grid-template-columns: repeat(2, 1fr) !important; }
+html.schs-mobile .comp-section-page-product-item .MWE-breadcrumb { --last-width: 162px !important; --before-last-width: 162px !important; }
+html.schs-mobile .product-relate-item-wrapper { --badge-discount-font-size: 14px !important; --product-name-font-size: 16px !important; --product-price-font-size: 16px !important; --product-price-special-font-size: 16px !important; --product-badge-size: 32px !important; }
+/* product listings (category, brand, tag) */
+html.schs-mobile .comp-section-page-product { --all-product-page-name-font-size: 32px !important; }
+html.schs-mobile .mwe-page-product-wrapper { --all-product-cell-percent: 0 0 calc(50% + 0px) !important; --all-product-cell-max-width: calc(50% + 0px) !important; --all-product-card-min-height: calc(100% - 174px) !important; --all-product-badge-discount-font-size: 14px !important; --all-product-name-font-size: 16px !important; --all-product-sku-font-size: 14px !important; --all-product-intro-font-size: 14px !important; --all-product-sale-price-font-size: 16px !important; --all-product-price-font-size: 16px !important; --all-product-button-width: 100% !important; --all-product-button-font-size: 16px !important; --all-product-button-padding-x: 8px !important; --all-product-button-paddingX: 8px !important; }
+html.schs-mobile #comp-section_page_product_brand { --item-render: 3 !important; }
+/* home page widgets */
+html.schs-mobile .mwe-wrapper-widget-product { --widget-product-title-font-size: 32px !important; }
+html.schs-mobile .widget-button { --font-size: 16px !important; }
+html.schs-mobile #blog-loyout-03 { --blog-padding-wrapper-content: 0px 15px 15px 15px !important; --blog-padding-wrapper-content-layout04: 0px 15px 15px 15px !important; --all-blog-img-scale: unset !important; --blog-render-box-layout-02: 1 !important; --blog-render-content-layout-02: 1 !important; --blog-render-content-layout-03: 1 !important; --blog-render-content-repeat-layout-04: 1 !important; }
+/* blog list and blog post */
+html.schs-mobile #page-blog-05 { --blog-img-scale-hover: unset !important; --blog-render-content-layout-03: 1 !important; }
+html.schs-mobile .comp-section-page-content-item > div[style] { --margin-img-mobile: 70px !important; --detail-show-shere: none !important; --detail-show-shere-mobile: block !important; --blog-more-imag-size: 60px !important; --blog-more-imag-slick-arrow: none !important; --margin-slick-slide: 0px 5px !important; --width-slick-slide: 50px !important; --relate-img-scale: unset !important; --detail-grid-render: 1 !important; }
+/* FAQ and contact */
+html.schs-mobile #comp-section_page_faq { --faq-category-name-fs: 16px !important; --faq-page-name-fs: 30px !important; --faq-question-name-fs: 16px !important; }
+html.schs-mobile #comp-section_page_contact { --pagename-size: 33px !important; --label-size: 16px !important; --button-submit-size: 16px !important; }
+html.schs-mobile .widget-map-wrapper { height: 345px !important; }
+html.schs-mobile #page-contact-layout-1 #form-container .field-group { max-width: 100% !important; }
+html.schs-mobile #page-contact-layout-1 #form-container .submit-btn button { width: 100%; }
+html.schs-mobile #page-contact-layout-1 { --map-height: 345px !important; --input-container-flex-direction: column !important; --input-width: 100% !important; --max-width-captcha: 100% !important; --refresh-btn-pos-left: calc(100% - 40px) !important; }
+
+/* Parts that only one of the two layouts has (Makewebeasy rendered different markup for phones) */
+html:not(.schs-phone) .schs-phone-only { display: none !important; }
+html.schs-phone .schs-desktop-only { display: none !important; }
+/* product page: picture edge to edge, details below it, buttons in the bottom bar */
+html.schs-phone .comp-section-page-product-item > .py-40 { padding-top: 8px !important; padding-bottom: 8px !important; }
+html.schs-phone .comp-section-page-product-item > .py-40 > .container:first-child { padding: 0; max-width: none; }
+html.schs-phone .comp-section-page-product-item .product-detail-container { max-width: 100% !important; position: static; }
+html.schs-phone .comp-section-page-product-item .product-detail-container > .gap-gd-3 { gap: 16px !important; padding-top: 16px; }
+html.schs-phone .comp-section-page-product-item .row.mx-0 > .col-6 { flex: 0 0 100%; max-width: 100%; padding: 0; } /* live phones: col-12 px-0 */
+html.schs-phone .comp-section-page-product-item > .py-40 > .mt-40 { margin-top: 32px !important; }
+html.schs-phone .comp-section-page-product-item .product-detail-brand-category > .gap-gd-3 { gap: 16px !important; }
+html.schs-phone .wrapper-image-slick-mobile .slick-list { overflow-x: auto !important; scroll-snap-type: x mandatory; scrollbar-width: none; }
+html.schs-phone .wrapper-image-slick-mobile .slick-list::-webkit-scrollbar { display: none; }
+html.schs-phone .wrapper-image-slick-mobile .slick-slide { scroll-snap-align: start; flex: 0 0 auto; }
+html.schs-phone body:has(#bottom-sticky-wrapper) #pdpa-wrapper { --bottom-policy-position: 69px !important; }
+
+/* Builder pages: blocks Makewebeasy moved or left out on phones (compared with the phone version of each live page) */
+html.schs-phone #grdp8wg #clljwlq { order: 0; } html.schs-phone #grdp8wg #cllrgnc { order: 1; } html.schs-phone #grdp8wg #cllzz1f { order: 2; } html.schs-phone #grdp8wg #cllgzfn { order: 3; } /* about-us */
+html.schs-phone #grd69bp #cllrgzf, html.schs-phone #grd69bp #cllnjn4 { display: none !important; } /* catalog */
+html.schs-phone #grdrqy5 #clludo4 { display: none !important; } /* featured-product-categories */
+
+/* blog post: full-width column like the phone version */
+html.schs-phone .comp-section-page-content-item .post.desktop { padding: 0 15px; }
+html.schs-phone .comp-section-page-content-item .post.desktop .col-12.container-fluid.custom { max-width: 100% !important; }
+html.schs-phone .comp-section-page-content-item .post-relate { max-width: calc(100% - 30px); }

@@ -1,0 +1,140 @@
+[
+  {
+    "id": "202",
+    "name": "คิงฟิชเชอร์ (Kingfisher)",
+    "url": "/productbrand/202/คิงฟิชเชอร์-kingfisher",
+    "breadcrumb": [
+      {
+        "text": "แบรนด์สินค้า",
+        "url": "/productbrand"
+      },
+      {
+        "text": "คิงฟิชเชอร์ (Kingfisher)",
+        "url": "/productbrand/202/คิงฟิชเชอร์-kingfisher"
+      }
+    ],
+    "productCount": 7,
+    "sortBy": "featured",
+    "products": [
+      "36153",
+      "36149",
+      "36124",
+      "36154",
+      "36156",
+      "16173",
+      "16180"
+    ],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": "",
+      "og": {
+        "title": "",
+        "description": ""
+      },
+      "twitter": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "pagination": {
+      "page": 1,
+      "take": 20,
+      "totalCount": "7"
+    },
+    "order": 1
+  },
+  {
+    "id": "203",
+    "name": "สตาลห์ (Stahl)",
+    "url": "/productbrand/203/สตาลห์-stahl",
+    "breadcrumb": [
+      {
+        "text": "แบรนด์สินค้า",
+        "url": "/productbrand"
+      },
+      {
+        "text": "สตาลห์ (Stahl)",
+        "url": "/productbrand/203/สตาลห์-stahl"
+      }
+    ],
+    "productCount": 15,
+    "sortBy": "featured",
+    "products": [
+      "37957",
+      "37941",
+      "37655",
+      "37942",
+      "37951",
+      "37953",
+      "37955",
+      "37539",
+      "37537",
+      "37524",
+      "37521",
+      "20843",
+      "36456",
+      "16187",
+      "16191"
+    ],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": "",
+      "og": {
+        "title": "",
+        "description": ""
+      },
+      "twitter": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "pagination": {
+      "page": 1,
+      "take": 20,
+      "totalCount": "15"
+    },
+    "order": 2
+  },
+  {
+    "id": "337",
+    "name": "ฮิลติ (Hilti)",
+    "url": "/productbrand/337/ฮิลติ-hilti",
+    "breadcrumb": [
+      {
+        "text": "แบรนด์สินค้า",
+        "url": "/productbrand"
+      },
+      {
+        "text": "ฮิลติ (Hilti)",
+        "url": "/productbrand/337/ฮิลติ-hilti"
+      }
+    ],
+    "productCount": 2,
+    "sortBy": "featured",
+    "products": [
+      "20832",
+      "20833"
+    ],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": "",
+      "og": {
+        "title": "",
+        "description": ""
+      },
+      "twitter": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "pagination": {
+      "page": 1,
+      "take": 20,
+      "totalCount": "2"
+    },
+    "order": 3
+  }
+]

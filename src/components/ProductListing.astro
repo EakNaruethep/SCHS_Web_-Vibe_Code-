@@ -1,0 +1,50 @@
+---
+// Product grid page used by /category…, /productbrand/{id}… (Makewebeasy "all products" component).
+import { priceInfo, enc } from '../lib/site.js';
+import { listingCard } from '../lib/cards.js';
+import styles from '../data/site/styles.json';
+const { title, breadcrumb, items } = Astro.props;
+const SORTS = ['ความน่าสนใจ', 'อัพเดทล่าสุด', 'สินค้าขายดี', 'ราคาต่ำสุด', 'ราคาสูงสุด', 'เรียงจาก A-Z'];
+const cells = items.map((p, i) => {
+  const pr = priceInfo(p);
+  return listingCard(p).replace('<div class="mwe-page-product-cell">',
+    `<div class="mwe-page-product-cell" data-i="${i}" data-date="${p.dateUpdated || ''}" data-price="${pr ? pr.sale || pr.price : ''}" data-name="${p.name.replace(/"/g, '')}">`);
+}).join('');
+---
+<div class="embed-body"><div class="flex-grow-1" id="section-contents"><div><div style="position:relative;">
+<div class="comp-section-page-product section position-relative w-100 h-100" id="SECTION_PAGE" style={styles['listing.section']}>
+  <div class="container pb-30">
+    <div class="py-15"><div class="mwe-page-product-breadcrumb"><div class="MWE-breadcrumb" style={styles['listing.breadcrumb']}>
+      <ol class="breadcrumb">
+        {breadcrumb.map((b, i) => i === breadcrumb.length - 1
+          ? <li class="breadcrumb-item active"><span aria-current="location">{b.text}</span></li>
+          : <li class="breadcrumb-item"><a href={enc(b.url)} target="_self">{b.text}</a></li>)}
+      </ol>
+    </div></div></div>
+    <h1 class="mwe-page-product-page-name text-center py-15 mb-0">{title}</h1>
+    <div class="mwe-product-container"><div class="container-product" data-listing>
+      <div class="d-flex justify-content-between mwe-page-product-tools pb-15 w-100">
+        <div class="align-self-center"><p class="mwe-page-product-sort-by mb-0">พบสินค้า {items.length} ชิ้น</p></div>
+        <div class="d-flex align-items-center" style="height: 32px">
+          <div class="align-self-center mr-10"><p class="mwe-page-product-sort-by mb-0">เรียงตาม</p></div>
+          <div class="dropdown b-dropdown btn-group customer-normalselect" id="customer-normalselect">
+            <button aria-expanded="false" aria-haspopup="true" class="btn dropdown-toggle btn-light" type="button" data-dropdown-toggle>
+              <div class="customer-normalselect-control d-flex justify-content-between align-items-center w-100 h-100">
+                <span class="customer-normalselect-selected">{SORTS[0]}</span>
+                <span class="customer-normalselect-arrow ml-16"><i class="far fa-angle-down"></i></span>
+              </div>
+            </button>
+            <ul class="dropdown-menu customer-normalselect-menu dropdown-menu-right" role="menu">
+              {SORTS.map((s, i) => <li class={`customer-normalselect-option${i === 0 ? ' active' : ''}`} role="presentation"><a class={`dropdown-item${i === 0 ? ' active' : ''}`} href="#" role="menuitem" data-sort={i}><span>{s}</span></a></li>)}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="b-overlay-wrap position-relative">
+        <div class="mwe-page-product-wrapper" style={styles['listing.wrapper']} data-grid set:html={cells} />
+        <div class="d-flex justify-content-center mt-16"><div class="system-pagination"><div class="list-pagination"><ul aria-label="Pagination" class="pagination b-pagination" role="menubar" data-pager></ul></div></div></div>
+      </div>
+    </div></div>
+  </div>
+</div>
+</div></div></div></div>

@@ -1,0 +1,99 @@
+{
+  "id": "16180",
+  "order": 25,
+  "urls": [
+    "/product/16180-21613/น้ำยาเคมีเสียบเหล็ก-ยี่ห้อ-คิงฟิชเชอร์-kingfisher-รุ่น-kip300-epoxy",
+    "/product/16180/น้ำยาเคมีเสียบเหล็ก ยี่ห้อ คิงฟิชเชอร์ (Kingfisher) รุ่น KIP300 Epoxy"
+  ],
+  "enabled": true,
+  "type": "single",
+  "name": "น้ำยาเคมีเสียบเหล็ก ยี่ห้อ คิงฟิชเชอร์ (Kingfisher) รุ่น KIP300 Epoxy",
+  "slug": "",
+  "sku": "น้ำยาเคมีเสียบเหล็ก ยี่ห้อ คิงฟิชเชอร์ (Kingfisher) รุ่น KIP300 Epoxy",
+  "skuId": "21613",
+  "price": null,
+  "salePrice": null,
+  "showPrice": false,
+  "brand": {
+    "id": "202",
+    "name": "คิงฟิชเชอร์ (Kingfisher)"
+  },
+  "categoryPath": [
+    "1577",
+    "394"
+  ],
+  "categories": [
+    {
+      "id": "1577",
+      "name": "พุกเคมี",
+      "url": "/category/1577/พุกเคมี"
+    },
+    {
+      "id": "1577-394",
+      "name": "น้ำยาเคมีเสียบเหล็ก",
+      "url": "/category/1577-394/น้ำยาเคมีเสียบเหล็ก"
+    }
+  ],
+  "intro": "น้ำยาเคมีเสียบเหล็ก ยี่ห้อ คิงฟิชเชอร์ (Kingfisher) รุ่น KIP300 Epoxy จากเยอรมัน",
+  "introHtml": "<p>น้ำยาเคมีเสียบเหล็ก ยี่ห้อ คิงฟิชเชอร์ (Kingfisher) รุ่น KIP300 Epoxy จากเยอรมัน</p>",
+  "options": [],
+  "wholesale": [],
+  "flags": {
+    "isNew": false,
+    "bestseller": false,
+    "preorder": false
+  },
+  "images": [
+    {
+      "src": "/images/03_Products/1_5.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": true,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/2_5.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    }
+  ],
+  "tabs": [
+    {
+      "name": "รายละเอียดสินค้า",
+      "order": 1,
+      "html": "<p><span style=\"font-family: Kanit_SemiBold, Tahoma; line-height: 1.4;\">คุณสมบัติ </span></p><p><span style=\"font-size: 18px;\">ใช้ยึดเสียบเหล็ก แท่งเกลียว ข้ออ้อย แห้งเร็วไม่ย้อย ใช้ในแนวตั้งได้ดี รองรับน้ำหนักได้สูง ใช้ได้ทั้งพื้นที่แห้งและเปียก ไม่มีสารสไตรีน ไม่มีกลิ่นอับ ปริมาณ 300 ml. จากเยอรมัน</span></p>"
+    }
+  ],
+  "tags": [],
+  "related": [
+    "38280",
+    "37957",
+    "37941",
+    "37655"
+  ],
+  "relatedMode": "auto",
+  "button": {
+    "type": "2",
+    "action": "1",
+    "url": null
+  },
+  "package": {
+    "weight": 0,
+    "w": 0,
+    "l": 0,
+    "h": 0
+  },
+  "seo": {
+    "title": "",
+    "description": "",
+    "canonical": null
+  },
+  "dateCreated": "2026-03-26 03:11:39",
+  "dateUpdated": "2026-10-13 08:28:38"
+}

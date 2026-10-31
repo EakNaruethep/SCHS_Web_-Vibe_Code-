@@ -1,0 +1,27 @@
+{
+  "url": "/portfolios-2",
+  "title": "ผลงาน - ส.เจริญโฮมสแควร์",
+  "description": "ขายส่ง พุกเคมี แบบปั่น แบบตอก จากเยอรมัน แข็งแรง รับน้ำหนักสูง ราคาดีลโรงงานมีมาตรฐานรับรอง พร้อมอุปกรณ์ก่อสร้าง และเครื่องมือช่าง | SCHS ส.เจริญ โฮมสแควร์",
+  "keywords": "พุกเคมี,Chemical Bolt,พุกเคมีแบบตอก,พุกเคมีรับน้ำหนัก",
+  "ogImage": "/images/01_Home/OG.jpg",
+  "canonical": "https://www.schomesquare.co.th/portfolios-2",
+  "wrapperId": "section-content",
+  "wrapperClass": "flex-grow-1",
+  "jsonld": [
+    "[{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"@id\":\"https://www.schomesquare.co.th/portfolios-2#webpage\",\"name\":\"ผลงาน - ส.เจริญโฮมสแควร์\",\"url\":\"https://www.schomesquare.co.th/portfolios-2\",\"description\":\"ขายส่ง พุกเคมี แบบปั่น แบบตอก จากเยอรมัน แข็งแรง รับน้ำหนักสูง ราคาดีลโรงงานมีมาตรฐานรับรอง พร้อมอุปกรณ์ก่อสร้าง และเครื่องมือช่าง | SCHS ส.เจริญ โฮมสแควร์\",\"inLanguage\":\"th-TH\",\"primaryImageOfPage\":{\"@type\":\"ImageObject\",\"url\":\"/images/01_Home/OG.jpg\"},\"isPartOf\":{\"@id\":\"https://www.schomesquare.co.th/#website\"},\"publisher\":{\"@id\":\"https://www.schomesquare.co.th/#organization\"},\"datePublished\":\"2026-04-22T04:43:45.429000Z\",\"dateModified\":\"2026-04-22T10:50:08.651000Z\",\"about\":{\"@id\":\"https://www.schomesquare.co.th/#organization\"},\"speakable\":{\"@type\":\"SpeakableSpecification\",\"xPath\":[\"/html/head/title\"]}}]"
+  ],
+  "sections": [
+    {
+      "file": "01-seco1rq.html",
+      "title": "ผลงาน"
+    },
+    {
+      "file": "02-secdzic.html",
+      "title": "Coming Soon ﻿ ﻿ Coming Soon ﻿ ﻿ Coming Soon ﻿ ﻿ Coming Soon "
+    },
+    {
+      "file": "03-seczsd9.html",
+      "title": "Coming Soon ﻿ ﻿ Coming Soon ﻿ ﻿ Coming Soon ﻿ ﻿ Coming Soon "
+    }
+  ]
+}

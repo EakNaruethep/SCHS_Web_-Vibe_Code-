@@ -1,0 +1,47 @@
+---
+// /search/{keyword} and /search/{keyword}/{product|content|album|page} (Makewebeasy search page).
+// .htaccess sends every /search/... address to this one page; site.js reads the keyword from the address
+// and fills in the results from the list below. Like the live site: products by id, pages = menu pages only.
+import Base from '../layouts/Base.astro';
+import { products, blogs, albums, pages, categories, menu, enc, NO_IMAGE } from '../lib/site.js';
+import { listingCard } from '../lib/cards.js';
+import styles from '../data/site/styles.json';
+
+const text = (...parts) => parts.flat().filter(Boolean).join(' ').toLowerCase();
+const pageTitle = (url) => Object.values(pages).find((p) => p.url === url)?.title
+  || categories.find((c) => c.url.replace(/^(\/category\/[^/]+).*/, '$1') === url)?.seo?.title || '';
+const pageList = [];
+const addPage = (name, url, title) => { if (!pageList.some((p) => p.url === url)) pageList.push({ name, url, title }); };
+const walk = (items) => items.forEach((n) => { if (n.url && n.url.startsWith('/')) addPage(n.name, n.url, pageTitle(n.url)); walk(n.children || []); });
+walk(menu);
+
+const data = {
+  product: [...products].sort((a, b) => a.id - b.id).map((p) => ({ t: text(p.name, p.sku, p.tags, p.variants?.map((v) => v.sku)), html: listingCard(p) })),
+  content: blogs.map((b) => ({ t: text(b.title, b.intro, b.tags), url: enc(b.url), name: b.title, img: enc(b.cover?.src || NO_IMAGE) })),
+  album: albums.map((a) => ({ t: text(a.title, a.intro, a.tags), url: enc(a.url), name: a.title, img: enc(a.images?.[0]?.src || NO_IMAGE), sub: `${a.images?.length || 0} image, 0 views` })),
+  page: pageList.map((p) => ({ t: text(p.name, p.title), url: enc(p.url), name: p.name, sub: p.title })),
+};
+---
+<Base title="ค้นหา - ส.เจริญโฮมสแควร์" noindex>
+<div class="embed-body"><div class="flex-grow-1" id="section-Contents">
+<div id="comp-section_page_search" class="comp-section_page_search section position-relative w-100 h-100" style="--search-title-fs:48px;--search-title-family:Kanit_SemiBold;--search-title-weight:normal;--search-title-style:normal;--search-title-color:rgba(var(--tpc-24), 100%);">
+  <div class="container" style="padding: 40px 0"><div class="search-container" data-search-page>
+    <h1 class="search-title text-center pb-gd-4 pt-gd-5">ค้นหา</h1>
+    <div class="input-group mb-3">
+      <input type="text" placeholder="Enter your keyword..." class="form-control" data-site-search>
+      <div class="input-group-append"><button type="button" class="btn border-left-0 rounded-right btn-outline-secondary" style="border-color: #ced4da;" data-search-go><i class="fas fa-search"></i></button></div>
+    </div>
+    <div class="b-overlay-wrap position-relative mt-40"><div><div>
+      <div class="text-center fs-22 my-30" data-search-summary></div>
+      <div class="tab-group my-30" data-search-tabs></div>
+      <div class="search-data-container pb-30" data-search-results></div>
+      <div data-search-products hidden data-listing>
+        <div class="mwe-page-product-wrapper" style={styles['listing.wrapper']} data-grid></div>
+        <div class="pagination d-flex justify-content-center align-items-center mt-16"><div class="system-pagination"><div class="list-pagination"><ul aria-label="Pagination" class="pagination b-pagination" role="menubar" data-pager></ul></div></div></div>
+      </div>
+    </div></div></div>
+  </div></div>
+</div>
+</div></div>
+<script type="application/json" id="search-data" set:html={JSON.stringify(data).replace(/</g, '\\u003c')} />
+</Base>

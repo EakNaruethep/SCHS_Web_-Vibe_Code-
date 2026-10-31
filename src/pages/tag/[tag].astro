@@ -1,0 +1,43 @@
+---
+// /tag/{tag}: everything tagged with it. Tags come from the "tags" arrays in products, blog posts and pages.
+import Base from '../../layouts/Base.astro';
+import { products, blogs, pages, productUrl, productImages, enc, NO_IMAGE } from '../../lib/site.js';
+export function getStaticPaths() {
+  const all = new Set([...products, ...blogs, ...Object.values(pages)].flatMap((x) => x.tags || []));
+  return [...all].map((tag) => ({ params: { tag } }));
+}
+const { tag } = Astro.params;
+const has = (x) => (x.tags || []).includes(tag);
+const groups = [
+  { key: 'product', label: 'สินค้า', items: products.filter(has).map((p) => ({ url: productUrl(p), name: p.name, img: productImages(p)[0]?.src || NO_IMAGE })) },
+  { key: 'blog', label: 'บทความ', items: blogs.filter(has).map((b) => ({ url: b.url, name: b.title, img: b.cover?.src || NO_IMAGE })) },
+  { key: 'page', label: 'หน้าเพจ', items: Object.values(pages).filter(has).map((p) => ({ url: p.url, name: p.title, img: p.ogImage || NO_IMAGE })) },
+].filter((g) => g.items.length);
+const total = groups.reduce((n, g) => n + g.items.length, 0);
+---
+<Base title={`Tag - ${tag} - พุกเคมี ขายส่ง ราคาถูก | SCHS อุปกรณ์ก่อสร้าง ส่งทั่วประเทศ`}>
+<div class="embed-body"><div class="flex-grow-1" id="section-Contents">
+  <div class="section position-relative w-100 h-100" id="comp-section_page_tag"><div class="container"><div class="tag-container" data-tabs>
+    <div class="b-overlay-wrap position-relative">
+      <div class="text-center py-30">{total} ผลลัพธ์สำหรับแท็ก "{tag}"</div>
+      <div class="tab-group">
+        {groups.map((g, i) => <div class={`tab-item${i === 0 ? ' active' : ''}`} data-tab={g.key}>{g.label} ({g.items.length})</div>)}
+        <div class="tab-group-line"></div>
+      </div>
+      {groups.map((g, i) => (
+        <div data-tab-panel={g.key} hidden={i !== 0} data-listing>
+          <div class="b-overlay-wrap position-relative"><div class="data-list" data-grid>
+            {g.items.map((it) => (
+              <a class={`data-item cursor-pointer ${g.key} py-gd-2`} href={enc(it.url)}>
+                <div class="data-item-inner"><div class="data-item-image"><img src={enc(it.img)} alt="" loading="lazy" /></div>
+                <div class="data-item-detail"><div class="item-name fs-sa-16">{it.name}</div></div></div>
+              </a>
+            ))}
+          </div></div>
+          <div class="d-flex justify-content-center pt-gd-5"><div class="system-pagination"><div class="list-pagination"><ul aria-label="Pagination" class="pagination b-pagination" role="menubar" data-pager></ul></div></div></div>
+        </div>
+      ))}
+    </div>
+  </div></div></div>
+</div></div>
+</Base>

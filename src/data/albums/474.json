@@ -1,0 +1,45 @@
+{
+  "id": "474",
+  "order": 2,
+  "title": "พุกเคมี ติดตั้งกันสาด",
+  "url": "/album/474/พุกเคมี-ติดตั้งกันสาด",
+  "intro": "",
+  "category": {
+    "id": "183",
+    "name": "ผลงานของเรา",
+    "url": "/categoryalbum/183/ผลงานของเรา"
+  },
+  "tags": [],
+  "dateCreated": "2026-03-25 08:32:55",
+  "dateUpdated": "2026-03-26 09:23:39",
+  "images": [
+    {
+      "order": 1,
+      "src": "/images/05_Portfolio/cover_4.png",
+      "alt": "พุกเคมี ติดตั้งกันสาด",
+      "title": "พุกเคมี ติดตั้งกันสาด",
+      "description": ""
+    },
+    {
+      "order": 2,
+      "src": "/images/05_Portfolio/2_2.png",
+      "alt": "พุกเคมี ติดตั้งกันสาด",
+      "title": "พุกเคมี ติดตั้งกันสาด",
+      "description": ""
+    },
+    {
+      "order": 3,
+      "src": "/images/05_Portfolio/3_2.png",
+      "alt": "พุกเคมี ติดตั้งกันสาด",
+      "title": "พุกเคมี ติดตั้งกันสาด",
+      "description": ""
+    },
+    {
+      "order": 4,
+      "src": "/images/05_Portfolio/4_2.png",
+      "alt": "พุกเคมี ติดตั้งกันสาด",
+      "title": "พุกเคมี ติดตั้งกันสาด",
+      "description": ""
+    }
+  ]
+}

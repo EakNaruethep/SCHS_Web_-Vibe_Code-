@@ -1,0 +1,87 @@
+{
+  "id": "20845",
+  "order": 19,
+  "urls": [
+    "/product/20845-26976/แท่งสตัดเหล็ก-ชุบดาโก้-ขนาด-m10-24",
+    "/product/20845/แท่งสตัดเหล็ก ชุบดาโก้ ขนาด M10 –24"
+  ],
+  "enabled": true,
+  "type": "single",
+  "name": "แท่งสตัดเหล็ก ชุบดาโก้ ขนาด M10 –24",
+  "slug": "",
+  "sku": "แท่งสตัดเหล็ก ชุบดาโก้ ขนาด M10 –24",
+  "skuId": "26976",
+  "price": null,
+  "salePrice": null,
+  "showPrice": false,
+  "brand": null,
+  "categoryPath": [
+    "1577",
+    "1079"
+  ],
+  "categories": [
+    {
+      "id": "1577",
+      "name": "พุกเคมี",
+      "url": "/category/1577/พุกเคมี"
+    },
+    {
+      "id": "1577-1079",
+      "name": "สตัด",
+      "url": "/category/1577-1079/สตัด"
+    }
+  ],
+  "intro": "แท่งสตัดเหล็ก ชุบดาโก้ ขนาด M10 –24",
+  "introHtml": "<p>แท่งสตัดเหล็ก ชุบดาโก้ ขนาด M10 –24</p>",
+  "options": [],
+  "wholesale": [],
+  "flags": {
+    "isNew": false,
+    "bestseller": false,
+    "preorder": false
+  },
+  "images": [
+    {
+      "src": "/images/03_Products/No_Product.webp",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": true,
+      "youtubeId": null
+    }
+  ],
+  "tabs": [
+    {
+      "name": "รายละเอียดสินค้า",
+      "order": 1,
+      "html": "<p>แท่งสตัดเหล็ก ชุบดาโก้ ขนาด M10 –24</p>"
+    }
+  ],
+  "tags": [],
+  "related": [
+    "38280",
+    "37957",
+    "37941",
+    "37655"
+  ],
+  "relatedMode": "auto",
+  "button": {
+    "type": "2",
+    "action": "1",
+    "url": null
+  },
+  "package": {
+    "weight": 0,
+    "w": 0,
+    "l": 0,
+    "h": 0
+  },
+  "seo": {
+    "title": "",
+    "description": "",
+    "canonical": null
+  },
+  "dateCreated": "2026-04-09 04:33:05",
+  "dateUpdated": "2026-10-13 08:28:38"
+}

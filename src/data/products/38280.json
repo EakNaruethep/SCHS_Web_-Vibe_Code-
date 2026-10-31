@@ -1,0 +1,173 @@
+{
+  "id": "38280",
+  "order": 0,
+  "urls": [
+    "/product/38280/สตัดพุกเคมี-ชุบกัลวาไนซ์-เกรด-5-8-8-8-m8-m30-kingfisher",
+    "/product/38280/แท่งสตัดเหล็ก ชุบกัลวาไนซ์ คิงฟิชเชอร์ (Kingfisher) เกรด 5.8 และ 8.8 ขนาด M8 - 30"
+  ],
+  "enabled": true,
+  "type": "variants",
+  "name": "แท่งสตัดเหล็ก ชุบกัลวาไนซ์ คิงฟิชเชอร์ (Kingfisher) เกรด 5.8 และ 8.8 ขนาด M8 - 30",
+  "slug": "สตัดพุกเคมี-ชุบกัลวาไนซ์-เกรด-5-8-8-8-m8-m30-kingfisher",
+  "sku": null,
+  "skuId": null,
+  "price": null,
+  "salePrice": null,
+  "showPrice": false,
+  "brand": null,
+  "categoryPath": [
+    "1577",
+    "1079"
+  ],
+  "categories": [
+    {
+      "id": "1577",
+      "name": "พุกเคมี",
+      "url": "/category/1577/พุกเคมี"
+    },
+    {
+      "id": "1577-1079",
+      "name": "สตัด",
+      "url": "/category/1577-1079/สตัด"
+    }
+  ],
+  "intro": "สตัดพุกเคมี Kingfisher ชุบกัลวาไนซ์ เกรด 5.8 มีขนาด M8 ถึง M24 และเกรด 8.8 มีขนาด M10 ถึง M30 ขายเป็นชุด 1 ชุดได้แท่งสตัด น็อต และแหวนรอง อย่างละ 1 ชิ้น ไม่รวมหลอดน้ำยาเคมี ปลายสตัดตัดเฉียงสำหรับปั่นผสมน้ำยาในหลอดพุกเคมีแบบปั่น และใช้กับน้ำยาเคมีแบบฉีดได้ เหมาะกับงานยึดโครงสร้างเหล็ก แท่นเครื่องจักร โครงโซลาร์เซลล์ และงานต่อเติม ออกใบกำกับภาษีได้ จัดส่งทั่วประเทศ",
+  "introHtml": "<p>สตัดพุกเคมี Kingfisher ชุบกัลวาไนซ์ เกรด 5.8 มีขนาด M8 ถึง M24 และเกรด 8.8 มีขนาด M10 ถึง M30 ขายเป็นชุด 1 ชุดได้แท่งสตัด น็อต และแหวนรอง อย่างละ 1 ชิ้น ไม่รวมหลอดน้ำยาเคมี ปลายสตัดตัดเฉียงสำหรับปั่นผสมน้ำยาในหลอดพุกเคมีแบบปั่น และใช้กับน้ำยาเคมีแบบฉีดได้ เหมาะกับงานยึดโครงสร้างเหล็ก แท่นเครื่องจักร โครงโซลาร์เซลล์ และงานต่อเติม ออกใบกำกับภาษีได้ จัดส่งทั่วประเทศ</p>",
+  "options": [
+    {
+      "name": "ขนาด",
+      "values": [
+        "M8",
+        "M10",
+        "M12",
+        "M16",
+        "M20",
+        "M24",
+        "M30"
+      ]
+    },
+    {
+      "name": "เกรด",
+      "values": [
+        "5.8",
+        "8.8"
+      ]
+    }
+  ],
+  "wholesale": [],
+  "flags": {
+    "isNew": false,
+    "bestseller": false,
+    "preorder": false
+  },
+  "images": [
+    {
+      "src": "/images/03_Products/galvanized_chemical_anchor_stud_best_seller.webp",
+      "alt": "สตัดเหล็กพุกเคมีชุบกัลวาไนซ์ เกรด 5.8 และ 8.8 พร้อมน็อตและแหวนรอง สินค้าขายดีของ ส.เจริญโฮมสแควร์",
+      "title": "สตัดเหล็กพุกเคมีชุบกัลวาไนซ์ เกรด 5.8 และ 8.8 พร้อมน็อตและแหวนรอง สินค้าขายดีของ ส.เจริญโฮมสแควร์",
+      "width": null,
+      "height": null,
+      "default": true,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/galvanized_chemical_anchor_stud_set.webp",
+      "alt": "ชุดสตัดเหล็กชุบกัลวาไนซ์สำหรับพุกเคมี เกรด 5.8 และ 8.8 ประกอบด้วยแท่งสตัด น็อต และแหวนรอง",
+      "title": "ชุดสตัดเหล็กชุบกัลวาไนซ์สำหรับพุกเคมี เกรด 5.8 และ 8.8 ประกอบด้วยแท่งสตัด น็อต และแหวนรอง",
+      "width": null,
+      "height": null,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/galvanized_stud_size_chart_grade_8_8.webp",
+      "alt": "ตารางขนาดสตัดเหล็กพุกเคมีชุบกัลวาไนซ์ เกรด 8.8 ขนาด M10 M12 M16 M20 M24 M30 ยาว 130 ถึง 380 มม. พร้อมน็อตและแหวนรอง",
+      "title": "ตารางขนาดสตัดเหล็กพุกเคมีชุบกัลวาไนซ์ เกรด 8.8 ขนาด M10 M12 M16 M20 M24 M30 ยาว 130 ถึง 380 มม. พร้อมน็อตและแหวนรอง",
+      "width": null,
+      "height": null,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/galvanized_stud_size_chart_grade_5_8.webp",
+      "alt": "ตารางขนาดสตัดเหล็กพุกเคมีชุบกัลวาไนซ์ เกรด 5.8 ขนาด M8 M10 M12 M16 M20 M24 ยาว 110 ถึง 300 มม. พร้อมน็อตและแหวนรอง",
+      "title": "ตารางขนาดสตัดเหล็กพุกเคมีชุบกัลวาไนซ์ เกรด 5.8 ขนาด M8 M10 M12 M16 M20 M24 ยาว 110 ถึง 300 มม. พร้อมน็อตและแหวนรอง",
+      "width": null,
+      "height": null,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/galvanized_stud_spec_table.webp",
+      "alt": "ตารางคุณสมบัติสตัดพุกเคมี เกรด 5.8 และ 8.8 ขนาด M8 ถึง M30 บอกความกว้างและความยาวสตัด ขนาดรูเจาะและความลึกรูเจาะ",
+      "title": "ตารางคุณสมบัติสตัดพุกเคมี เกรด 5.8 และ 8.8 ขนาด M8 ถึง M30 บอกความกว้างและความยาวสตัด ขนาดรูเจาะและความลึกรูเจาะ",
+      "width": null,
+      "height": null,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/galvanized_stud_features_applications.webp",
+      "alt": null,
+      "title": null,
+      "width": null,
+      "height": null,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/chemical_anchor_ready_stock_store.webp",
+      "alt": "พุกเคมีพร้อมส่ง มีหน้าร้าน ส่งไวทั่วประเทศ",
+      "title": "พุกเคมีพร้อมส่ง มีหน้าร้าน ส่งไวทั่วประเทศ",
+      "width": null,
+      "height": null,
+      "default": false,
+      "youtubeId": null
+    }
+  ],
+  "tabs": [
+    {
+      "name": "รายละเอียดสินค้า",
+      "order": 1,
+      "html": "<!--\r\nวาง HTML นี้ในช่อง \"รายละเอียดสินค้า (TH)\" โดยกดปุ่ม Source Code (<>) ในแถบเครื่องมือก่อน แล้ววางทั้งก้อน\r\nห้ามใส่หัวข้อระดับ h1 เพราะระบบสร้างให้จากชื่อสินค้าอยู่แล้ว\r\n--><div style=\"font-family: Kanit_Regular, Tahoma, sans-serif; color: #3a3f47; font-size: 18px; line-height: 1.8; padding: 22px 24px 10px;\"><p style=\"margin: 0 0 28px 0;\"><span style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; font-weight: bold; color: #0000ff;\">สตัดพุกเคมี Kingfisher ชุบกัลวาไนซ์ เกรด 5.8 และ 8.8</span> คือแท่งเหล็กเกลียวที่ใช้คู่กับหลอดน้ำยาพุกเคมี หรือเคมีคอลโบลท์ (Chemical Bolt) ขายเป็นชุด 1 ชุดได้แท่งสตัด น็อต และแหวนรอง เกรด 5.8 มีขนาด M8 ถึง M24 ส่วนเกรด 8.8 มีขนาด M10 ถึง M30 ความยาวสตัดตั้งแต่ 110 ถึง 380 มม. ออกใบกำกับภาษีเต็มรูปแบบได้ จัดส่งทั่วประเทศ หรือรับเองที่หน้าร้านย่านอ่อนนุช เขตประเวศ กรุงเทพฯ</p><!-- ===== 1 ===== --><div style=\"display: flex; align-items: center; gap: 12px; margin: 0 0 14px 0;\"><span aria-hidden=\"true\" style=\"flex: 0 0 auto; width: 5px; height: 26px; background: #FFCD01; border-radius: 3px;\">&nbsp;</span><h2 style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #14304d; font-size: 22px; margin: 0; font-weight: normal;\">สตัดพุกเคมี Kingfisher หนึ่งชุดได้อะไรบ้าง</h2></div><div class=\"table-responsive\"><table style=\"width: 100%; border-collapse: collapse; font-size: 16px;\"  class=\"mce-item-table\"><tbody><tr><td style=\"background: #14304D; color: #ffffff; padding: 7px 12px; font-family: Kanit_SemiBold, Tahoma, sans-serif; font-size: 15px; border: 1px solid #14304D; width: 38%;\">รายการ</td><td style=\"background: #14304D; color: #ffffff; padding: 7px 12px; font-family: Kanit_SemiBold, Tahoma, sans-serif; font-size: 15px; border: 1px solid #14304D;\">รายละเอียด</td></tr><tr><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">แท่งสตัด</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">เหล็กเกลียวชุบกัลวาไนซ์ เกรด 5.8 หรือ 8.8 ตามที่เลือก ปลายตัดเฉียง 1 แท่ง</td></tr><tr style=\"background: #F6F8FA;\"><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">น็อตหกเหลี่ยม</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">ชุบกัลวาไนซ์ 1 ตัว</td></tr><tr><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">แหวนรอง</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">ชุบกัลวาไนซ์ 1 ตัว</td></tr><tr style=\"background: #F6F8FA;\"><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">ไม่รวมในชุด</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">หลอดน้ำยาพุกเคมี ต้องสั่งแยกในขนาด M เดียวกับสตัด</td></tr></tbody></table></div><p style=\"font-size: 15px; color: #6b7280; font-style: italic; margin: 10px 0 0 0;\">หมายเหตุ: ถ้าต้องการหลอดน้ำยาพร้อมสตัดในชุดเดียว ร้านมีพุกเคมี Kingfisher แบบปั่นขายเป็นชุดครบ (หลอด สตัด น็อต แหวน) ขนาด M10 ถึง M24</p><div style=\"height: 26px; font-size: 1px; line-height: 1px;\">&nbsp;</div><!-- ===== 2 ===== --><div style=\"display: flex; align-items: center; gap: 12px; margin: 0 0 14px 0;\"><span aria-hidden=\"true\" style=\"flex: 0 0 auto; width: 5px; height: 26px; background: #FFCD01; border-radius: 3px;\">&nbsp;</span><h2 style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #14304d; font-size: 22px; margin: 0; font-weight: normal;\">ขนาดสตัดพุกเคมีชุบกัลวาไนซ์ M8 ถึง M30 และเกรดที่มี</h2></div><div class=\"table-responsive\"><table style=\"width: 100%; border-collapse: collapse; font-size: 16px;\"  class=\"mce-item-table\"><tbody><tr><td style=\"background: #14304D; color: #ffffff; padding: 7px 12px; font-family: Kanit_SemiBold, Tahoma, sans-serif; font-size: 15px; border: 1px solid #14304D; width: 18%;\">ขนาด</td><td style=\"background: #14304D; color: #ffffff; padding: 7px 12px; font-family: Kanit_SemiBold, Tahoma, sans-serif; font-size: 15px; border: 1px solid #14304D;\">เส้นผ่านศูนย์กลาง x ความยาว</td><td style=\"background: #14304D; color: #ffffff; padding: 7px 12px; font-family: Kanit_SemiBold, Tahoma, sans-serif; font-size: 15px; border: 1px solid #14304D;\">เกรด 5.8</td><td style=\"background: #14304D; color: #ffffff; padding: 7px 12px; font-family: Kanit_SemiBold, Tahoma, sans-serif; font-size: 15px; border: 1px solid #14304D;\">เกรด 8.8</td></tr><tr><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">M8</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">8 x 110 มม.</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">มี</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">ไม่มี</td></tr><tr style=\"background: #F6F8FA;\"><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">M10</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">10 x 130 มม.</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">มี</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">มี</td></tr><tr><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">M12</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">12 x 160 มม.</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">มี</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">มี</td></tr><tr style=\"background: #F6F8FA;\"><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">M16</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">16 x 190 มม.</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">มี</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">มี</td></tr><tr><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">M20</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">20 x 260 มม.</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">มี</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">มี</td></tr><tr style=\"background: #F6F8FA;\"><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">M24</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">24 x 300 มม.</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">มี</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">มี</td></tr><tr><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">M30</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">30 x 380 มม.</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">ไม่มี</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">มี</td></tr></tbody></table></div><p style=\"font-size: 15px; color: #6b7280; font-style: italic; margin: 10px 0 0 0;\">ขนาดดอกสว่านและความลึกรูเจาะให้ดูตามหลอดน้ำยาที่ใช้คู่ เพราะแต่ละรุ่นกำหนดไม่เท่ากัน อ่านวิธีเลือกขนาดเพิ่มได้ที่บทความ <a href=\"https://www.schomesquare.co.th/blog/5124/%E0%B8%A3%E0%B8%AB%E0%B8%B1%E0%B8%AA-m-%E0%B8%9E%E0%B8%B8%E0%B8%81%E0%B9%80%E0%B8%84%E0%B8%A1%E0%B8%B5%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3-%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%96%E0%B8%B9%E0%B8%81%E0%B8%87%E0%B8%B2%E0%B8%99\" style=\"color: #0000ff; text-decoration: underline;\" data-mce-href=\"https://www.schomesquare.co.th/blog/5124/%E0%B8%A3%E0%B8%AB%E0%B8%B1%E0%B8%AA-m-%E0%B8%9E%E0%B8%B8%E0%B8%81%E0%B9%80%E0%B8%84%E0%B8%A1%E0%B8%B5%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3-%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%96%E0%B8%B9%E0%B8%81%E0%B8%87%E0%B8%B2%E0%B8%99\">รหัส M พุกเคมีคืออะไร เลือกขนาดให้ถูกงาน</a></p><div style=\"height: 26px; font-size: 1px; line-height: 1px;\">&nbsp;</div><!-- ===== 3 ===== --><div style=\"display: flex; align-items: center; gap: 12px; margin: 0 0 14px 0;\"><span aria-hidden=\"true\" style=\"flex: 0 0 auto; width: 5px; height: 26px; background: #FFCD01; border-radius: 3px;\">&nbsp;</span><h2 style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #14304d; font-size: 22px; margin: 0; font-weight: normal;\">สตัดเกรด 5.8 กับ 8.8 ต่างกันอย่างไร ควรเลือกแบบไหน</h2></div><div class=\"table-responsive\"><table style=\"width: 100%; border-collapse: collapse; font-size: 16px;\"  class=\"mce-item-table\"><tbody><tr><td style=\"background: #14304D; color: #ffffff; padding: 7px 12px; font-family: Kanit_SemiBold, Tahoma, sans-serif; font-size: 15px; border: 1px solid #14304D; width: 30%;\">&nbsp;</td><td style=\"background: #14304D; color: #ffffff; padding: 7px 12px; font-family: Kanit_SemiBold, Tahoma, sans-serif; font-size: 15px; border: 1px solid #14304D;\">เกรด 5.8</td><td style=\"background: #14304D; color: #ffffff; padding: 7px 12px; font-family: Kanit_SemiBold, Tahoma, sans-serif; font-size: 15px; border: 1px solid #14304D;\">เกรด 8.8</td></tr><tr><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">ความแข็งแรงของเหล็ก</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">มาตรฐานทั่วไป</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">เหล็กกำลังสูง แข็งแรงกว่าเกรด 5.8</td></tr><tr style=\"background: #F6F8FA;\"><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">ขนาดที่มี</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">M8 ถึง M24</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">M10 ถึง M30</td></tr><tr><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED; font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #3a3f47;\">งานที่ใช้บ่อย</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">งานต่อเติม ราวกันตก กันสาด ป้าย</td><td style=\"padding: 8px 12px; border: 1px solid #E3E7ED;\">โครงสร้างเหล็ก แท่นเครื่องจักร งานที่แบบระบุเกรด 8.8</td></tr></tbody></table></div><p style=\"margin: 14px 0 0 0; font-size: 16px; color: #5a6270;\">ถ้าใบขอซื้อหรือแบบก่อสร้างระบุเกรดไว้ ให้สั่งตามเกรดนั้น ถ้าไม่ได้ระบุ ให้สอบถามวิศวกรผู้ออกแบบก่อน การเปลี่ยนจากเกรด 5.8 เป็น 8.8 ไม่ได้ทำให้พุกรับแรงได้มากขึ้นเสมอไป เพราะแรงยึดยังขึ้นกับน้ำยา ความลึกรูเจาะ และกำลังคอนกรีตด้วย</p><div style=\"height: 26px; font-size: 1px; line-height: 1px;\">&nbsp;</div><!-- ===== 4 ===== --><div style=\"display: flex; align-items: center; gap: 12px; margin: 0 0 14px 0;\"><span aria-hidden=\"true\" style=\"flex: 0 0 auto; width: 5px; height: 26px; background: #FFCD01; border-radius: 3px;\">&nbsp;</span><h2 style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #14304d; font-size: 22px; margin: 0; font-weight: normal;\">สตัดพุกเคมีชุบกัลวาไนซ์ใช้กับงานอะไรได้บ้าง</h2></div><p style=\"margin: 0 0 0 0; font-size: 16px; color: #5a6270;\">สตัดพุกเคมี Kingfisher ชุบกัลวาไนซ์ใช้ยึดโครงสร้างเหล็กกับพื้นหรือผนังคอนกรีต เช่น ฐานเสาเหล็ก โครงโซลาร์เซลล์ แท่นเครื่องจักร โครงหลังคาและกันสาด ระเบียง ป้าย และที่กันล้อชน ผิวชุบกัลวาไนซ์ช่วยกันสนิม ใช้ได้ทั้งงานในอาคารและนอกอาคาร ปลายสตัดตัดเฉียงสำหรับปั่นผสมน้ำยาในหลอดพุกเคมีแบบปั่น ดูความต่างของพุกเคมีแบบปั่นกับแบบตอกได้ที่บทความ <a href=\"https://www.schomesquare.co.th/blog/5043/%E0%B8%9E%E0%B8%B8%E0%B8%81%E0%B9%80%E0%B8%84%E0%B8%A1%E0%B8%B5%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%9B%E0%B8%B1%E0%B9%88%E0%B8%99-vs-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%95%E0%B8%AD%E0%B8%81-spin-in-hammer-in\" style=\"color: #0000ff; text-decoration: underline;\" data-mce-href=\"https://www.schomesquare.co.th/blog/5043/%E0%B8%9E%E0%B8%B8%E0%B8%81%E0%B9%80%E0%B8%84%E0%B8%A1%E0%B8%B5%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%9B%E0%B8%B1%E0%B9%88%E0%B8%99-vs-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%95%E0%B8%AD%E0%B8%81-spin-in-hammer-in\">พุกเคมีแบบปั่น vs แบบตอก</a></p><div style=\"height: 26px; font-size: 1px; line-height: 1px;\">&nbsp;</div><!-- ===== FAQ ===== --><div style=\"display: flex; align-items: center; gap: 12px; margin: 0 0 14px 0;\"><span aria-hidden=\"true\" style=\"flex: 0 0 auto; width: 5px; height: 26px; background: #FFCD01; border-radius: 3px;\">&nbsp;</span><h2 style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #14304d; font-size: 22px; margin: 0; font-weight: normal;\">คำถามที่พบบ่อย</h2></div><h3 style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #14304d; font-size: 17px; margin: 0 0 4px 0; font-weight: bold;\">สตัดพุกเคมี Kingfisher ใช้กับหลอดน้ำยายี่ห้ออื่นได้ไหม</h3><p style=\"margin: 0 0 14px 0; font-size: 16px; color: #5a6270;\">ได้ ถ้าขนาด M ตรงกับหลอด และความยาวสตัดพอสำหรับความลึกรูเจาะของหลอดรุ่นนั้น บวกความหนาชิ้นงาน แหวน และน็อต</p><h3 style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #14304d; font-size: 17px; margin: 0 0 4px 0; font-weight: bold;\">ซื้อสตัดพุกเคมีชุดนี้แล้ว ต้องซื้ออะไรเพิ่มบ้าง</h3><p style=\"margin: 0 0 14px 0; font-size: 16px; color: #5a6270;\">ต้องมีหลอดน้ำยาพุกเคมีขนาด M เดียวกัน ดอกสว่านโรตารี่ตามขนาดรูเจาะของหลอด และเซ็ตติ้งทูลสำหรับปั่นสตัด ร้านมีจำหน่ายทั้งหมด</p><h3 style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #14304d; font-size: 17px; margin: 0 0 4px 0; font-weight: bold;\">สั่งสตัดพุกเคมีความยาวพิเศษได้ไหม</h3><p style=\"margin: 0 0 14px 0; font-size: 16px; color: #5a6270;\">ได้ ร้านรับสั่งทำความยาวพิเศษสำหรับชิ้นงานที่หนากว่าปกติ แจ้งขนาด M เกรด และความยาวที่ต้องการทาง LINE @schs.thailand หรือโทร 02-328-7309</p><h3 style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; color: #14304d; font-size: 17px; margin: 0 0 4px 0; font-weight: bold;\">ซื้อสตัดพุกเคมีออกใบกำกับภาษีได้ไหม</h3><p style=\"margin: 0 0 24px 0; font-size: 16px; color: #5a6270;\">ได้ ร้านออกใบกำกับภาษีเต็มรูปแบบ แจ้งชื่อบริษัท ที่อยู่ และเลขประจำตัวผู้เสียภาษีตอนสั่งซื้อ</p><!-- ===== หมายเหตุ ===== --><div style=\"border-left: 4px solid #FFCD01; background: #FFF9E1; padding: 14px 18px; border-radius: 0 8px 8px 0; margin: 0 0 8px 0; font-size: 16px; color: #5a6270;\"><p style=\"margin: 0;\"><span style=\"font-family: Kanit_SemiBold, Tahoma, sans-serif; font-weight: bold; color: #3a3f47;\">หมายเหตุ:</span> การเลือกขนาดและเกรดสตัดสำหรับงานรับน้ำหนักจริง ต้องให้วิศวกรผู้ออกแบบกำหนด เพราะแรงยึดขึ้นกับน้ำยาที่ใช้ ความลึกรูเจาะ ระยะห่างจากขอบ และกำลังคอนกรีตหน้างาน</p></div></div>"
+    }
+  ],
+  "tags": [
+    "สตัดพุกเคมี",
+    "สตัดเคมี",
+    "สตัดกัลวาไนซ์",
+    "สตัดเกรด 8.8",
+    "สตัดเกรด 5.8",
+    "แท่งสตัด",
+    "Kingfisher",
+    "คิงฟิชเชอร์",
+    "พุกเคมี",
+    "เคมีคอลโบลท์",
+    "chemical bolt"
+  ],
+  "related": [
+    "37957",
+    "37941",
+    "37655",
+    "37942"
+  ],
+  "relatedMode": "auto",
+  "button": {
+    "type": "2",
+    "action": "1",
+    "url": null
+  },
+  "package": {
+    "weight": 0,
+    "w": 0,
+    "l": 0,
+    "h": 0
+  },
+  "seo": {
+    "title": "สตัดพุกเคมี ชุบกัลวาไนซ์ เกรด 5.8 / 8.8 M8-M30 Kingfisher ราคาต่อชุด - ส.เจริญโฮมสแควร์",
+    "description": "สตัดพุกเคมี Kingfisher ชุบกัลวาไนซ์ เกรด 5.8 และ 8.8 ขนาด M8 ถึง M30 ยาว 110 ถึง 380 มม. ได้สตัด น็อต แหวนรองครบชุด ออกใบกำกับภาษีได้ ส่งทั่วไทย",
+    "canonical": null
+  },
+  "dateCreated": "2026-10-27 14:54:13",
+  "dateUpdated": "2026-10-27 14:54:13"
+}

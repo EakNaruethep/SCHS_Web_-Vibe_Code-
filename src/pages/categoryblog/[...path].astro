@@ -1,0 +1,30 @@
+---
+// /categoryblog (all posts) and /categoryblog/1066[/บทความ] (one category, inside its banner frame).
+import Base from '../../layouts/Base.astro';
+import BlogList from '../../components/BlogList.astro';
+import { blogs, partials } from '../../lib/site.js';
+export function getStaticPaths() {
+  const cats = new Map();
+  blogs.forEach((b) => (b.categories || []).forEach((c) => cats.set(String(c.id), c)));
+  return [
+    { params: { path: undefined }, props: { items: blogs, framed: false } },
+    ...[...cats.values()].flatMap((c) => {
+      const items = blogs.filter((b) => (b.categories || []).some((x) => String(x.id) === String(c.id)));
+      return [`${c.id}`, `${c.id}/${c.name}`].map((p) => ({ params: { path: p }, props: { items, framed: true } }));
+    }),
+  ];
+}
+const { items, framed } = Astro.props;
+const [before, after] = partials['../partials/frame-bloglist.html'].split('@@SYSTEM@@');
+---
+<Base>
+  <div class="embed-body">
+    {framed ? (
+      <Fragment>
+        <Fragment set:html={before} /><BlogList items={items} id="comp-section_page_content" /><Fragment set:html={after} />
+      </Fragment>
+    ) : (
+      <div class="flex-grow-1" id="section-contents"><div><div style="position:relative;"><BlogList items={items} /></div></div></div>
+    )}
+  </div>
+</Base>

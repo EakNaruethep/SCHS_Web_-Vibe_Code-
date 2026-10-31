@@ -1,0 +1,19 @@
+{
+  "name": "schs-web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "astro": "^5.14.1"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.6.2",
+    "cheerio": "^1.0.0",
+    "postcss": "^8.4.47"
+  }
+}

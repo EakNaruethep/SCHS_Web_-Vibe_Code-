@@ -1,0 +1,12 @@
+/* Order matters: same order as the live Makewebeasy page (theme files, then the per-site styles captured from it), then our fixes. */
+@import './makeweb/sarabun.css';
+@import './makeweb/bootstrap-custom.css';
+@import './makeweb/vue-slick-carousel.css';
+@import './makeweb/customer-main.css';
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+@import './fonts.css';
+@import './makeweb-components.css';
+@import './makeweb/runtime.css';
+@import './search.css';
+@import './site.css';
+@import './phone.css';

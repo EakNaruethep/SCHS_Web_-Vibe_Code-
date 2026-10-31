@@ -1,0 +1,213 @@
+---
+// Product detail page. Every old URL of a product (/product/{id}-{sku}/{slug}, /product/{id}/{slug}…) gets a page.
+import Base from '../../layouts/Base.astro';
+import { products, productById, productUrl, productImages, priceInfo, baht, enc, head, stripComments, categoryById } from '../../lib/site.js';
+import { relatedCard } from '../../lib/cards.js';
+import styles from '../../data/site/styles.json';
+
+export function getStaticPaths() {
+  const seen = new Set();
+  return products.flatMap((p) => [productUrl(p), ...(p.urls || [])])
+    .map((u) => u.replace(/^\/product\//, ''))
+    .filter((u) => !seen.has(u) && seen.add(u))
+    .map((path) => { const [, id, skuId] = path.match(/^(\d+)(?:-(\d+))?/); return { params: { path }, props: { id, skuId } }; });
+}
+
+const p = productById(Astro.props.id);
+// Products with options: a /product/{id}-{skuId}/… URL shows that option (its SKU code and pictures), like Makewebeasy.
+const variant = (p.variants || []).find((v) => v.skuId === Astro.props.skuId);
+const variantUrl = (v) => (p.urls || []).find((u) => u.includes(`/${p.id}-${v.skuId}/`));
+const optionLink = (value) => { const v = (p.variants || []).find((x) => x.values.includes(value)); return v && variantUrl(v); };
+const imgs = variant?.images?.length ? variant.images : productImages(p);
+const pr = priceInfo(p);
+const related = (p.related || []).map(productById).filter(Boolean).slice(0, 4);
+const lineUrl = 'https://line.me/ti/p/~@schs.thailand';
+const canonical = head.siteUrl + enc(productUrl(p));
+const shareUrl = `https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(canonical)}`;
+// หน้าแรก > สินค้าทั้งหมด > deepest category's trail > product, as Makewebeasy showed it
+const cat = categoryById((p.categoryPath || []).join('-'));
+const crumbs = [{ text: 'หน้าแรก', url: '/' }, ...(cat?.breadcrumb || [{ text: 'สินค้าทั้งหมด', url: '/category' }])];
+// Long trails collapse to หน้าแรก > ... > last category (the "..." links one level up), as on the live site.
+// On phones it collapses as soon as there are more than 3 crumbs.
+const collapse = (list, max) => (list.length > max ? [list[0], { ...list[list.length - 2], text: '...' }, list[list.length - 1]] : list);
+const phoneCrumbs = collapse(crumbs, 3);
+crumbs.splice(0, crumbs.length, ...collapse(crumbs, 4));
+const lineButton = '<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 10.2199C24 4.58443 18.6169 -0.000488281 12 -0.000488281C5.38307 -0.000488281 0 4.5797 0 10.2199C0 15.2723 4.27406 19.5031 10.0362 20.3034C10.4265 20.392 10.9585 20.5738 11.0934 20.9244C11.2138 21.2419 11.1722 21.7412 11.1317 22.0635C11.1317 22.0635 10.9911 22.9512 10.9607 23.1413C10.9079 23.4588 10.7189 24.3867 12 23.82C13.2811 23.2534 18.9105 19.5491 21.4277 16.5083C23.1666 14.5062 24 12.4758 24 10.2199ZM7.76642 13.2337C7.76642 13.2963 7.74273 13.3563 7.70054 13.4006C7.65836 13.4449 7.60113 13.4698 7.54147 13.4698H4.16721C4.10754 13.4698 4.05033 13.4449 4.00814 13.4006C3.96596 13.3563 3.94225 13.2963 3.94225 13.2337V7.73743C3.94225 7.67482 3.96596 7.61477 4.00814 7.5705C4.05033 7.52622 4.10754 7.50134 4.16721 7.50134H5.01753C5.07719 7.50134 5.1344 7.52622 5.17659 7.5705C5.21877 7.61477 5.24248 7.67482 5.24248 7.73743V12.1051H7.5336C7.59326 12.1051 7.65047 12.13 7.69266 12.1743C7.73485 12.2186 7.75855 12.2786 7.75855 12.3412L7.76642 13.2337ZM9.79097 13.2337C9.79097 13.2963 9.76729 13.3563 9.7251 13.4006C9.68291 13.4449 9.62568 13.4698 9.56602 13.4698H8.71572C8.65606 13.4698 8.59884 13.4449 8.55666 13.4006C8.51447 13.3563 8.49077 13.2963 8.49077 13.2337V7.73743C8.49077 7.67482 8.51447 7.61477 8.55666 7.5705C8.59884 7.52622 8.65606 7.50134 8.71572 7.50134H9.56602C9.62568 7.50134 9.68291 7.52622 9.7251 7.5705C9.76729 7.61477 9.79097 7.67482 9.79097 7.73743V13.2337ZM15.5846 13.2337C15.5846 13.2963 15.5609 13.3563 15.5187 13.4006C15.4765 13.4449 15.4193 13.4698 15.3596 13.4698H14.5138C14.4936 13.4697 14.4735 13.4665 14.4542 13.4603H14.4385H14.4306L14.4193 13.4544H14.4081H14.4013L14.38 13.4332C14.3568 13.4175 14.3369 13.397 14.3215 13.373L11.9224 9.97205V13.236C11.9224 13.2986 11.8987 13.3587 11.8565 13.403C11.8143 13.4472 11.7571 13.4721 11.6974 13.4721H10.846C10.7863 13.4721 10.7291 13.4472 10.6869 13.403C10.6447 13.3587 10.621 13.2986 10.621 13.236V7.73743C10.621 7.67482 10.6447 7.61477 10.6869 7.5705C10.7291 7.52622 10.7863 7.50134 10.846 7.50134H11.7256H11.7346H11.7492H11.7571H11.7706H11.7784L11.7919 7.50843H11.7987L11.811 7.51551H11.8189L11.8302 7.52377H11.8369L11.8493 7.53557L11.8628 7.55092L11.8819 7.57571L14.2776 10.9719V7.73743C14.2776 7.67482 14.3013 7.61477 14.3435 7.5705C14.3857 7.52622 14.4429 7.50134 14.5026 7.50134H15.3529C15.4126 7.50134 15.4698 7.52622 15.512 7.5705C15.5541 7.61477 15.5778 7.67482 15.5778 7.73743L15.5846 13.2337ZM20.2321 8.62986C20.2321 8.69248 20.2084 8.75253 20.1662 8.79681C20.124 8.84109 20.0668 8.86596 20.0071 8.86596H17.716V9.7938H20.0037C20.0634 9.7938 20.1206 9.81867 20.1628 9.86295C20.205 9.90723 20.2287 9.96727 20.2287 10.0299V10.9235C20.2287 10.9861 20.205 11.0462 20.1628 11.0904C20.1206 11.1347 20.0634 11.1596 20.0037 11.1596H17.7126V12.0874H20.0037C20.0634 12.0874 20.1206 12.1123 20.1628 12.1566C20.205 12.2009 20.2287 12.2609 20.2287 12.3235V13.2171C20.2287 13.2798 20.205 13.3398 20.1628 13.3841C20.1206 13.4284 20.0634 13.4532 20.0037 13.4532H16.6295C16.5698 13.4532 16.5126 13.4284 16.4704 13.3841C16.4282 13.3398 16.4045 13.2798 16.4045 13.2171V7.74215C16.4045 7.67954 16.4282 7.61949 16.4704 7.57522C16.5126 7.53094 16.5698 7.50606 16.6295 7.50606H20.0037C20.0634 7.50606 20.1206 7.53094 20.1628 7.57522C20.205 7.61949 20.2287 7.67954 20.2287 7.74215L20.2321 8.62986Z" fill="white"></path></svg>';
+const lineIcon = '<svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#06C755"/><path fill="#fff" d="M19 11.2c0-3.2-3.1-5.7-7-5.7s-7 2.6-7 5.7c0 2.8 2.5 5.2 5.9 5.6.2 0 .5.2.6.4.1.2 0 .5 0 .7l-.1.6c0 .2-.2.7.6.4s4.2-2.5 5.7-4.2c1-1.1 1.3-2.2 1.3-3.5z"/></svg>';
+const jsonld = [{
+  '@context': 'https://schema.org', '@type': 'Product', name: p.name, sku: p.sku || undefined,
+  image: imgs.map((i) => head.siteUrl + enc(i.src)), description: p.intro,
+  brand: p.brand ? { '@type': 'Brand', name: p.brand.name } : undefined,
+  ...(pr ? { offers: { '@type': 'Offer', priceCurrency: 'THB', price: pr.sale || pr.price, availability: 'https://schema.org/InStock', url: canonical } } : {}),
+}];
+const priceBlock = pr
+  ? (pr.sale
+      ? `<div class="d-flex align-items-center flex-wrap gap-gd-1"><span class="product-price disabled"><span>${baht(pr.price)}</span></span><div class="product-price mb-0"><span><span>${baht(pr.sale)}</span></span></div></div>`
+      : `<div class="d-flex align-items-center flex-wrap gap-gd-1"><div class="product-price mb-0"><span><span>${baht(pr.price)}</span></span></div></div>`)
+  : '';
+// Makewebeasy button setting: "ติดต่อเรา" goes to /contact, plus the round LINE button
+// Phones get the same buttons in a bar fixed to the bottom of the screen (LINE first)
+const phoneButtons = `<div id="bottom-sticky-wrapper" class="bottom-sticky-wrapper schs-phone-only"><div class="button-sticky-wrapper"><div class="container py-gd-2"><div class="row align-items-center justify-content-end gap-gd-1"><div class="col-12"><div><div class="d-flex justify-content-center gap-gd-1 flex-row-reverse"><div class="d-flex align-items-center flex-grow-1 gap-gd-1" style="max-width:100%;"><a class="btn custom-button primary-button" href="/contact" target="_self">ติดต่อเรา</a></div> <div class="d-flex gap-gd-1"><a class="btn-line-ms" href="${lineUrl}" target="_blank" rel="noopener" aria-label="LINE @schs.thailand">${lineButton}</a></div></div></div></div></div></div></div></div>`;
+const buttons = `<div><div class="d-flex justify-content-center gap-gd-1"><div class="d-flex align-items-center flex-grow-1 gap-gd-1" style="max-width:350px;"><a class="btn custom-button primary-button" href="/contact" target="_self">ติดต่อเรา</a></div><div class="d-flex gap-gd-1"><a class="btn-line-ms" href="${lineUrl}" target="_blank" rel="noopener" aria-label="LINE @schs.thailand">${lineButton}</a></div></div></div>`;
+---
+<Base title={p.seo?.title || p.name} description={p.seo?.description || p.intro} ogImage={imgs[0].src} canonical={canonical} jsonld={jsonld}>
+<div class="embed-body"><div class="flex-grow-1" id="section-contents-item"><div><div style="position:relative;">
+<div class="comp-section-page-product-item" id="SECTION_PAGE" style={styles['product.section']}>
+  <div class="py-40">
+    <div class="container">
+      {[[crumbs, 'schs-desktop-only mb-gd-4'], [phoneCrumbs, 'schs-phone-only mb-gd-1']].map(([list, cls]) => (
+        <div class={`breadcrumb-wrapper px-gd-2 ${cls}`}><div class="MWE-breadcrumb" style={styles['listing.breadcrumb']}>
+          <ol class="breadcrumb">
+            {list.map((b) => <li class="breadcrumb-item"><a href={enc(b.url)} target="_self">{b.text}</a></li>)}
+            <li class="breadcrumb-item active"><span aria-current="location">{p.name}</span></li>
+          </ol>
+        </div></div>
+      ))}
+      <div class="row mx-0">
+        <div class="col-6 pl-0">
+          <div class="image-preview-wrapper">
+            <div class="comp-item-image-preview" style={styles['product.preview']} data-product-gallery>
+              <div class="wrapper-image-slick-mobile schs-phone-only" data-phone-gallery>
+                <div dir="ltr" class="slick-track-custom slick-slider slick-initialized"><div class="slick-list"><div class="slick-track">
+                  {imgs.map((im, i) => (
+                    <div class={`slick-slide${i === 0 ? ' slick-active slick-current' : ''}`} style="outline: none;"><div><div class="slide-wrapper image" style="width:100%;display:inline-block;">
+                      <img src={enc(im.src)} alt={im.alt || p.name} title={im.title || p.name} class="nolazy imgm-resizeMax" loading={i === 0 ? 'eager' : 'lazy'} />
+                    </div></div></div>
+                  ))}
+                </div></div></div>
+                {imgs.length > 1 && <div class="image-paging">1/{imgs.length}</div>}
+                <div class="pdi-badge-right">{pr?.discount ? <div class="pdi-badge-discount">-{pr.discount}%</div> : null}</div>
+              </div>
+              <div class="image-preview schs-desktop-only" id="pd-item-image-preview">
+                <div class="vh--outer vh--rel" title={p.name} data-zoom><div class="vh--holder vh--rel vh--flex vh--jc">
+                  <img class="pd-item-img" data-main-image src={enc(imgs[0].src)} alt={imgs[0].alt || p.name} title={imgs[0].title || p.name} />
+                  <div class="vh--message vh--abs vh--flex vh--jc vh--ai vh--message-bottom"><span class="vh--icon">⚲</span> Hover to zoom</div>
+                </div></div>
+                <div class="pdi-badge-right">{pr?.discount ? <div class="pdi-badge-discount" id="discount">-{pr.discount}%</div> : null}</div>
+              </div>
+              {imgs.length > 1 && (
+                <div class="wrapper-more-image-slick-carousel schs-desktop-only">
+                  <div class="slick-track-custom slick-slider slick-initialized"><div class="slick-list"><div class="slick-track">
+                    {imgs.map((im, i) => (
+                      <div class={`slick-slide${i === 0 ? ' slick-active slick-current' : ''}`} style="outline:none;">
+                        <div><div class={`slide-wrapper image${i === 0 ? ' selected-to-watch' : ''}`} data-thumb={enc(im.src)} data-alt={im.alt || p.name} style="width:100%;display:inline-block;" tabindex="0">
+                          <img src={enc(im.src)} alt={im.alt || p.name} title={im.title || p.name} loading="lazy" />
+                        </div></div>
+                      </div>
+                    ))}
+                  </div></div></div>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+        <div class="col-6 pr-0">
+          <div class="product-detail-container sticky" style="max-width:570px;">
+            <div class="d-flex flex-column px-15 gap-gd-3">
+              <div class="product-detail-name">
+                <div class="d-flex flex-column gap-gd-1">
+                  <h1 class="product-name mb-0">{p.name}</h1>
+                  <div class="d-flex justify-content-between">
+                    <div class="basic-info d-flex align-items-center flex-wrap gap-gd-1">
+                      {(variant?.sku || p.sku) && <div class="basic-info-item"><p class="product-sku mb-0">SKU : {variant?.sku || p.sku}</p></div>}
+                      {variant && <div class="basic-info-item"><p class="product-option mb-0">{variant.values.join(', ')}</p></div>}
+                    </div>
+                    <div class="icon-event-wrapper d-flex gap-gd-1 schs-desktop-only"><div class="social-share social-share--dropdown"><div class="dropdown b-dropdown social-share-dropdown position-static btn-group" data-share-dropdown>
+                      <button aria-haspopup="true" aria-expanded="false" type="button" class="btn dropdown-toggle btn-link dropdown-toggle-no-caret"><div class="social-share-trigger social-share-trigger--button"><i aria-hidden="true" class="far fa-share-alt social-share-icon"></i> <span class="sr-only">แชร์</span></div></button>
+                      <ul role="menu" tabindex="-1" class="dropdown-menu"><div class="social-share-content social-share-content--dropdown"><div class="social-share-icons-root"><span class="social-share-label">แชร์</span>
+                        <div class="social-share-icons"><a aria-label="Share on LINE" class="social-share-btn" href={shareUrl} target="_blank" rel="noopener" set:html={lineIcon} /></div>
+                      </div></div></ul>
+                    </div></div></div>
+                  </div>
+                </div>
+              </div>
+              {pr && <div class="product-detail-price" set:html={priceBlock} />}
+              {p.options?.length > 0 && (
+                <div class="product-detail-variation"><div class="select-product-attribute-comp">
+                  {p.options.map((o) => (
+                    <div class="select-product-attribute-item"><div>
+                      <div class="title-select attribute-title-text mb-gd-2">{o.name}</div>
+                      <div class="d-flex flex-wrap attribute-title-text" style="gap: 8px;">
+                        {o.values.map((v) => {
+                          const on = variant?.values.includes(v);
+                          const href = optionLink(v);
+                          return href
+                            ? <a class={`text-select-button-2${on ? ' active' : ''}`} href={enc(href)}><span class={on ? 'active' : ''}>{v}</span>{on && <i class="fas fa-check"></i>}</a>
+                            : <div class="text-select-button-2" data-option><span>{v}</span></div>;
+                        })}
+                      </div>
+                    </div></div>
+                  ))}
+                </div></div>
+              )}
+              <div class="product-detail-buttongroup schs-desktop-only" set:html={buttons} />
+              <div class="divider schs-desktop-only"></div>
+              {p.introHtml && (
+                <div class="product-detail-short-description divider">
+                  <div class="title-collapse">
+                    <a aria-controls="short-description-collapse" class="title-collapse-link" href="#" data-collapse-target="short-description-collapse">
+                      <div class="d-flex align-items-center justify-content-between pb-gd-2"><p class="mb-0">คำอธิบายสินค้าแบบย่อ</p><i class="far fa-chevron-down rotate-animate rotate-180"></i></div>
+                    </a>
+                    <div class="collapse show" id="short-description-collapse"><div class="product-short-description description-text mb-gd-2" set:html={stripComments(p.introHtml)} /></div>
+                  </div>
+                </div>
+              )}
+              <div class="product-detail-brand-category pb-gd-2 divider">
+                <div class="d-flex flex-wrap gap-gd-3">
+                  {p.brand && <div><span class="attribute-title-text">แบรนด์:</span><a class="product-detail-brand-link ml-gd-1" href={enc(`/productbrand/${p.brand.id}/${p.brand.name}`)}>{p.brand.name}</a></div>}
+                  {p.categories?.length > 0 && (
+                    <div class="d-flex align-items-baseline flex-wrap gap-gd-1"><span class="attribute-title-text">หมวดหมู่:</span>
+                      {p.categories.map((c, i) => <a class="product-detail-category-link" href={enc(c.url)}>{c.name}{i < p.categories.length - 1 && <span>,</span>}</a>)}
+                    </div>
+                  )}
+                </div>
+              </div>
+              <div class="product-detail-wishlist-compare-share">
+                <div class="product-detail-share item schs-phone-only"><div class="social-share social-share--dropdown"><div class="dropdown b-dropdown social-share-dropdown position-static btn-group" data-share-dropdown>
+                    <button aria-haspopup="true" aria-expanded="false" type="button" class="btn dropdown-toggle btn-link dropdown-toggle-no-caret"><div class="social-share-trigger social-share-trigger--button"><i aria-hidden="true" class="far fa-share-alt social-share-icon"></i> <span class="sr-only">แชร์</span></div></button>
+                    <ul role="menu" tabindex="-1" class="dropdown-menu"><div class="social-share-content social-share-content--dropdown"><div class="social-share-icons-root"><span class="social-share-label">แชร์</span>
+                      <div class="social-share-icons"><a aria-label="Share on LINE" class="social-share-btn" href={shareUrl} target="_blank" rel="noopener" set:html={lineIcon} /></div>
+                    </div></div></ul>
+                  </div></div></div>
+                <div class="product-detail-share item schs-desktop-only"><div class="social-share social-share--inline"><div class="social-share-inline d-flex gap-gd-1">
+                  <span aria-hidden="true" class="social-share-trigger"><i class="far fa-share-alt social-share-icon"></i></span>
+                  <div class="social-share-content social-share-content--inline"><div class="social-share-icons-root"><span class="social-share-label">แชร์</span>
+                    <div class="social-share-icons"><a aria-label="Share on LINE" class="social-share-btn" href={shareUrl} target="_blank" rel="noopener" set:html={lineIcon} /></div>
+                  </div></div>
+                </div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-40"><div class="container"><div class="d-flex flex-column gap-gd-4">
+      {p.tabs?.length > 0 && (
+        <div class="product-detail-description">
+          <div class="comp-product-description-tab" style={styles['product.tabs']} data-tabs>
+            <div class="tab-name-overflow"><div class={`tab-name-wrapper${p.tabs.length === 1 ? ' one-tab' : ''}`}>
+              {p.tabs.map((t, i) => <div class={`tab-name-item${i === 0 ? ' active' : ''}`} data-tab={i}><div class={`tab-name${i === 0 ? ' active' : ''}`}>{t.name}</div></div>)}
+              <div class="other-tab"></div>
+            </div></div>
+            {p.tabs.map((t, i) => <div class="style-tinymce py-30" data-tab-panel={i} hidden={i !== 0} set:html={stripComments(t.html)} />)}
+          </div>
+          <div class="divider my-10"></div>
+        </div>
+      )}
+      {p.tags?.length > 0 && (
+        <div class="product-detail-tags"><div class="d-flex flex-wrap gap-gd-1">
+          {p.tags.map((t) => <a class="tag-item" href={enc(`/tag/${t}`)}>{t}</a>)}
+        </div></div>
+      )}
+      {related.length > 0 && (
+        <div class="product-detail-product-related">
+          <h2 class="product-relate-title">สินค้าที่เกี่ยวข้อง</h2>
+          <div class="product-detail-product-related-wrapper" set:html={related.map(relatedCard).join('')} />
+        </div>
+      )}
+    </div></div></div>
+  </div>
+  <Fragment set:html={phoneButtons} />
+</div>
+</div></div></div></div>
+</Base>

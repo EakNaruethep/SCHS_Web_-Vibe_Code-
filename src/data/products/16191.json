@@ -1,0 +1,464 @@
+{
+  "id": "16191",
+  "order": 27,
+  "urls": [
+    "/product/16191-21629/พุกเคมี-ยี่ห้อ-สตาห์ล-stahl-แบบปั่น-เป็นชุด-ขนาด-m8-24",
+    "/product/16191-21630/พุกเคมี-ยี่ห้อ-สตาห์ล-stahl-แบบปั่น-เป็นชุด-ขนาด-m8-24",
+    "/product/16191-21631/พุกเคมี-ยี่ห้อ-สตาห์ล-stahl-แบบปั่น-เป็นชุด-ขนาด-m8-24",
+    "/product/16191-21632/พุกเคมี-ยี่ห้อ-สตาห์ล-stahl-แบบปั่น-เป็นชุด-ขนาด-m8-24",
+    "/product/16191-21633/พุกเคมี-ยี่ห้อ-สตาห์ล-stahl-แบบปั่น-เป็นชุด-ขนาด-m8-24",
+    "/product/16191-21634/พุกเคมี-ยี่ห้อ-สตาห์ล-stahl-แบบปั่น-เป็นชุด-ขนาด-m8-24",
+    "/product/16191/พุกเคมี ยี่ห้อ สตาห์ล (Stahl) แบบปั่น (เป็นชุด) ขนาด M8 – 24",
+    "/product/16191/พุกเคมี-ยี่ห้อ-สตาห์ล-stahl-แบบปั่น-เป็นชุด-ขนาด-m8-24"
+  ],
+  "enabled": true,
+  "type": "variants",
+  "name": "พุกเคมี ยี่ห้อ สตาห์ล (Stahl) แบบปั่น (เป็นชุด) ขนาด M8 – 24",
+  "slug": "",
+  "sku": null,
+  "skuId": null,
+  "price": null,
+  "salePrice": null,
+  "showPrice": false,
+  "brand": {
+    "id": "203",
+    "name": "สตาลห์ (Stahl)"
+  },
+  "categoryPath": [
+    "1577",
+    "395",
+    "385"
+  ],
+  "categories": [
+    {
+      "id": "1577",
+      "name": "พุกเคมี",
+      "url": "/category/1577/พุกเคมี"
+    },
+    {
+      "id": "1577-395",
+      "name": "พุกเคมีครบชุด (น้ำยาเคมี สตัด แหวนรอง น็อต)",
+      "url": "/category/1577-395/พุกเคมีครบชุด-น้ำยาเคมี-สตัด-แหวนรอง-น็อต"
+    },
+    {
+      "id": "1577-395-385",
+      "name": "พุกเคมี แบบปั่น",
+      "url": "/category/1577-395-385/พุกเคมี-แบบปั่น"
+    }
+  ],
+  "intro": "ชุดพุกเคมี ครบชุด (น้ำยาเคมี+สตัด+แหวนรอง+น็อต) จากเยอรมัน",
+  "introHtml": "<p>ชุดพุกเคมี ครบชุด (น้ำยาเคมี+สตัด+แหวนรอง+น็อต) จากเยอรมัน</p>",
+  "options": [
+    {
+      "name": "ขนาด",
+      "values": [
+        "M8",
+        "M10",
+        "M12",
+        "M16",
+        "M20",
+        "M24"
+      ]
+    }
+  ],
+  "wholesale": [],
+  "flags": {
+    "isNew": false,
+    "bestseller": false,
+    "preorder": false
+  },
+  "images": [
+    {
+      "src": "/images/03_Products/1_10.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": true,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/1_2_1.png",
+      "alt": "Stahl พุกเคมี M10 แบบปั่นพร้อมสตัด ",
+      "title": "Stahl พุกเคมี M10 แบบปั่นพร้อมสตัด ",
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/1_11.png",
+      "alt": "Stahl พุกเคมี M12 แบบปั่นพร้อมสตัด ",
+      "title": "Stahl พุกเคมี M12 แบบปั่นพร้อมสตัด ",
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/1_12.png",
+      "alt": "Stahl พุกเคมี M16 แบบปั่นพร้อมสตัด ",
+      "title": "Stahl พุกเคมี M16 แบบปั่นพร้อมสตัด ",
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/3_21.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/3_2_2.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/3_22.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/3_23.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/1_13.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/1_14.png",
+      "alt": "Stahl สเปคพุกเคมี M24 แบบปั่น",
+      "title": "Stahl สเปคพุกเคมี M24 แบบปั่น",
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/2_18.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/4_17.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/5_17.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/6_4.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/7_2.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/8_3.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/9_4.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    }
+  ],
+  "tabs": [
+    {
+      "name": "รายละเอียดสินค้า",
+      "order": 1,
+      "html": "<p><span style=\"font-family: Kanit_SemiBold, Tahoma; line-height: 1.4;\">คุณสมบัติ </span></p><p><span style=\"font-size: 18px; line-height: 1.4;\">รับแรงดึง รับน้ำหนักได้สูง ทนทานระยะยาว เหมาะกับงานคอนกรีตหรือหิน ใช้ได้ทั้งพื้นผิวแห้ง ใต้น้ำ หรือรูมีน้ำขัง ไม่มีแรงเบ่งในคอนกรีต สามารถใช้ระยะห่างสั้นหรือขอบน้อยได้ ไร้กลิ่นไม่มีสารก่อมะเร็ง ได้รับมาตรฐานสากล</span></p>"
+    }
+  ],
+  "tags": [],
+  "related": [
+    "38280",
+    "37957",
+    "37941",
+    "37655"
+  ],
+  "relatedMode": "auto",
+  "button": {
+    "type": "2",
+    "action": "1",
+    "url": null
+  },
+  "package": {
+    "weight": 0,
+    "w": 0,
+    "l": 0,
+    "h": 0
+  },
+  "seo": {
+    "title": "",
+    "description": "",
+    "canonical": null
+  },
+  "dateCreated": "2026-03-26 03:34:26",
+  "dateUpdated": "2026-10-13 08:28:38",
+  "variants": [
+    {
+      "skuId": "21629",
+      "sku": "6FA10408000SHPV",
+      "values": [
+        "M8"
+      ],
+      "images": [
+        {
+          "src": "/images/03_Products/1_10.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/2_10.png",
+          "alt": "Stahl พุกเคมี1ชุดมีอะไรบ้าง ",
+          "title": "Stahl พุกเคมี1ชุดมีอะไรบ้าง "
+        },
+        {
+          "src": "/images/03_Products/3_9.png",
+          "alt": "Stahl สเปคพุกเคมี M18 แบบปั่น",
+          "title": "Stahl สเปคพุกเคมี M18 แบบปั่น"
+        },
+        {
+          "src": "/images/03_Products/4_9.png",
+          "alt": "Stahl คุณสมบัติพุกเคมีแบบปั่น",
+          "title": "Stahl คุณสมบัติพุกเคมีแบบปั่น"
+        },
+        {
+          "src": "/images/03_Products/5_9.png",
+          "alt": "Stahl การติดตั้งพุกเคมีแบบปั่น",
+          "title": "Stahl การติดตั้งพุกเคมีแบบปั่น"
+        }
+      ]
+    },
+    {
+      "skuId": "21630",
+      "sku": "6FA10410000SHPV",
+      "values": [
+        "M10"
+      ],
+      "images": [
+        {
+          "src": "/images/03_Products/1_2_1.png",
+          "alt": "Stahl พุกเคมี M10 แบบปั่นพร้อมสตัด ",
+          "title": "Stahl พุกเคมี M10 แบบปั่นพร้อมสตัด "
+        },
+        {
+          "src": "/images/03_Products/2_11.png",
+          "alt": "Stahl พุกเคมี1ชุดมีอะไรบ้าง ",
+          "title": "Stahl พุกเคมี1ชุดมีอะไรบ้าง "
+        },
+        {
+          "src": "/images/03_Products/3_2_1.png",
+          "alt": "Stahl สเปคพุกเคมี M10 แบบปั่น",
+          "title": "Stahl สเปคพุกเคมี M10 แบบปั่น"
+        },
+        {
+          "src": "/images/03_Products/4_10.png",
+          "alt": "Stahl คุณสมบัติพุกเคมีแบบปั่น",
+          "title": "Stahl คุณสมบัติพุกเคมีแบบปั่น"
+        },
+        {
+          "src": "/images/03_Products/5_10.png",
+          "alt": "Stahl การติดตั้งพุกเคมีแบบปั่น",
+          "title": "Stahl การติดตั้งพุกเคมีแบบปั่น"
+        }
+      ]
+    },
+    {
+      "skuId": "21631",
+      "sku": "6FA10412000SHPV",
+      "values": [
+        "M12"
+      ],
+      "images": [
+        {
+          "src": "/images/03_Products/1_11.png",
+          "alt": "Stahl พุกเคมี M12 แบบปั่นพร้อมสตัด ",
+          "title": "Stahl พุกเคมี M12 แบบปั่นพร้อมสตัด "
+        },
+        {
+          "src": "/images/03_Products/2_12.png",
+          "alt": "Stahl พุกเคมี1ชุดมีอะไรบ้าง ",
+          "title": "Stahl พุกเคมี1ชุดมีอะไรบ้าง "
+        },
+        {
+          "src": "/images/03_Products/3_10.png",
+          "alt": "Stahl สเปคพุกเคมี M12 แบบปั่น",
+          "title": "Stahl สเปคพุกเคมี M12 แบบปั่น"
+        },
+        {
+          "src": "/images/03_Products/4_11.png",
+          "alt": "Stahl คุณสมบัติพุกเคมีแบบปั่น",
+          "title": "Stahl คุณสมบัติพุกเคมีแบบปั่น"
+        },
+        {
+          "src": "/images/03_Products/5_11.png",
+          "alt": "Stahl การติดตั้งพุกเคมีแบบปั่น",
+          "title": "Stahl การติดตั้งพุกเคมีแบบปั่น"
+        }
+      ]
+    },
+    {
+      "skuId": "21632",
+      "sku": "6FA10416000SHPV",
+      "values": [
+        "M16"
+      ],
+      "images": [
+        {
+          "src": "/images/03_Products/1_12.png",
+          "alt": "Stahl พุกเคมี M16 แบบปั่นพร้อมสตัด ",
+          "title": "Stahl พุกเคมี M16 แบบปั่นพร้อมสตัด "
+        },
+        {
+          "src": "/images/03_Products/2_13.png",
+          "alt": "Stahl พุกเคมี1ชุดมีอะไรบ้าง ",
+          "title": "Stahl พุกเคมี1ชุดมีอะไรบ้าง "
+        },
+        {
+          "src": "/images/03_Products/3_11.png",
+          "alt": "Stahl สเปคพุกเคมี M16 แบบปั่น",
+          "title": "Stahl สเปคพุกเคมี M16 แบบปั่น"
+        },
+        {
+          "src": "/images/03_Products/4_12.png",
+          "alt": "Stahl คุณสมบัติพุกเคมีแบบปั่น",
+          "title": "Stahl คุณสมบัติพุกเคมีแบบปั่น"
+        },
+        {
+          "src": "/images/03_Products/5_12.png",
+          "alt": "Stahl การติดตั้งพุกเคมีแบบปั่น",
+          "title": "Stahl การติดตั้งพุกเคมีแบบปั่น"
+        }
+      ]
+    },
+    {
+      "skuId": "21633",
+      "sku": "6FA10420000SHPV",
+      "values": [
+        "M20"
+      ],
+      "images": [
+        {
+          "src": "/images/03_Products/1_13.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/2_14.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/4_13.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/5_13.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/6.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "skuId": "21634",
+      "sku": "6FA10424000SHPV",
+      "values": [
+        "M24"
+      ],
+      "images": [
+        {
+          "src": "/images/03_Products/1_14.png",
+          "alt": "Stahl สเปคพุกเคมี M24 แบบปั่น",
+          "title": "Stahl สเปคพุกเคมี M24 แบบปั่น"
+        },
+        {
+          "src": "/images/03_Products/2_15.png",
+          "alt": "Stahl พุกเคมี1ชุดมีอะไรบ้าง ",
+          "title": "Stahl พุกเคมี1ชุดมีอะไรบ้าง "
+        },
+        {
+          "src": "/images/03_Products/4_14.png",
+          "alt": "Stahl คุณสมบัติพุกเคมีแบบปั่น",
+          "title": "Stahl คุณสมบัติพุกเคมีแบบปั่น"
+        },
+        {
+          "src": "/images/03_Products/5_14.png",
+          "alt": "Stahl การติดตั้งพุกเคมีแบบปั่น",
+          "title": "Stahl การติดตั้งพุกเคมีแบบปั่น"
+        },
+        {
+          "src": "/images/03_Products/6_1.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+/* Makewebeasy search page styles (copied from the live /search page) */
+.comp-section_page_search .search-container { margin: 16px; }
+.comp-section_page_search .search-container .page-name { text-align: center; margin-bottom: 50px; }
+.comp-section_page_search .search-container .search-title { font-size: var(--search-title-fs); font-family: var(--search-title-family); font-weight: var(--search-title-weight); font-style: var(--search-title-style); color: var(--search-title-color); }
+.comp-section_page_search .hidden { visibility: hidden; }
+.comp-section_page_search .pointer-none { pointer-events: none; }
+.comp-section_page_search a:hover { text-decoration: unset; }
+.comp-section_page_search .search-container .tab-group { border-bottom: 1px solid rgb(206, 212, 218); }
+.comp-section_page_search .search-container .tab-group a button.btn.btn-secondary { background-color: transparent; color: rgb(55, 62, 68); margin-right: -5px; margin-bottom: -1px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; }
+.comp-section_page_search .search-container .tab-group a button.btn.btn-secondary.active { color: rgb(55, 62, 68); border-width: 1px; border-style: solid; border-color: rgb(206, 212, 218) rgb(206, 212, 218) rgb(255, 255, 255); border-image: none; border-radius: 4px 4px 0px 0px; }
+.comp-section_page_search .search-data-container .search-data-list .search-data-row { margin: 10px 0px; }
+.comp-section_page_search .search-data-container .search-data-list .search-data-row .search-data-image-thumb { padding-right: 0px; min-height: 60px; max-height: 90px; margin-right: 10px; text-align: center; width: 75px !important; }
+.comp-section_page_search .search-data-container .search-data-list .search-data-row .search-data-detail { font-family: Sarabun; font-size: 16px; color: rgb(55, 62, 68); }
+.comp-section_page_search .search-data-container .search-data-list .search-data-row .search-data-detail .product-price .price-disabled { text-decoration: line-through; color: rgb(142, 150, 158); }
+.comp-section_page_search .search-data-container .search-data-list .search-data-row .search-data-image-thumb a img { max-height: 90px; max-width: 60px; border: 1px solid rgb(236, 236, 236); }
+.comp-section_page_search .search-data-container .search-data-list .search-data-row .search-data-detail .product-attribute .product-color-display { width: 20px; height: 20px; background: rgb(55, 62, 68); border: 1px solid rgb(145, 159, 174); border-radius: 10px; }
+.comp-section_page_search .search-container .pagination .pagination-item > li.page-item.active > button { z-index: 3; color: rgb(255, 255, 255) !important; background-color: rgb(173, 175, 180) !important; border-color: rgb(204, 208, 212) !important; }
+.comp-section_page_search .search-container .pagination .pagination-item > li.page-item.page-link.focus { }
+.comp-section_page_search .search-container .pagination .pagination-item .page-link { z-index: 3; color: rgb(8, 8, 8) !important; background-color: rgb(255, 255, 255) !important; border-color: rgb(255, 255, 255) !important; }
+.comp-section_page_search .search-container .pagination { margin-bottom: 0px !important; }
+.comp-section_page_search .search-container .pagination .page-link { color: rgba(0, 0, 0, 0.87); }
+.comp-section_page_search .search-container .pagination > li.page-item.active > button { background-color: rgb(172, 175, 180); border: 1px solid rgb(172, 175, 180); color: rgb(255, 255, 255) !important; }

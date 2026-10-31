@@ -1,0 +1,96 @@
+{
+  "id": "20832",
+  "order": 13,
+  "urls": [
+    "/product/20832-26963/พุกเคมี-ยี่ห้อ-ฮิลติ-hilti-แบบปั่น-เป็นชุด-ขนาด-m8-30",
+    "/product/20832/พุกเคมี ยี่ห้อ ฮิลติ (Hilti) แบบปั่น (เป็นชุด) ขนาด M8 – 30"
+  ],
+  "enabled": true,
+  "type": "single",
+  "name": "พุกเคมี ยี่ห้อ ฮิลติ (Hilti) แบบปั่น (เป็นชุด) ขนาด M8 – 30",
+  "slug": "",
+  "sku": "พุกเคมี ยี่ห้อ ฮิลติ (Hilti) แบบปั่น (เป็นชุด) ขนาด M8 – 30",
+  "skuId": "26963",
+  "price": null,
+  "salePrice": null,
+  "showPrice": false,
+  "brand": {
+    "id": "337",
+    "name": "ฮิลติ (Hilti)"
+  },
+  "categoryPath": [
+    "1577",
+    "395",
+    "385"
+  ],
+  "categories": [
+    {
+      "id": "1577",
+      "name": "พุกเคมี",
+      "url": "/category/1577/พุกเคมี"
+    },
+    {
+      "id": "1577-395",
+      "name": "พุกเคมีครบชุด (น้ำยาเคมี สตัด แหวนรอง น็อต)",
+      "url": "/category/1577-395/พุกเคมีครบชุด-น้ำยาเคมี-สตัด-แหวนรอง-น็อต"
+    },
+    {
+      "id": "1577-395-385",
+      "name": "พุกเคมี แบบปั่น",
+      "url": "/category/1577-395-385/พุกเคมี-แบบปั่น"
+    }
+  ],
+  "intro": "พุกเคมี ยี่ห้อ ฮิลติ (Hilti) แบบปั่น (เป็นชุด) ขนาด M8 – 30",
+  "introHtml": "<p>พุกเคมี ยี่ห้อ ฮิลติ (Hilti) แบบปั่น (เป็นชุด) ขนาด M8 – 30</p>",
+  "options": [],
+  "wholesale": [],
+  "flags": {
+    "isNew": false,
+    "bestseller": false,
+    "preorder": false
+  },
+  "images": [
+    {
+      "src": "/images/03_Products/No_Product.webp",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": true,
+      "youtubeId": null
+    }
+  ],
+  "tabs": [
+    {
+      "name": "รายละเอียดสินค้า",
+      "order": 1,
+      "html": "<p>พุกเคมี ยี่ห้อ ฮิลติ (Hilti) แบบปั่น (เป็นชุด) ขนาด M8 – 30</p>"
+    }
+  ],
+  "tags": [],
+  "related": [
+    "38280",
+    "37957",
+    "37941",
+    "37655"
+  ],
+  "relatedMode": "auto",
+  "button": {
+    "type": "2",
+    "action": "1",
+    "url": null
+  },
+  "package": {
+    "weight": 0,
+    "w": 0,
+    "l": 0,
+    "h": 0
+  },
+  "seo": {
+    "title": "",
+    "description": "",
+    "canonical": null
+  },
+  "dateCreated": "2026-04-09 04:29:56",
+  "dateUpdated": "2026-10-13 08:28:38"
+}

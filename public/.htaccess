@@ -1,0 +1,52 @@
+# Apache settings for Hostatom (upload together with the rest of the dist folder).
+# Pages are saved as "about-us.html", "product/36124/....html" etc. and served without ".html",
+# so the addresses stay exactly the same as on the old Makewebeasy site.
+
+AddDefaultCharset UTF-8
+DirectoryIndex index.html
+DirectorySlash Off
+Options -MultiViews -Indexes
+ErrorDocument 404 /404.html
+
+# The contact form's secret key file is never served
+<Files ".contact-secret.php">
+  Require all denied
+</Files>
+
+RewriteEngine On
+RewriteBase /
+
+# Use https://www. for every address. Turn on (remove the # on the 3 lines below)
+# after the free SSL certificate is active in Hostatom's control panel.
+# RewriteCond %{HTTPS} off [OR]
+# RewriteCond %{HTTP_HOST} !^www\. [NC]
+# RewriteRule ^ https://www.schomesquare.co.th%{REQUEST_URI} [L,R=301,NE]
+
+# Old addresses ending in "/" go to the same address without it
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)/$ /$1 [L,R=301,NE]
+
+# Search results: every /search/... address is the one search page (it reads the keyword from the address)
+RewriteRule ^search(/.*)?$ search.html [L]
+
+# /about-us -> about-us.html (checked before folders, since /category is both a page and a folder)
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^(.+)$ $1.html [L]
+
+# A bare folder with no page of its own is "not found" (instead of "forbidden")
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_FILENAME}/index.html !-f
+RewriteRule ^. - [R=404,L]
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/webp "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType font/woff "access plus 1 year"
+  ExpiresByType text/css "access plus 1 week"
+  ExpiresByType application/javascript "access plus 1 week"
+</IfModule>
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/xml image/svg+xml
+</IfModule>

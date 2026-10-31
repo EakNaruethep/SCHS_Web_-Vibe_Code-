@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.astro/
+
+# Secret key the contact form writes on the server
+.contact-secret.php
+
+# Local and OS files
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini

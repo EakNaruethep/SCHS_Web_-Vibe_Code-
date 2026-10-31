@@ -1,0 +1,20 @@
+{
+  "url": "/contact",
+  "title": "ติดต่อเรา - ส.เจริญโฮมสแควร์",
+  "description": "ขายส่ง พุกเคมี แบบปั่น แบบตอก จากเยอรมัน แข็งแรง รับน้ำหนักสูง ราคาดีลโรงงานมีมาตรฐานรับรอง พร้อมอุปกรณ์ก่อสร้าง และเครื่องมือช่าง | SCHS ส.เจริญ โฮมสแควร์",
+  "keywords": "พุกเคมี,Chemical Bolt,พุกเคมีแบบตอก,พุกเคมีรับน้ำหนัก",
+  "ogImage": "/images/01_Home/OG.jpg",
+  "canonical": "https://www.schomesquare.co.th/contact",
+  "wrapperId": "section-Contents",
+  "wrapperClass": "flex-grow-1",
+  "jsonld": [
+    "[{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"@id\":\"https://www.schomesquare.co.th/contact#webpage\",\"name\":\"ติดต่อเรา - ส.เจริญโฮมสแควร์\",\"url\":\"https://www.schomesquare.co.th/contact\",\"description\":\"ขายส่ง พุกเคมี แบบปั่น แบบตอก จากเยอรมัน แข็งแรง รับน้ำหนักสูง ราคาดีลโรงงานมีมาตรฐานรับรอง พร้อมอุปกรณ์ก่อสร้าง และเครื่องมือช่าง | SCHS ส.เจริญ โฮมสแควร์\",\"inLanguage\":\"th-TH\",\"primaryImageOfPage\":{\"@type\":\"ImageObject\",\"url\":\"/images/01_Home/OG.jpg\"},\"isPartOf\":{\"@id\":\"https://www.schomesquare.co.th/#website\"},\"publisher\":{\"@id\":\"https://www.schomesquare.co.th/#organization\"},\"datePublished\":\"2026-03-24T02:29:42.235000Z\",\"dateModified\":\"2026-04-24T12:10:21.714000Z\",\"about\":{\"@id\":\"https://www.schomesquare.co.th/#organization\"},\"speakable\":{\"@type\":\"SpeakableSpecification\",\"xPath\":[\"/html/head/title\"]}}]",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://www.schomesquare.co.th/#organization\",\"name\":\"ส.เจริญโฮมสแควร์\",\"description\":\"ขายส่ง พุกเคมี แบบปั่น แบบตอก จากเยอรมัน แข็งแรง รับน้ำหนักสูง ราคาดีลโรงงานมีมาตรฐานรับรอง พร้อมอุปกรณ์ก่อสร้าง และเครื่องมือช่าง | SCHS ส.เจริญ โฮมสแควร์\",\"url\":\"https://www.schomesquare.co.th\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"/images/01_Home/Header_Logo.png\"},\"email\":\"schs.contact@gmail.com\",\"telephone\":[\"023287309\"],\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"\",\"addressLocality\":null,\"addressRegion\":null,\"addressCountry\":null,\"postalCode\":\"\"}}"
+  ],
+  "sections": [
+    {
+      "file": "01-sec75ab.html",
+      "title": "ติดต่อเรา SCHS / ร้าน ส.เจริญโฮมสแควร์ 647 ถนนอ่อนนุช ซอยอ่อ"
+    }
+  ]
+}

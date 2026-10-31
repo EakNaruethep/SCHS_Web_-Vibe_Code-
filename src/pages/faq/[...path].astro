@@ -1,0 +1,22 @@
+---
+// FAQ category page: /faq/{id} and /faq/{id}/{slug}. Questions come from src/data/faq.json.
+import Base from '../../layouts/Base.astro';
+import { faq } from '../../lib/site.js';
+import { faqItems } from '../../lib/cards.js';
+import styles from '../../data/site/styles.json';
+export function getStaticPaths() {
+  const slug = (s) => s.toLowerCase().replace(/[()]/g, '').trim().replace(/\s+/g, '-');
+  const cats = new Map(faq.map((f) => [String(f.category.id), f.category]));
+  return [...cats.values()].flatMap((c) => [String(c.id), `${c.id}/${slug(c.name)}`].map((p) => ({ params: { path: p }, props: { cat: c } })));
+}
+const { cat } = Astro.props;
+---
+<Base>
+<div class="embed-body"><div class="flex-grow-1" id="section-faq"><div><div style="position:relative;">
+  <div class="section position-relative w-100 h-100 py-40" id="SECTION_PAGE" style={styles['faq.section']}>
+    <div class="b-overlay-wrap position-relative"><div class="container">
+      <div class="faq-wrapper"><div set:html={faqItems(cat.id, 'page')} /></div>
+    </div></div>
+  </div>
+</div></div></div></div>
+</Base>

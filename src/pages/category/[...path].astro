@@ -1,0 +1,10 @@
+---
+import Base from '../../layouts/Base.astro';
+import ProductListing from '../../components/ProductListing.astro';
+import { categoryPages } from '../../lib/listing.js';
+export function getStaticPaths() {
+  return categoryPages().map(({ path, page }) => ({ params: { path: path.replace(/^category\/?/, '') || undefined }, props: { page } }));
+}
+const { page } = Astro.props;
+---
+<Base title={page.seo.title} description={page.seo.description}><ProductListing {...page} /></Base>

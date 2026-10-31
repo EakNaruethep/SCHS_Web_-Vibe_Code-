@@ -1,0 +1,87 @@
+{
+  "id": "20847",
+  "order": 23,
+  "urls": [
+    "/product/20847-26978/ดอกสว่าน-น็อต-แหวนรอง-แปรงเหล็ก-ข้อต่อลูกบล็อค",
+    "/product/20847/ดอกสว่าน น็อต แหวนรอง แปรงเหล็ก ข้อต่อลูกบล็อค"
+  ],
+  "enabled": true,
+  "type": "single",
+  "name": "ดอกสว่าน น็อต แหวนรอง แปรงเหล็ก ข้อต่อลูกบล็อค",
+  "slug": "",
+  "sku": "ดอกสว่าน น็อต แหวนรอง แปรงเหล็ก ข้อต่อลูกบล็อค",
+  "skuId": "26978",
+  "price": null,
+  "salePrice": null,
+  "showPrice": false,
+  "brand": null,
+  "categoryPath": [
+    "1577",
+    "395"
+  ],
+  "categories": [
+    {
+      "id": "1577",
+      "name": "พุกเคมี",
+      "url": "/category/1577/พุกเคมี"
+    },
+    {
+      "id": "1577-395",
+      "name": "พุกเคมีครบชุด (น้ำยาเคมี สตัด แหวนรอง น็อต)",
+      "url": "/category/1577-395/พุกเคมีครบชุด-น้ำยาเคมี-สตัด-แหวนรอง-น็อต"
+    }
+  ],
+  "intro": "ดอกสว่าน น็อต แหวนรอง แปรงเหล็ก ข้อต่อลูกบล็อค",
+  "introHtml": "<p>ดอกสว่าน น็อต แหวนรอง แปรงเหล็ก ข้อต่อลูกบล็อค</p>",
+  "options": [],
+  "wholesale": [],
+  "flags": {
+    "isNew": false,
+    "bestseller": false,
+    "preorder": false
+  },
+  "images": [
+    {
+      "src": "/images/03_Products/No_Product.webp",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": true,
+      "youtubeId": null
+    }
+  ],
+  "tabs": [
+    {
+      "name": "รายละเอียดสินค้า",
+      "order": 1,
+      "html": "<p>ดอกสว่าน น็อต แหวนรอง แปรงเหล็ก ข้อต่อลูกบล็อค</p>"
+    }
+  ],
+  "tags": [],
+  "related": [
+    "38280",
+    "37957",
+    "37941",
+    "37655"
+  ],
+  "relatedMode": "auto",
+  "button": {
+    "type": "2",
+    "action": "1",
+    "url": null
+  },
+  "package": {
+    "weight": 0,
+    "w": 0,
+    "l": 0,
+    "h": 0
+  },
+  "seo": {
+    "title": "",
+    "description": "",
+    "canonical": null
+  },
+  "dateCreated": "2026-04-09 04:34:00",
+  "dateUpdated": "2026-10-13 08:28:38"
+}

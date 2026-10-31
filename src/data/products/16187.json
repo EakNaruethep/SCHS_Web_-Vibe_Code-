@@ -1,0 +1,383 @@
+{
+  "id": "16187",
+  "order": 26,
+  "urls": [
+    "/product/16187-21622/พุกเคมี-ยี่ห้อ-สตาห์ล-stahl-แบบตอก-เป็นชุด-ขนาด-m10-20",
+    "/product/16187-21623/พุกเคมี-ยี่ห้อ-สตาห์ล-stahl-แบบตอก-เป็นชุด-ขนาด-m10-20",
+    "/product/16187-21624/พุกเคมี-ยี่ห้อ-สตาห์ล-stahl-แบบตอก-เป็นชุด-ขนาด-m10-20",
+    "/product/16187-21625/พุกเคมี-ยี่ห้อ-สตาห์ล-stahl-แบบตอก-เป็นชุด-ขนาด-m10-20",
+    "/product/16187/พุกเคมี ยี่ห้อ สตาห์ล (Stahl) แบบตอก (เป็นชุด) ขนาด M10 – 20",
+    "/product/16187/พุกเคมี-ยี่ห้อ-สตาห์ล-stahl-แบบตอก-เป็นชุด-ขนาด-m10-20"
+  ],
+  "enabled": true,
+  "type": "variants",
+  "name": "พุกเคมี ยี่ห้อ สตาห์ล (Stahl) แบบตอก (เป็นชุด) ขนาด M10 – 20",
+  "slug": "",
+  "sku": null,
+  "skuId": null,
+  "price": null,
+  "salePrice": null,
+  "showPrice": false,
+  "brand": {
+    "id": "203",
+    "name": "สตาลห์ (Stahl)"
+  },
+  "categoryPath": [
+    "1577",
+    "395",
+    "384"
+  ],
+  "categories": [
+    {
+      "id": "1577",
+      "name": "พุกเคมี",
+      "url": "/category/1577/พุกเคมี"
+    },
+    {
+      "id": "1577-395",
+      "name": "พุกเคมีครบชุด (น้ำยาเคมี สตัด แหวนรอง น็อต)",
+      "url": "/category/1577-395/พุกเคมีครบชุด-น้ำยาเคมี-สตัด-แหวนรอง-น็อต"
+    },
+    {
+      "id": "1577-395-384",
+      "name": "พุกเคมี แบบตอก",
+      "url": "/category/1577-395-384/พุกเคมี-แบบตอก"
+    }
+  ],
+  "intro": "ชุดพุกเคมี ครบชุด (น้ำยาเคมี+สตัด+แหวนรอง+น็อต) จากเยอรมัน",
+  "introHtml": "<p>ชุดพุกเคมี ครบชุด (น้ำยาเคมี+สตัด+แหวนรอง+น็อต) จากเยอรมัน</p>",
+  "options": [
+    {
+      "name": "ขนาด",
+      "values": [
+        "M10",
+        "M12",
+        "M16",
+        "M20"
+      ]
+    }
+  ],
+  "wholesale": [],
+  "flags": {
+    "isNew": false,
+    "bestseller": false,
+    "preorder": false
+  },
+  "images": [
+    {
+      "src": "/images/03_Products/1_6.png",
+      "alt": "Stahl พุกเคมี M10 แบบตอกพร้อมสตัด ",
+      "title": "Stahl พุกเคมี M10 แบบตอกพร้อมสตัด ",
+      "width": 1000,
+      "height": 1000,
+      "default": true,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/1_7.png",
+      "alt": "Stahl พุกเคมี M12 แบบตอกพร้อมสตัด ",
+      "title": "Stahl พุกเคมี M12 แบบตอกพร้อมสตัด ",
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/1_8.png",
+      "alt": "Stahl พุกเคมี M16 แบบตอกพร้อมสตัด ",
+      "title": "Stahl พุกเคมี M16 แบบตอกพร้อมสตัด ",
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/1_9.png",
+      "alt": "Stahl พุกเคมี M20 แบบตอกพร้อมสตัด ",
+      "title": "Stahl พุกเคมี M20 แบบตอกพร้อมสตัด ",
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/3_17.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/3_18.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/3_19.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/3_20.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/2_17.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/4_16.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/5_16.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/6_3.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/7_1.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/8_2.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/9_3.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/10_1.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    }
+  ],
+  "tabs": [
+    {
+      "name": "รายละเอียดสินค้า",
+      "order": 1,
+      "html": "<p><span style=\"font-family: Kanit_SemiBold, Tahoma; line-height: 1.4;\">คุณสมบัติ </span></p><p><span style=\"font-size: 18px; line-height: 1.4;\">ใช้ง่ายสะดวก รวดเร็ว รับแรงดึงสูง รับน้ำหนักได้สูง เหมาะกับงานคอนกรีตหรือหิน ใช้ได้ทั้งพื้นผิวแห้ง ใต้น้ำ หรือรูมีน้ำขัง ไม่มีแรงเบ่งในคอนกรีต สามารถใช้ระยะห่างสั้นหรือขอบน้อยได้ ไร้กลิ่นไม่มีสารก่อมะเร็ง ได้รับมาตรฐานสากล</span></p>"
+    }
+  ],
+  "tags": [],
+  "related": [
+    "38280",
+    "37957",
+    "37941",
+    "37655"
+  ],
+  "relatedMode": "auto",
+  "button": {
+    "type": "2",
+    "action": "1",
+    "url": null
+  },
+  "package": {
+    "weight": 0,
+    "w": 0,
+    "l": 0,
+    "h": 0
+  },
+  "seo": {
+    "title": "",
+    "description": "",
+    "canonical": null
+  },
+  "dateCreated": "2026-03-26 03:22:55",
+  "dateUpdated": "2026-10-13 08:28:38",
+  "variants": [
+    {
+      "skuId": "21622",
+      "sku": "6FA10010000SHPV",
+      "values": [
+        "M10"
+      ],
+      "images": [
+        {
+          "src": "/images/03_Products/1_6.png",
+          "alt": "Stahl พุกเคมี M10 แบบตอกพร้อมสตัด ",
+          "title": "Stahl พุกเคมี M10 แบบตอกพร้อมสตัด "
+        },
+        {
+          "src": "/images/03_Products/2_6.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/3_5.png",
+          "alt": "Stahl สเปคพุกเคมี M12 แบบตอก",
+          "title": "Stahl สเปคพุกเคมี M12 แบบตอก"
+        },
+        {
+          "src": "/images/03_Products/4_5.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/5_5.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "skuId": "21623",
+      "sku": "6FA10012000SHPV",
+      "values": [
+        "M12"
+      ],
+      "images": [
+        {
+          "src": "/images/03_Products/1_7.png",
+          "alt": "Stahl พุกเคมี M12 แบบตอกพร้อมสตัด ",
+          "title": "Stahl พุกเคมี M12 แบบตอกพร้อมสตัด "
+        },
+        {
+          "src": "/images/03_Products/2_7.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/3_6.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/4_6.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/5_6.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "skuId": "21624",
+      "sku": "6FA10016000SHPV",
+      "values": [
+        "M16"
+      ],
+      "images": [
+        {
+          "src": "/images/03_Products/1_8.png",
+          "alt": "Stahl พุกเคมี M16 แบบตอกพร้อมสตัด ",
+          "title": "Stahl พุกเคมี M16 แบบตอกพร้อมสตัด "
+        },
+        {
+          "src": "/images/03_Products/2_8.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/3_7.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/4_7.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/5_7.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "skuId": "21625",
+      "sku": "6FA10020000SHPV",
+      "values": [
+        "M20"
+      ],
+      "images": [
+        {
+          "src": "/images/03_Products/1_9.png",
+          "alt": "Stahl พุกเคมี M20 แบบตอกพร้อมสตัด ",
+          "title": "Stahl พุกเคมี M20 แบบตอกพร้อมสตัด "
+        },
+        {
+          "src": "/images/03_Products/2_9.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/3_8.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/4_8.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/5_8.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}

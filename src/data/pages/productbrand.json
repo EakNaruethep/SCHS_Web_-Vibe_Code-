@@ -1,0 +1,20 @@
+{
+  "url": "/productbrand",
+  "title": "แบรนด์สินค้า | พุกเคมี ขายส่ง ราคาถูก | SCHS อุปกรณ์ก่อสร้าง ส่งทั่วประเทศ",
+  "description": "ขายส่ง พุกเคมี แบบปั่น แบบตอก จากเยอรมัน แข็งแรง รับน้ำหนักสูง ราคาดีลโรงงานมีมาตรฐานรับรอง พร้อมอุปกรณ์ก่อสร้าง และเครื่องมือช่าง | SCHS ส.เจริญ โฮมสแควร์",
+  "keywords": "แบรนด์สินค้า",
+  "ogImage": "/images/01_Home/OG.jpg",
+  "canonical": "https://www.schomesquare.co.th/productbrand",
+  "wrapperId": "section-brand",
+  "wrapperClass": "flex-grow-1",
+  "jsonld": [
+    "[{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"@id\":\"https://www.schomesquare.co.th/productbrand#webpage\",\"name\":\"แบรนด์สินค้า | พุกเคมี ขายส่ง ราคาถูก | SCHS อุปกรณ์ก่อสร้าง ส่งทั่วประเทศ\",\"url\":\"https://www.schomesquare.co.th/productbrand\",\"description\":\"ขายส่ง พุกเคมี แบบปั่น แบบตอก จากเยอรมัน แข็งแรง รับน้ำหนักสูง ราคาดีลโรงงานมีมาตรฐานรับรอง พร้อมอุปกรณ์ก่อสร้าง และเครื่องมือช่าง | SCHS ส.เจริญ โฮมสแควร์\",\"inLanguage\":\"th-TH\",\"primaryImageOfPage\":{\"@type\":\"ImageObject\",\"url\":\"/images/01_Home/OG.jpg\"},\"isPartOf\":{\"@id\":\"https://www.schomesquare.co.th/#website\"},\"publisher\":{\"@id\":\"https://www.schomesquare.co.th/#organization\"},\"datePublished\":\"2026-03-26T09:55:50.485000Z\",\"dateModified\":\"2026-03-26T09:55:50.485000Z\",\"about\":{\"@id\":\"https://www.schomesquare.co.th/#organization\"},\"speakable\":{\"@type\":\"SpeakableSpecification\",\"xPath\":[\"/html/head/title\"]}}]",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"หน้าแรก\",\"item\":\"https://www.schomesquare.co.th/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"แบรนด์สินค้า\"}]}"
+  ],
+  "sections": [
+    {
+      "file": "01-s1.html",
+      "title": "หน้าแรก แบรนด์สินค้า แบรนด์สินค้า 1"
+    }
+  ]
+}

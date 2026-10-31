@@ -1,0 +1,15 @@
+---
+// Renders a page made of ordered section files (src/sections/<page>/...), listed in src/data/pages/<page>.json.
+import { sectionFiles } from '../lib/site.js';
+import { fillWidgets } from '../lib/cards.js';
+const { page, key } = Astro.props;
+const html = page.sections
+  .filter((s) => !s.hidden)
+  .map((s) => {
+    const src = sectionFiles[`../sections/${key}/${s.file}`];
+    if (src == null) throw new Error(`Missing section file sections/${key}/${s.file}`);
+    return fillWidgets(src);
+  })
+  .join('\n');
+---
+<div id={page.wrapperId || 'section-content'} class={page.wrapperClass || 'flex-grow-1'} set:html={html} />

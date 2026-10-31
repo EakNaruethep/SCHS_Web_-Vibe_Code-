@@ -1,0 +1,19 @@
+{
+  "url": "/privacy-policy",
+  "title": "นโยบายความเป็นส่วนตัว - ส.เจริญโฮมสแควร์",
+  "description": "ขายส่ง พุกเคมี แบบปั่น แบบตอก จากเยอรมัน แข็งแรง รับน้ำหนักสูง ราคาดีลโรงงานมีมาตรฐานรับรอง พร้อมอุปกรณ์ก่อสร้าง และเครื่องมือช่าง | SCHS ส.เจริญ โฮมสแควร์",
+  "keywords": "พุกเคมี,Chemical Bolt,พุกเคมีแบบตอก,พุกเคมีรับน้ำหนัก",
+  "ogImage": "/images/01_Home/OG.jpg",
+  "canonical": "https://www.schomesquare.co.th/privacy-policy",
+  "wrapperId": "section-Contents",
+  "wrapperClass": "flex-grow-1",
+  "jsonld": [
+    "[{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"@id\":\"https://www.schomesquare.co.th/privacy-policy#webpage\",\"name\":\"นโยบายความเป็นส่วนตัว - ส.เจริญโฮมสแควร์\",\"url\":\"https://www.schomesquare.co.th/privacy-policy\",\"description\":\"ขายส่ง พุกเคมี แบบปั่น แบบตอก จากเยอรมัน แข็งแรง รับน้ำหนักสูง ราคาดีลโรงงานมีมาตรฐานรับรอง พร้อมอุปกรณ์ก่อสร้าง และเครื่องมือช่าง | SCHS ส.เจริญ โฮมสแควร์\",\"inLanguage\":\"th-TH\",\"primaryImageOfPage\":{\"@type\":\"ImageObject\",\"url\":\"/images/01_Home/OG.jpg\"},\"isPartOf\":{\"@id\":\"https://www.schomesquare.co.th/#website\"},\"publisher\":{\"@id\":\"https://www.schomesquare.co.th/#organization\"},\"datePublished\":\"2026-04-09T07:40:38.882000Z\",\"dateModified\":\"2026-04-09T07:40:38.882000Z\",\"about\":{\"@id\":\"https://www.schomesquare.co.th/#organization\"},\"speakable\":{\"@type\":\"SpeakableSpecification\",\"xPath\":[\"/html/head/title\"]}}]"
+  ],
+  "sections": [
+    {
+      "file": "01-SECTION_PAGE.html",
+      "title": "นโยบายความเป็นส่วนตัว - ส.เจริญโฮมสแควร์ 1. หลักการและวัตถุป"
+    }
+  ]
+}

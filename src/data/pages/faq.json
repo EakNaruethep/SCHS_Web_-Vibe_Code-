@@ -1,0 +1,20 @@
+{
+  "url": "/faq",
+  "title": "คำถามที่พบบ่อย - ส.เจริญโฮมสแควร์",
+  "description": "ขายส่ง พุกเคมี แบบปั่น แบบตอก จากเยอรมัน แข็งแรง รับน้ำหนักสูง ราคาดีลโรงงานมีมาตรฐานรับรอง พร้อมอุปกรณ์ก่อสร้าง และเครื่องมือช่าง | SCHS ส.เจริญ โฮมสแควร์",
+  "keywords": "พุกเคมี,Chemical Bolt,พุกเคมีแบบตอก,พุกเคมีรับน้ำหนัก",
+  "ogImage": "/images/01_Home/OG.jpg",
+  "canonical": "https://www.schomesquare.co.th/faq",
+  "wrapperId": "section-faq",
+  "wrapperClass": "flex-grow-1",
+  "jsonld": [
+    "[{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"@id\":\"https://www.schomesquare.co.th/faq#webpage\",\"name\":\"คำถามที่พบบ่อย - ส.เจริญโฮมสแควร์\",\"url\":\"https://www.schomesquare.co.th/faq\",\"description\":\"ขายส่ง พุกเคมี แบบปั่น แบบตอก จากเยอรมัน แข็งแรง รับน้ำหนักสูง ราคาดีลโรงงานมีมาตรฐานรับรอง พร้อมอุปกรณ์ก่อสร้าง และเครื่องมือช่าง | SCHS ส.เจริญ โฮมสแควร์\",\"inLanguage\":\"th-TH\",\"primaryImageOfPage\":{\"@type\":\"ImageObject\",\"url\":\"/images/01_Home/OG.jpg\"},\"isPartOf\":{\"@id\":\"https://www.schomesquare.co.th/#website\"},\"publisher\":{\"@id\":\"https://www.schomesquare.co.th/#organization\"},\"datePublished\":\"2026-03-25T08:46:14.262000Z\",\"dateModified\":\"2026-04-24T12:10:21.737000Z\",\"about\":{\"@id\":\"https://www.schomesquare.co.th/#organization\"},\"speakable\":{\"@type\":\"SpeakableSpecification\",\"xPath\":[\"/html/head/title\"]}}]",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"มีค่าบริการจัดส่งสินค้าไหม\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"<span style=\\\\\\\"font-size: 16px;\\\\\\\" data-mce-style=\\\\\\\"font-size: 16px;\\\\\\\">ค่าจัดส่งจะขึ้นอยู่กับพื้นที่และน้ำหนักสินค้า ลูกค้าสามารถตรวจสอบค่าขนส่งได้เมื่อทำการสั่งซื้อ</span>\"}},{\"@type\":\"Question\",\"name\":\"บริการของเรามีอะไรบ้าง\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"<span style=\\\\\\\"font-size: 16px;\\\\\\\" data-mce-style=\\\\\\\"font-size: 16px;\\\\\\\">เราขายส่งฮาร์ดแวร์และเครื่องมือช่าง ราคาถูก พร้อมบริการเปิดร้านขายอุปกรณ์ก่อสร้าง</span>\"}},{\"@type\":\"Question\",\"name\":\"สามารถทราบราคาสินค้าได้ที่ไหน?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"<span style=\\\\\\\"font-size: 16px;\\\\\\\" data-mce-style=\\\\\\\"font-size: 16px;\\\\\\\">ราคาสินค้าบางส่วนสามารถดูได้จากเว็บไซต์ หากไม่พบกรุณาติดต่อเจ้าหน้าที่เพื่อขอราคาโดยสามารถส่งภาพหรือลิสต์รายการให้ได้ค่ะ</span>\"}},{\"@type\":\"Question\",\"name\":\"สามารถออกใบกำกับภาษีได้หรือไม่?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"<span style=\\\\\\\"font-size: 16px;\\\\\\\" data-mce-style=\\\\\\\"font-size: 16px;\\\\\\\">สามารถออกใบกำกับภาษีได้ค่ะ</span>\"}},{\"@type\":\"Question\",\"name\":\"สินค้ามีปัญหาสามารถเคลมหรือขอคืนเงินได้หรือไม่?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"<span style=\\\\\\\"font-size: 16px;\\\\\\\" data-mce-style=\\\\\\\"font-size: 16px;\\\\\\\">หากสินค้ามีปัญหาหรือเสียหาย สามารถติดต่อเจ้าหน้าที่เพื่อแจ้งรายละเอียด เจ้าหน้าที่จะช่วยแนะนำวิธีการแก้ไขปัญหาและดำเนินการให้ค่ะ</span>\"}}]}"
+  ],
+  "sections": [
+    {
+      "file": "01-sec1zyn.html",
+      "title": "คำถามที่พบบ่อย มีค่าบริการจัดส่งสินค้าไหม ค่าจัดส่งจะขึ้นอยู"
+    }
+  ]
+}

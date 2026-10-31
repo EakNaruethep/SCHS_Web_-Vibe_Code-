@@ -1,0 +1,9 @@
+/* Fonts the site uploaded to Makewebeasy, now served from /images/attach_file/font */
+@font-face { font-family: 'Kanit_Regular'; src: url('/images/attach_file/font/Kanit_Regular.woff') format('woff'); font-display: swap; }
+@font-face { font-family: 'Kanit_SemiBold'; src: url('/images/attach_file/font/Kanit_SemiBold.woff') format('woff'); font-display: swap; }
+@font-face { font-family: 'Kanit_Medium'; src: url('/images/attach_file/font/Kanit_Medium.woff') format('woff'); font-display: swap; }
+@font-face { font-family: 'Kanit_Bold'; src: url('/images/attach_file/font/Kanit_Bold.woff') format('woff'); font-display: swap; }
+@font-face { font-family: 'kanit_light'; src: url('/images/attach_file/font/kanit_light.woff') format('woff'); font-display: swap; }
+
+/* Font Awesome Pro "light"/"regular" icons are drawn with the free solid set */
+.fal, .far { font-family: 'Font Awesome 5 Free'; font-weight: 900; -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; display: inline-block; font-style: normal; font-variant: normal; text-rendering: auto; line-height: 1; }

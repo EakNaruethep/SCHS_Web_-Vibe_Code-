@@ -1,0 +1,437 @@
+{
+  "id": "16173",
+  "order": 24,
+  "urls": [
+    "/product/16173-21602/พุกเคมี-ยี่ห้อ-คิงฟิชเชอร์-kingfisher-แบบปั่น-เป็นชุด-ขนาด-m10-24",
+    "/product/16173-21603/พุกเคมี-ยี่ห้อ-คิงฟิชเชอร์-kingfisher-แบบปั่น-เป็นชุด-ขนาด-m10-24",
+    "/product/16173-21604/พุกเคมี-ยี่ห้อ-คิงฟิชเชอร์-kingfisher-แบบปั่น-เป็นชุด-ขนาด-m10-24",
+    "/product/16173-21605/พุกเคมี-ยี่ห้อ-คิงฟิชเชอร์-kingfisher-แบบปั่น-เป็นชุด-ขนาด-m10-24",
+    "/product/16173-21606/พุกเคมี-ยี่ห้อ-คิงฟิชเชอร์-kingfisher-แบบปั่น-เป็นชุด-ขนาด-m10-24",
+    "/product/16173/พุกเคมี ยี่ห้อ คิงฟิชเชอร์ (Kingfisher) แบบปั่น (เป็นชุด) ขนาด M10 – 24",
+    "/product/16173/พุกเคมี-ยี่ห้อ-คิงฟิชเชอร์-kingfisher-แบบปั่น-เป็นชุด-ขนาด-m10-24"
+  ],
+  "enabled": true,
+  "type": "variants",
+  "name": "พุกเคมี ยี่ห้อ คิงฟิชเชอร์ (Kingfisher) แบบปั่น (เป็นชุด) ขนาด M10 – 24",
+  "slug": "",
+  "sku": null,
+  "skuId": null,
+  "price": null,
+  "salePrice": null,
+  "showPrice": false,
+  "brand": {
+    "id": "202",
+    "name": "คิงฟิชเชอร์ (Kingfisher)"
+  },
+  "categoryPath": [
+    "1577",
+    "395",
+    "385"
+  ],
+  "categories": [
+    {
+      "id": "1577",
+      "name": "พุกเคมี",
+      "url": "/category/1577/พุกเคมี"
+    },
+    {
+      "id": "1577-395",
+      "name": "พุกเคมีครบชุด (น้ำยาเคมี สตัด แหวนรอง น็อต)",
+      "url": "/category/1577-395/พุกเคมีครบชุด-น้ำยาเคมี-สตัด-แหวนรอง-น็อต"
+    },
+    {
+      "id": "1577-395-385",
+      "name": "พุกเคมี แบบปั่น",
+      "url": "/category/1577-395-385/พุกเคมี-แบบปั่น"
+    }
+  ],
+  "intro": "ชุดพุกเคมี ครบชุด (น้ำยาเคมี+สตัด+แหวนรอง+น็อต) จากเยอรมัน",
+  "introHtml": "<p>ชุดพุกเคมี ครบชุด (น้ำยาเคมี+สตัด+แหวนรอง+น็อต) จากเยอรมัน</p>",
+  "options": [
+    {
+      "name": "ขนาด",
+      "values": [
+        "M10",
+        "M12",
+        "M16",
+        "M20",
+        "M24"
+      ]
+    }
+  ],
+  "wholesale": [],
+  "flags": {
+    "isNew": false,
+    "bestseller": false,
+    "preorder": false
+  },
+  "images": [
+    {
+      "src": "/images/03_Products/1.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": true,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/1_1.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/1_2.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/1_3.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/1_4.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/3_12.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/3_13.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/3_14.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/3_15.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/3_16.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/2_16.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/4_15.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/5_15.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/6_2.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/7.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/8_1.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/9_2.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    },
+    {
+      "src": "/images/03_Products/10.png",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": false,
+      "youtubeId": null
+    }
+  ],
+  "tabs": [
+    {
+      "name": "รายละเอียดสินค้า",
+      "order": 1,
+      "html": "<p><span style=\"font-family: Kanit_SemiBold, Tahoma; line-height: 1.4;\">คุณสมบัติ </span></p><p><span style=\"font-size: 18px; line-height: 1.4;\">รับแรงดึงและรับน้ำหนักได้สูง แข็งแรง ทนทานระยะยาว ใช้ได้ทั้งพื้นผิวแห้งและเปียก ทนการสั่นสะเทือนได้ดี ไม่มีแรงขยายตัว ใช้ในระยะห่างสั้นหรือพื้นที่ขอบน้อยได้ ปลอดภัยไม่มีสารก่อมะเร็ง ได้รับมาตรฐานสากล</span></p>"
+    }
+  ],
+  "tags": [],
+  "related": [
+    "38280",
+    "37957",
+    "37941",
+    "37655"
+  ],
+  "relatedMode": "auto",
+  "button": {
+    "type": "2",
+    "action": "1",
+    "url": null
+  },
+  "package": {
+    "weight": 0,
+    "w": 0,
+    "l": 0,
+    "h": 0
+  },
+  "seo": {
+    "title": "",
+    "description": "",
+    "canonical": null
+  },
+  "dateCreated": "2026-03-26 02:47:17",
+  "dateUpdated": "2026-10-13 08:28:38",
+  "variants": [
+    {
+      "skuId": "21602",
+      "sku": "6FA09910000KRMV",
+      "values": [
+        "M10"
+      ],
+      "images": [
+        {
+          "src": "/images/03_Products/1.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/2.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/3.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/4.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/5.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "skuId": "21603",
+      "sku": "6FA09912000KRMV",
+      "values": [
+        "M12"
+      ],
+      "images": [
+        {
+          "src": "/images/03_Products/1_1.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/2_1.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/3_1.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/4_1.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/5_1.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "skuId": "21604",
+      "sku": "6FA09916000KRMV",
+      "values": [
+        "M16"
+      ],
+      "images": [
+        {
+          "src": "/images/03_Products/1_2.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/2_2.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/3_2.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/4_2.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/5_2.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "skuId": "21605",
+      "sku": "6FA09920000KRMV",
+      "values": [
+        "M20"
+      ],
+      "images": [
+        {
+          "src": "/images/03_Products/1_3.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/2_3.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/3_3.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/4_3.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/5_3.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "skuId": "21606",
+      "sku": "6FA09924000KRMV",
+      "values": [
+        "M24"
+      ],
+      "images": [
+        {
+          "src": "/images/03_Products/1_4.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/2_4.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/3_4.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/4_4.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/03_Products/5_4.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}

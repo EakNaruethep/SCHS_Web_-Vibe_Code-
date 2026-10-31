@@ -1,0 +1,90 @@
+{
+  "id": "20843",
+  "order": 11,
+  "urls": [
+    "/product/20843-26974/น้ำยาเคมีเสียบเหล็กยี่ห้อ-สตาห์ล-stahl-รุ่น-svm-vsf-h-s",
+    "/product/20843/น้ำยาเคมีเสียบเหล็กยี่ห้อ สตาห์ล (Stahl) รุ่น SVM-VSF-H-S"
+  ],
+  "enabled": true,
+  "type": "single",
+  "name": "น้ำยาเคมีเสียบเหล็กยี่ห้อ สตาห์ล (Stahl) รุ่น SVM-VSF-H-S",
+  "slug": "",
+  "sku": "น้ำยาเคมีเสียบเหล็กยี่ห้อ สตาห์ล (Stahl) รุ่น SVM-VSF-H-S",
+  "skuId": "26974",
+  "price": null,
+  "salePrice": null,
+  "showPrice": false,
+  "brand": {
+    "id": "203",
+    "name": "สตาลห์ (Stahl)"
+  },
+  "categoryPath": [
+    "1577",
+    "394"
+  ],
+  "categories": [
+    {
+      "id": "1577",
+      "name": "พุกเคมี",
+      "url": "/category/1577/พุกเคมี"
+    },
+    {
+      "id": "1577-394",
+      "name": "น้ำยาเคมีเสียบเหล็ก",
+      "url": "/category/1577-394/น้ำยาเคมีเสียบเหล็ก"
+    }
+  ],
+  "intro": "น้ำยาเคมีเสียบเหล็กยี่ห้อ สตาห์ล (Stahl) รุ่น SVM-VSF-H-S",
+  "introHtml": "<p>น้ำยาเคมีเสียบเหล็กยี่ห้อ สตาห์ล (Stahl) รุ่น SVM-VSF-H-S</p>",
+  "options": [],
+  "wholesale": [],
+  "flags": {
+    "isNew": false,
+    "bestseller": false,
+    "preorder": false
+  },
+  "images": [
+    {
+      "src": "/images/03_Products/No_Product.webp",
+      "alt": null,
+      "title": null,
+      "width": 1000,
+      "height": 1000,
+      "default": true,
+      "youtubeId": null
+    }
+  ],
+  "tabs": [
+    {
+      "name": "รายละเอียดสินค้า",
+      "order": 1,
+      "html": "<p>น้ำยาเคมีเสียบเหล็กยี่ห้อ สตาห์ล (Stahl) รุ่น SVM-VSF-H-S</p>"
+    }
+  ],
+  "tags": [],
+  "related": [
+    "38280",
+    "37957",
+    "37941",
+    "37655"
+  ],
+  "relatedMode": "auto",
+  "button": {
+    "type": "2",
+    "action": "1",
+    "url": null
+  },
+  "package": {
+    "weight": 0,
+    "w": 0,
+    "l": 0,
+    "h": 0
+  },
+  "seo": {
+    "title": "",
+    "description": "",
+    "canonical": null
+  },
+  "dateCreated": "2026-04-09 04:31:47",
+  "dateUpdated": "2026-10-13 08:28:38"
+}

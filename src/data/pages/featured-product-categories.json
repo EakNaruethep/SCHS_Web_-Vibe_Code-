@@ -1,0 +1,39 @@
+{
+  "url": "/featured-product-categories",
+  "title": "หมวดหมู่สินค้าแนะนำ - ส.เจริญโฮมแสควร์",
+  "description": "ขายส่ง พุกเคมี แบบปั่น แบบตอก จากเยอรมัน แข็งแรง รับน้ำหนักสูง ราคาดีลโรงงานมีมาตรฐานรับรอง พร้อมอุปกรณ์ก่อสร้าง และเครื่องมือช่าง | SCHS ส.เจริญ โฮมสแควร์",
+  "keywords": "พุกเคมี,Chemical Bolt,พุกเคมีแบบตอก,พุกเคมีรับน้ำหนัก",
+  "ogImage": "/images/01_Home/OG.jpg",
+  "canonical": "https://www.schomesquare.co.th/featured-product-categories",
+  "wrapperId": "section-content",
+  "wrapperClass": "flex-grow-1",
+  "jsonld": [
+    "[{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"@id\":\"https://www.schomesquare.co.th/featured-product-categories#webpage\",\"name\":\"หมวดหมู่สินค้าแนะนำ - ส.เจริญโฮมแสควร์\",\"url\":\"https://www.schomesquare.co.th/featured-product-categories\",\"description\":\"ขายส่ง พุกเคมี แบบปั่น แบบตอก จากเยอรมัน แข็งแรง รับน้ำหนักสูง ราคาดีลโรงงานมีมาตรฐานรับรอง พร้อมอุปกรณ์ก่อสร้าง และเครื่องมือช่าง | SCHS ส.เจริญ โฮมสแควร์\",\"inLanguage\":\"th-TH\",\"primaryImageOfPage\":{\"@type\":\"ImageObject\",\"url\":\"/images/01_Home/OG.jpg\"},\"isPartOf\":{\"@id\":\"https://www.schomesquare.co.th/#website\"},\"publisher\":{\"@id\":\"https://www.schomesquare.co.th/#organization\"},\"datePublished\":\"2026-03-25T08:14:13.295000Z\",\"dateModified\":\"2026-05-05T07:02:26.138000Z\",\"about\":{\"@id\":\"https://www.schomesquare.co.th/#organization\"},\"speakable\":{\"@type\":\"SpeakableSpecification\",\"xPath\":[\"/html/head/title\"]}}]"
+  ],
+  "sections": [
+    {
+      "file": "01-secsnvu.html",
+      "title": ""
+    },
+    {
+      "file": "02-secjbbp.html",
+      "title": "พุกเคมี คิงฟิชเชอร์ (KingFisher) พุกเคมี คิงฟิชเชอร์ (Kingfi"
+    },
+    {
+      "file": "03-secgy66.html",
+      "title": "ขนาดพุก : ﻿ ﻿ M10 ขนาดรูเจาะ (มม.) : 12 ความลึกรูเจาะ (มม) :"
+    },
+    {
+      "file": "04-secxg8h.html",
+      "title": "สินค้าแนะนำ เราเชี่ยวชาญด้านอุปกรณ์ ยึด แขวน ตรึง มีสินค้าเฉ"
+    },
+    {
+      "file": "05-secj765.html",
+      "title": "สินค้าขายดี รวมสินค้าขายดี พุกเคมีแบบปั่นพุกเคมีแบบตอก และอุ"
+    },
+    {
+      "file": "06-sec8l74.html",
+      "title": "ส.เจริญ โฮมสแควร์ ราคาส่ง ตรงจากโรงงาน!! ศูนย์รวมพุกเคมี อุป"
+    }
+  ]
+}

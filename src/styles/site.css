@@ -1,0 +1,67 @@
+/* Behaviour the Makewebeasy JavaScript used to provide, rebuilt for the static site. */
+
+/* Desktop menu dropdowns (levels 2+ open to the side) */
+.header-menu-01-wrapper .topwidget-menu .navbar-nav > .nav-item > .dropdown-menu { top: 100%; left: 0; }
+.header-menu-01-wrapper .nav-link { white-space: nowrap; }
+.header-menu-01-wrapper .dropdown-menu .menu-list-container { overflow: visible !important; }
+.header-menu-01-wrapper .topwidget-menu .navbar-nav > .nav-item .dropdown-menu { overflow: visible !important; }
+.header-menu-01-wrapper .dropdown-menu li { position: relative; list-style: none; }
+.header-menu-01-wrapper .dropdown-menu li > .dropdown-menu { position: absolute !important; top: 0; left: 100%; }
+.header-menu-01-wrapper .dropdown-menu li:hover > .dropdown-menu { visibility: visible; }
+.header-menu-01-wrapper .dropdown-menu .dropdown-item { display: flex; justify-content: space-between; align-items: center; gap: 8px; padding: 8px 16px; white-space: normal; }
+.header-menu-01-wrapper .dropdown-menu li:hover > .dropdown-item { background: var(--submenu-active-bg-color); color: var(--submenu-active-fontcolor) !important; }
+
+/* Header: phones always get the phone header. Desktop browsers switch to the same header below 1110px
+   (measured on live), but with the logo at its desktop size, like the live site in a narrow window. */
+html.schs-phone #topZone.header-layout-6 { display: none !important; }
+@media (max-width: 1109.98px) { #topZone.header-layout-6 { display: none !important; } }
+@media (min-width: 1110px) { html:not(.schs-phone) #topZone.header-mobile, html:not(.schs-phone) #header-sidenav-menu-mobile { display: none !important; } }
+html:not(.schs-phone) #topZone.header-mobile .header-logo { --width-img-logo: 305px !important; --height-img-logo: 108px !important; --max-height-img-logo: none !important; --max-width-img-logo: none !important; }
+
+/* Cookie banner shows only until accepted */
+#pdpa-wrapper { display: none; }
+#pdpa-wrapper.show { display: block; }
+/* phones got the banner full width with the "flex-mobile" layout */
+html.schs-phone #pdpa-wrapper { --bottom-policy-position: 0px !important; --border-radius-pad-row-pdpa: 0px !important; }
+html.schs-phone #pdpa-wrapper .policy-position .pad-row-pdpa > .col-12 { flex-wrap: wrap; text-align: center; }
+
+/* Back to top */
+#toTop.show { display: block !important; }
+
+/* Related products price */
+.product-relate-item-price .product-sale-price { font-family: Kanit_Regular, Tahoma; font-size: 18px; color: rgba(var(--tpc-24), 100%); }
+.product-relate-item-price .product-price { color: #999; text-decoration: line-through; margin-left: 6px; }
+.mwe-page-product-name { text-decoration: none !important; }
+
+/* Image galleries: images are lazy elsewhere; here every slide needs its width up front */
+.wrapper-image-gallery .slick-track { will-change: transform; }
+/* Product page */
+[data-zoom] { overflow: hidden; cursor: crosshair; }
+[data-zoom] img { transition: transform .2s ease; }
+[data-zoom].zooming img { transform: scale(2); }
+[data-zoom].zooming .vh--message { opacity: 0; }
+/* the live site uses <button>; ours are links, so keep them looking like the buttons */
+a.custom-button { text-align: center; text-decoration: none !important; }
+/* thumbnails: one row like the live slick slider; extra ones scroll sideways */
+.comp-item-image-preview .wrapper-more-image-slick-carousel .slick-list { overflow-x: auto; scrollbar-width: none; }
+.comp-item-image-preview .wrapper-more-image-slick-carousel .slick-list::-webkit-scrollbar { display: none; }
+.comp-item-image-preview .wrapper-more-image-slick-carousel .slick-track { flex-wrap: nowrap; }
+.product-detail-product-related-wrapper { display: grid; grid-template-columns: var(--relate-grid-template-columns, repeat(4, 1fr)); gap: 16px; }
+@media (max-width: 767.98px) { .product-detail-product-related-wrapper { grid-template-columns: repeat(2, 1fr); } }
+
+/* Album photos: Makewebeasy masonry columns (see site.js data-masonry) */
+.comp-section_page_album_item .item { position: relative; }
+.comp-section_page_album_item .item + .item { margin-top: 16px; }
+.comp-section_page_album_item .item img { width: 100%; height: auto; }
+.schs-album-caption { display: block; padding: 4px 0 8px; font-size: 14px; color: rgba(var(--tpc-24), 100%); }
+/* FAQ: open state */
+.faq-card .collapse.show { display: block; }
+/* Keep the footer at the bottom on short pages */
+html { background: #fff; }
+.section-body { min-height: 100vh; display: flex; flex-direction: column; }
+.section-body > .embed-body { flex: 1 0 auto; }
+/* Album list covers: same-size tiles */
+.wrapper-gallery.page .wrapper-image { aspect-ratio: 1 / 1; overflow: hidden; }
+.wrapper-gallery.page .wrapper-image img { width: 100%; height: 100%; object-fit: cover; }
+/* Header menu: let the middle column shrink so scripts/site.js can move what doesn't fit into "เพิ่มเติม" */
+#top-sticky-container .col-center, #comp-HEADER_WIDGET_MENU, #comp-HEADER_WIDGET_MENU .navbar-collapse { min-width: 0; max-width: 100%; }
