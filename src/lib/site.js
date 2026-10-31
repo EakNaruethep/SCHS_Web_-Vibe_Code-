@@ -28,6 +28,9 @@ export function productUrl(p) {
   return p.type === 'variants' || !p.skuId ? `/product/${p.id}/${p.slug}` : `/product/${p.id}-${p.skuId}/${p.slug}`;
 }
 
+// An option's own address with the product's current slug (Makewebeasy used it as that option page's canonical).
+export const optionUrl = (p, v) => `/product/${p.id}-${v.skuId}/${p.slug}`;
+
 export function productImages(p) {
   const imgs = [...(p.images || [])].sort((a, b) => (b.default ? 1 : 0) - (a.default ? 1 : 0));
   return imgs.length ? imgs : [{ src: NO_IMAGE, alt: p.name, title: p.name }];

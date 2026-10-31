@@ -22,6 +22,9 @@ RewriteBase /
 # RewriteCond %{HTTP_HOST} !^www\. [NC]
 # RewriteRule ^ https://www.schomesquare.co.th%{REQUEST_URI} [L,R=301,NE]
 
+# Old Makewebeasy addresses with the language folder (/th/about-us) go to the same page without it, like live
+RewriteRule ^th(?:/(.*))?$ /$1 [L,R=301,NE]
+
 # Old addresses ending in "/" go to the same address without it
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.+)/$ /$1 [L,R=301,NE]

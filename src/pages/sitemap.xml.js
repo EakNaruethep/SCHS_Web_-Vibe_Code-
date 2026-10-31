@@ -1,5 +1,5 @@
 // Builds /sitemap.xml from the content files, so new products/posts/albums appear automatically.
-import { pages, products, productUrl, categories, brands, blogs, albums, faq, head } from '../lib/site.js';
+import { pages, products, productUrl, optionUrl, categories, brands, blogs, albums, faq, head } from '../lib/site.js';
 
 export function GET() {
   const now = new Date().toISOString().replace(/\.\d+Z$/, '+00:00');
@@ -8,7 +8,7 @@ export function GET() {
 
   add('', 'daily', '1.0');
   Object.entries(pages).forEach(([file, p]) => { if (!file.endsWith('/index.json') && !p.noindex) add(p.url); });
-  products.forEach((p) => add(productUrl(p), 'weekly', '0.8'));
+  products.forEach((p) => { add(productUrl(p), 'weekly', '0.8'); (p.variants || []).forEach((v) => add(optionUrl(p, v), 'weekly', '0.8')); });
   categories.forEach((c) => add(c.url));
   brands.forEach((b) => add(b.url));
   add('/categoryblog');

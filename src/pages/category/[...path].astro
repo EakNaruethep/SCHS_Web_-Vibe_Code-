@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import { head, enc } from '../../lib/site.js';
 import ProductListing from '../../components/ProductListing.astro';
 import { categoryPages } from '../../lib/listing.js';
 export function getStaticPaths() {
@@ -7,4 +8,4 @@ export function getStaticPaths() {
 }
 const { page } = Astro.props;
 ---
-<Base title={page.seo.title} description={page.seo.description}><ProductListing {...page} /></Base>
+<Base title={page.seo.title} description={page.seo.description} keywords={page.keywords} canonical={head.siteUrl + enc(page.canonical)}><ProductListing {...page} /></Base>

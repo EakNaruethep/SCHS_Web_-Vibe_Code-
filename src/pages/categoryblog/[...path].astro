@@ -7,17 +7,17 @@ export function getStaticPaths() {
   const cats = new Map();
   blogs.forEach((b) => (b.categories || []).forEach((c) => cats.set(String(c.id), c)));
   return [
-    { params: { path: undefined }, props: { items: blogs, framed: false } },
+    { params: { path: undefined }, props: { items: blogs, framed: false, keywords: 'บทความทั้งหมด' } },
     ...[...cats.values()].flatMap((c) => {
       const items = blogs.filter((b) => (b.categories || []).some((x) => String(x.id) === String(c.id)));
-      return [`${c.id}`, `${c.id}/${c.name}`].map((p) => ({ params: { path: p }, props: { items, framed: true } }));
+      return [`${c.id}`, `${c.id}/${c.name}`].map((p) => ({ params: { path: p }, props: { items, framed: true, keywords: c.name } }));
     }),
   ];
 }
-const { items, framed } = Astro.props;
+const { items, framed, keywords } = Astro.props;
 const [before, after] = partials['../partials/frame-bloglist.html'].split('@@SYSTEM@@');
 ---
-<Base>
+<Base keywords={keywords}>
   <div class="embed-body">
     {framed ? (
       <Fragment>
